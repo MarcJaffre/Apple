@@ -9,10 +9,32 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### II. Création et configuration de la Machine Virtuelle
 
-#### A. 
+#### A. Mac OS X 10.15 (Catalina)
+##### 1. Virtualbox
+```
+[Système]
+- Mémoire-vive        : 4096 MB
+- Ordre d'amoçage     : Optique
+-> Fonctions avancées : IO-APIC, Clock in UTC Time, EFI
+
+Processeur(s)         : 8 Core
+-> Fonctions avancées : PAE/NX
+
+[Affichage]
+- Mémoire Vidéo       : 128 MB
+- Contrôleur Graph.   : VBox VGA
+-> Fonctions avancées : Activer l'accélération 3D
+
+[USB]
+- Activer le controleur USB : OUI
+-> Contrôleur 3.0 (xHCI)
+```
+
+
+##### 2. Bypass
+
 ```bash
 clear;
-
 VM_NAME="Catalina"
 VBoxManage modifyvm 	  "$VM_NAME" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 VBoxManage modifyvm 	  "$VM_NAME" --cpu-profile "Intel Core i7-6700K"
