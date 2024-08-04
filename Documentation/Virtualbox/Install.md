@@ -11,6 +11,7 @@ https://archive.org/details/macos-collection
 
 #### B. BootLoader
 ```
+- Opencore
 - https://github.com/CloverHackyColor/CloverBootloader
 - https://osy.gitbook.io/hac-mini-guide/legacy-guide-clover/legacy-installing-osx
 ```
