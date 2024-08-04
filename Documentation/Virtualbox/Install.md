@@ -19,7 +19,7 @@ L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-im
 
 ```
 [Creation de la VM]
-- Nom     : MacOSX 10.15
+- Nom     : MacOS X Catalina (10.15)
 - Type    : Mac OS X
 - Version : Mac OS X (64 bit)
 
@@ -45,7 +45,7 @@ Processeur(s)         : 8 Core
 ##### 2. Bypass ([DOC](https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
 ```bash
 clear;
-VM_NAME="MacOSX 10.15"
+VM_NAME="MacOS X Catalina (10.15)"
 VBoxManage setextradata "$VM_NAME"   "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
 VBoxManage setextradata "$VM_NAME"   "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
 VBoxManage setextradata "$VM_NAME"   "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
