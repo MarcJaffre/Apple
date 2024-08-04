@@ -11,7 +11,13 @@
 
 #### A. Mac OS X 10.15 (Catalina)
 ##### 1. Virtualbox
+
 ```
+[Creation de la VM]
+- Nom     : MacOSX 10.15
+- Type    : Mac OS X
+- Version : Mac OS X (64 bit)
+
 [Système]
 - Mémoire-vive        : 4096 MB
 - Ordre d'amoçage     : Optique
