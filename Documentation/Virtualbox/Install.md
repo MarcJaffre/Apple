@@ -13,6 +13,8 @@ https://archive.org/details/macos-collection
 ### II. Création et configuration de la Machine Virtuelle
 
 #### A. Mac OS X 10.15 (Catalina)
+L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et la version de virtualbox est 7.X.
+
 ##### 1. Virtualbox
 
 ```
