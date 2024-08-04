@@ -22,6 +22,8 @@ https://archive.org/details/macos-collection
 - https://forums.virtualbox.org/viewtopic.php?t=85631
 - https://hackintosh.com/
 - https://tonymacx86.com
+
+- [OpenCore] https://www.youtube.com/watch?v=ETO4qhUPBfA
 ```
 
 #### D. Support Hardware
