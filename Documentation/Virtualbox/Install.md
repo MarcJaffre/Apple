@@ -17,7 +17,8 @@ https://archive.org/details/macos-collection
 
 #### C. Guide
 ```
-https://hackintosh.com/
+- https://www.tech2tech.fr/comment-installer-macos-catalina-10-15-sur-virtualbox-sur-windows/
+- https://hackintosh.com/
 ```
 
 <br />
