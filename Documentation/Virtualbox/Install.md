@@ -7,7 +7,11 @@
 ```
 https://archive.org/details/macOS-X-images
 https://archive.org/details/macos-collection
-``` 
+```
+#### B. Guide
+```
+https://hackintosh.com/
+```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### II. Création et configuration de la Machine Virtuelle
