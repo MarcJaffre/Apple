@@ -40,11 +40,10 @@ Processeur(s)         : 8 Core
 ```
 
 
-##### 2. Bypass
-
+##### 2. Bypass ([DOC](# https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
 ```bash
 clear;
-VM_NAME="Catalina"
+VM_NAME="MacOSX 10.15"
 VBoxManage modifyvm 	  "$VM_NAME" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 VBoxManage modifyvm 	  "$VM_NAME" --cpu-profile "Intel Core i7-6700K"
 VBoxManage setextradata "$VM_NAME"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
