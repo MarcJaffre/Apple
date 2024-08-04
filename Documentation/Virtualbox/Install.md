@@ -87,4 +87,4 @@ VBoxManage modifyvm     "$VM_NAME"  --cpuidset 00000001 000106e5 00100800 0098e3
 ```
 
 ##### 3. Information
-Le système d'exploitation démarre normalement.
+Lors du démarrage de l'installation , ceci peut être très long. Pareil pour le 1er démarrage.
