@@ -79,4 +79,6 @@ VBoxManage setextradata "$VM_NAME"  "VBoxInternal/Devices/smc/0/Config/GetKeyFro
 # CPU (i7-6700K : 4 Cores / 8 Threads)
 VBoxManage modifyvm     "$VM_NAME"  --cpu-profile "Intel Core i7-6700K"
 VBoxManage modifyvm     "$VM_NAME"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+
+# iMac (27-inch Retina Late 2015) 
 ```
