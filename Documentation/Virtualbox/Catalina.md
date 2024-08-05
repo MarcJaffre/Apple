@@ -1,43 +1,9 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # <p align='center'> Installation de Catalina dans Virtualbox </p>
-
 --------------------------------------------------------------------------------------------------------------
-## I. Télécharger les images ISO
-### A. MyArchive
-```
-https://archive.org/details/macOS-X-images
-https://archive.org/details/macos-collection
-```
-
-### B. BootLoader
-```
-- Opencore
-- https://github.com/CloverHackyColor/CloverBootloader
-- https://osy.gitbook.io/hac-mini-guide/legacy-guide-clover/legacy-installing-osx
-```
-
-### C. Guide
-```
-- https://www.tech2tech.fr/comment-installer-macos-catalina-10-15-sur-virtualbox-sur-windows/
-- https://forums.virtualbox.org/viewtopic.php?t=85631
-- https://hackintosh.com/
-- https://tonymacx86.com
-
-- [OpenCore] https://www.youtube.com/watch?v=ETO4qhUPBfA
-```
-
-### D. Support Hardware
-```
-https://support.apple.com/fr-fr/105113
-```
-
-
-<br />
-
---------------------------------------------------------------------------------------------------------------
-## II. Création et configuration de la Machine Virtuelle
+## I. Création et configuration de la Machine Virtuelle
 ### A. Mac OS X 10.15 
-L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7.
+L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7. (Ressources en bas)
 
 #### 1. Virtualbox
 ```
@@ -122,12 +88,8 @@ Ignorer le compte Icloud.
 <br />
 
 
-
-
-
-
 --------------------------------------------------------------------------------------------------------------
-## III. Installation du Système d'exploitation
+## II. Installation du Système d'exploitation
 ### A. Démarrage du Système
 Le logo de la Pomme avec une barre de chargement apparaît après avoir démarré.
 
@@ -161,7 +123,7 @@ Une fois terminé, quitter l'`Utilitaire de Disque`.
 <br />
 
 --------------------------------------------------------------------------------------------------------------
-## IV. Installation des Guest additions
+## III. Installation des Guest additions
 Toutes commande doit être en root.
 
 ### A. [CATALINA](https://github.com/geerlingguy/macos-virtualbox-vm/issues/79)
@@ -215,3 +177,39 @@ Lancer l'installation du package `VBoxDarwinAdditions.pkg`.
 spctl --master-enable
 csrutil enable 
 ```
+
+<br />
+<br />
+
+--------------------------------------------------------------------------------------------------------------
+## X. Télécharger les images ISO
+### A. MyArchive
+```
+https://archive.org/details/macOS-X-images
+https://archive.org/details/macos-collection
+```
+
+### B. BootLoader
+```
+- Opencore
+- https://github.com/CloverHackyColor/CloverBootloader
+- https://osy.gitbook.io/hac-mini-guide/legacy-guide-clover/legacy-installing-osx
+```
+
+### C. Guide
+```
+- https://www.tech2tech.fr/comment-installer-macos-catalina-10-15-sur-virtualbox-sur-windows/
+- https://forums.virtualbox.org/viewtopic.php?t=85631
+- https://hackintosh.com/
+- https://tonymacx86.com
+
+- [OpenCore] https://www.youtube.com/watch?v=ETO4qhUPBfA
+```
+
+### D. Support Hardware
+```
+https://support.apple.com/fr-fr/105113
+```
+
+
+<br />
