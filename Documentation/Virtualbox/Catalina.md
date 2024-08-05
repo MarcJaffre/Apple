@@ -78,7 +78,7 @@ Linux:
 clear;
 
 # CPU
-VBoxManage modifyvm      "MacOS Catalina (10.15)  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
 
 # imac 11.3
