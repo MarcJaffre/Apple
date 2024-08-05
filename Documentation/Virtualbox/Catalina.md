@@ -120,16 +120,28 @@ Ignorer le compte Icloud.
 ## III. Installation du Système d'exploitation
 ### A. Démarrage du Système
 Démarrer la machine Virtuelle, si c'est bon logo de la Pomme apparaît rapidement.
+
 ### B. Création de la partition Mac OS X
 Sélectionner `Utilitaire de Disque` puis faire Continuer
 
 Ensuite `sélectionner le stockage` et faire `Effacer`.
 
-Et pour finir indiquer un nom de volume et faire OK.
+Et pour finir indiquer un nom de volume et valider.
+
+Une fois terminé, quitter l'`Utilitaire de Disque`.
 
 ![image](https://github.com/user-attachments/assets/365705dd-f2b6-4d89-b2ab-c31b474f1458)
 
 ![image](https://github.com/user-attachments/assets/21b8e413-53a9-4809-9c98-eb7316eecb79)
+
+### C. Installer Mac OS
+![image](https://github.com/user-attachments/assets/ca6ed2dd-ae05-46f2-b901-ff7d6be8c5e2)
+
+![image](https://github.com/user-attachments/assets/4884de5c-d723-4135-963a-9765e75d7865)
+
+![image](https://github.com/user-attachments/assets/707e3212-d2ca-4824-b1db-0dd025cf2a40)
+
+
 
 
 
