@@ -51,7 +51,7 @@ L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-im
 - Ordre d'amoçage     : Optique
 -> Fonctions avancées : IO-APIC, Clock in UTC Time, EFI
 
-Processeur(s)         : 4 Cores / 8 Thread
+Processeur(s)         : 4 Cores / 8 Threads
 -> Fonctions avancées : PAE/NX
 
 [Affichage]
