@@ -30,17 +30,35 @@ VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwa
 VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMinor"  "0"
 ```
 
+
+<br />
+
 ### B. system Information (Type 1)
 ```bash
-VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemVendor"
-VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct"
-VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion"
-VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial"
-VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemSKU"
-VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemFamily"
-VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemUuid"
+# Vendor
+VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemVendor"       "Apple Inc."
+
+# Product
+VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct"      "MacBook5,2"
+
+# Version
+VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion"      "1.0"
+
+# Number Serial
+VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial"       "CSN12345678901234567"
+
+# SKU
+VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemSKU"          "FM550EA#ACB"
+
+# Family Product
+VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemFamily"       "Ultrabook"
+
+# Uuid System
+VBoxManage setextradata VM-NAME "VBoxInternal/Devices/efi/0/Config/DmiSystemUuid"         "B5FA3000-9403-81E0-3ADA-F46D045CB676"
 ```
 
+
+<br />
 
 ### C. DMI board information (type 2)
 ```bash
