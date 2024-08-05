@@ -32,6 +32,8 @@ Processeur(s)         : 4 Cores / 8 Threads
 -> Contrôleur 3.0 (xHCI)
 ```
 
+<br />
+
 <p align='center'> 
   <img src=https://github.com/user-attachments/assets/1f4cc2e5-b3d0-49b4-b902-572a0e800360 /> 
 </p>
