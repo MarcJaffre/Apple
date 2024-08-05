@@ -126,16 +126,12 @@ Ignorer le compte Icloud.
 
 
 
-
 --------------------------------------------------------------------------------------------------------------
 ## III. Installation du Système d'exploitation
 ### A. Démarrage du Système
 Le logo de la Pomme avec une barre de chargement apparaît après avoir démarré.
 
 ![Logo_Pomme_Chagement](https://github.com/user-attachments/assets/1e8ab4d1-b8ae-48bd-8632-af433adb8ea3)
-
-
-
 
 ### B. Création de la partition Mac OS X
 Sélectionner `Utilitaire de Disque` puis faire Continuer
@@ -160,7 +156,9 @@ Une fois terminé, quitter l'`Utilitaire de Disque`.
 ![image](https://github.com/user-attachments/assets/1bed82d4-4c4d-41aa-a480-2a3f2043dbd3)
 
 
-
+<br />
+<br />
+<br />
 
 --------------------------------------------------------------------------------------------------------------
 ## IV. Installation des Guest additions
