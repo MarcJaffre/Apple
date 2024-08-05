@@ -65,52 +65,31 @@ VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Con
 
 ### C. DMI board information (type 2)
 ```bash
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardVendor"        ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct"       ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardVersion"       ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardSerial"        ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardAssetTag"      ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardLocInChass"    ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardBoardType"     ""
 ```
 
 
 ### D. DMI processor information (type 4)
 ```bash
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisVendor"      ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisType"        ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisVersion"     ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisSerial"      ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisAssetTag"    ""
 ```
 
 ### E. DMI OEM strings (type 11)
 ```bash
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxVer" "vboxVer_1.2.3"
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxRev" "vboxRev_12345"
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxVer"         ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxRev"         ""
+
+
+
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/
 ```
