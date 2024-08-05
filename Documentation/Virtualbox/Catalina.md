@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------------------------------------
-# <p align='center'> Installation de Catalina dans Virtualbox </p>
+# <p alighttps://github.com/DrDonk/unlocker/blob/main/iso/darwin.ison='center'> Installation de Catalina dans Virtualbox </p>
 
 <p align='center'> 
   <img src=https://github.com/user-attachments/assets/1f4cc2e5-b3d0-49b4-b902-572a0e800360 /> 
@@ -214,8 +214,8 @@ https://archive.org/details/macos-collection
 - [OpenCore] https://www.youtube.com/watch?v=ETO4qhUPBfA
 ```
 
-### D. Vmware Tools ([Release](https://packages.vmware.com/tools/releases/)))
-
+### D. Vmware Tools ([Release](https://github.com/DrDonk/unlocker/blob/main/iso/darwin.iso)))
+Télécharger l'image `darwin.iso`.
 
 
 ### E. Support Hardware
