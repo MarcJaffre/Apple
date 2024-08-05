@@ -49,7 +49,7 @@ Processeur(s)         : 4 Cores / 8 Threads
 -> Fonctions avancées : PAE/NX
 
 [Affichage]
-- Mémoire Vidéo       : 128 Mo
+- Mémoire Vidéo       : 128 Mo => 256 Mo si disponible
 - Contrôleur Graph.   : VMsvga
 -> Fonctions avancées : Activer l'accélération 3D
 
@@ -87,7 +87,7 @@ VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/C
 
 # GPU : Resolution, Vram (Requis: VMSVGA)
 VBoxManage setextradata  "MacOS Catalina (10.15)"  VBoxInternal2/EfiGraphicsResolution "1920x1080"
-VBoxManage modifyvm      "MacOS Catalina (10.15)"  --vram 128
+VBoxManage modifyvm      "MacOS Catalina (10.15)"  --vram 256
 ```
 
 Script Windows:
@@ -116,7 +116,7 @@ VBoxManage modifyvm     "%VM_NAME%"  --cpuidset 00000001 000106e5 00100800 0098e
 
 # GPU : Resolution, Vram (Requis: VMSVGA)
 VBoxManage setextradata "%VM_NAME%"  VBoxInternal2/EfiGraphicsResolution "1920x1080" 
-VBoxManage modifyvm     "%VM_NAME%"  --vram 128
+VBoxManage modifyvm     "%VM_NAME%"  --vram 256
 ```
 
 #### 3. Information
