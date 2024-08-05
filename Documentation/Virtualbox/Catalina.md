@@ -214,7 +214,11 @@ https://archive.org/details/macos-collection
 - [OpenCore] https://www.youtube.com/watch?v=ETO4qhUPBfA
 ```
 
-### D. Support Hardware
+### D. Vmware Tools ([Release](https://packages.vmware.com/tools/releases/)))
+
+
+
+### E. Support Hardware
 ```
 https://support.apple.com/fr-fr/105113
 ```
