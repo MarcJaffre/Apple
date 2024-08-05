@@ -4,7 +4,7 @@ clear;
 dmg2img -v -s mac.dmg mac.img
 ```
 
-## Modifier extensio
+## Modifier extension
 ```bash
 mv mac.img mac.iso
 ```
