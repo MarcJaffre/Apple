@@ -251,11 +251,25 @@ https://archive.org/details/macos-collection
 - [OpenCore] https://www.youtube.com/watch?v=ETO4qhUPBfA
 ```
 
-### D. Vmware Tools ([Release](https://github.com/DrDonk/unlocker/blob/main/iso/darwin.iso)))
-Télécharger l'image `darwin.iso`.
+### D. Vmware Tools / Vram 256 Mo ([Release](https://github.com/DrDonk/unlocker/blob/main/iso/darwin.iso)))
+Télécharger l'image `darwin.iso`. Installer le package et redémarrer la machine
+
+![Menu d'installation](https://github.com/user-attachments/assets/a3af2b02-3d1e-48d2-adad-b30f6c9bbcae)
+
+![Installation_reussi](https://github.com/user-attachments/assets/d771cd4d-d6f8-4b93-9ba6-778b1e9d698d)
+
+Avant:
+![Etat de la VRAM avant Pilote](https://github.com/user-attachments/assets/58971877-0d69-45ee-a575-b5342f136521)
+
+Après:
+![image](https://github.com/user-attachments/assets/833e12c1-77c0-4144-b55d-d4f88e504b3f)
+
+
 
 ### E. Automator (1920x1080)
 - Ouvrir le menu `LaunchPad` puis Àutomator`.
+
+![Launchpad](https://github.com/user-attachments/assets/9ff315a3-3507-41af-9891-4edeedb1c5c1)
 
 - Choisir Application
 
@@ -277,7 +291,6 @@ Télécharger l'image `darwin.iso`.
 # Shell: /bin/bash
 # Commande : echo "MonPassword" | sudo -S /Library/Application\ Support/VMware\ Tools/vmware-resolutionset 1920 1080
 ```
-
 
 ### E. Support Hardware
 ```
