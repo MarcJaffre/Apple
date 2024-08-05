@@ -246,7 +246,7 @@ Après:
 
 
 
-### E. Automator (1920x1080)
+### E. Automator (1920x1080 [youtube](https://www.youtube.com/watch?v=gDwFdGUsBOo)))
 - Ouvrir le menu `LaunchPad` puis Àutomator`.
 
 ![Launchpad](https://github.com/user-attachments/assets/9ff315a3-3507-41af-9891-4edeedb1c5c1)
