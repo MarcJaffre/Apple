@@ -63,7 +63,7 @@ VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/C
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
 
-# GPU (Resolution, Vram)
+# GPU : Resolution, Vram (Requis: VMSVGA)
 VBoxManage setextradata  "MacOS Catalina (10.15)"  VBoxInternal2/EfiGraphicsResolution "1920x1080"
 VBoxManage modifyvm      "MacOS Catalina (10.15)"  --vram 128
 ```
@@ -92,7 +92,7 @@ VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/smc/0/Config/GetKeyFr
 VBoxManage modifyvm     "%VM_NAME%"  --cpu-profile "Intel Core i7-6700K"
 VBoxManage modifyvm     "%VM_NAME%"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 
-# GPU (Résolution, Vram)
+# GPU : Resolution, Vram (Requis: VMSVGA)
 VBoxManage setextradata "%VM_NAME%"  VBoxInternal2/EfiGraphicsResolution "1920x1080" 
 VBoxManage modifyvm     "%VM_NAME%"  --vram 128
 ```
