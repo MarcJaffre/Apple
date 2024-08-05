@@ -121,10 +121,21 @@ Ignorer le compte Icloud.
 
 <br />
 
+
+
+
+
+
+
 --------------------------------------------------------------------------------------------------------------
 ## III. Installation du Système d'exploitation
 ### A. Démarrage du Système
-Démarrer la machine Virtuelle, si c'est bon logo de la Pomme apparaît rapidement.
+Le logo de la Pomme avec une barre de chargement apparaît après avoir démarré.
+
+![Logo_Pomme_Chagement](https://github.com/user-attachments/assets/1e8ab4d1-b8ae-48bd-8632-af433adb8ea3)
+
+
+
 
 ### B. Création de la partition Mac OS X
 Sélectionner `Utilitaire de Disque` puis faire Continuer
