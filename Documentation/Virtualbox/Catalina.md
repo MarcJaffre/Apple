@@ -46,6 +46,7 @@ L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-im
 - Type                : Mac OS X
 - Version             : Mac OS X (64 bit)
 - Stockage            : 12 GO
+- Lecteur CD-ROM      : Catalina 10.15.iso
  
 [Système]
 - Mémoire-vive        : 4096 MB
@@ -120,7 +121,17 @@ Ignorer le compte Icloud.
 <br />
 
 --------------------------------------------------------------------------------------------------------------
-## III. Installation des Guest additions
+## III. Installation du Système d'exploitation
+### A. Démarrage du Système
+Le démarragé de l'installateur de Mac OS est très long à démarrer.
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+## IV. Installation des Guest additions
 Toutes commande doit être en root.
 
 ### A. [CATALINA](https://github.com/geerlingguy/macos-virtualbox-vm/issues/79)
