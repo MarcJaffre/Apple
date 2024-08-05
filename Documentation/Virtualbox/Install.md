@@ -127,5 +127,5 @@ Ignorer le compte Icloud.
 Monter le lecteur et lancer `VBoxDarwinAdditions.pkg`
 
 #### B. Permission
-System Preferences | Security & Privacy | General
+Systeme > Preferences > Securité & Privée > General
 
