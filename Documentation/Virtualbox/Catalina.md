@@ -17,8 +17,8 @@ L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-im
 ```
 [Creation de la VM]
 - Nom                 : MacOS Catalina (10.15)
-- Type                : Mac OS 
-- Version             : Mac OS (64 bit)
+- Type                : Mac OS X
+- Version             : Mac OS X (64 bit)
 - Stockage            : 30 Go (Minimum: 26 GO Utilisable)
 - Lecteur CD-ROM      : Catalina 10.15.iso
  
