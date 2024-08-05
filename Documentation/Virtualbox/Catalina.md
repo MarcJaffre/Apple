@@ -81,8 +81,12 @@ VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/smc/0/Config/DeviceKe
 VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
 
 # CPU (i7-6700K : 4 Cores / 8 Threads)
-VBoxManage modifyvm "%VM_NAME%" --cpu-profile "Intel Core i7-6700K"
-VBoxManage modifyvm "%VM_NAME%" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage modifyvm     "%VM_NAME%"  --cpu-profile "Intel Core i7-6700K"
+VBoxManage modifyvm     "%VM_NAME%"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+
+# GPU (Résolution, Vram
+VBoxManage setextradata "%VM_NAME%"  VBoxInternal2/EfiGraphicsResolution "1920x1080" 
+VBoxManage modifyvm     "%VM_NAME%"  --vram 128
 ```
 
 #### 3. Information
@@ -216,6 +220,11 @@ https://archive.org/details/macos-collection
 
 ### D. Vmware Tools ([Release](https://github.com/DrDonk/unlocker/blob/main/iso/darwin.iso)))
 Télécharger l'image `darwin.iso`.
+
+```bash
+
+```
+
 
 
 ### E. Support Hardware
