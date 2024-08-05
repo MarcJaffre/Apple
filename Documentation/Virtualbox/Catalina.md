@@ -32,7 +32,7 @@ Processeur(s)         : 4 Cores / 8 Threads
 
 [Affichage]
 - Mémoire Vidéo       : 128 MB
-- Contrôleur Graph.   : VBox VGA
+- Contrôleur Graph.   : VMsVGA
 -> Fonctions avancées : Activer l'accélération 3D
 
 [USB]
