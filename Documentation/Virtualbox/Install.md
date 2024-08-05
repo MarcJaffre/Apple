@@ -89,6 +89,6 @@ VBoxManage modifyvm     "$VM_NAME"  --cpuidset 00000001 000106e5 00100800 0098e3
 ##### 3. Information
 Lors du démarrage de l'installation , ceci peut être très long. Pareil pour le 1er démarrage.
 
-le caractère `@` lors du processus Post Install se fait gràce ` alt+gr+*` . 
+le caractère `@` lors du processus Post Install se fait gràce `alt+gr+*` . 
 
-Ignorer le compte Icloud
+Ignorer le compte Icloud.
