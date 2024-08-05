@@ -63,7 +63,10 @@ Processeur(s)         : 4 Cores / 8 Threads
 #### 2. Configuration de la Vram (Video Ram)
 Après la création de la VM, clique sur le mot `128 Mo` et tape `256 Mo`.
 
+![image](https://github.com/user-attachments/assets/16bfe53d-59e9-4a7b-8243-10fbe99651a3)
+
 ![image](https://github.com/user-attachments/assets/f002eea7-1c55-4a26-a1af-d8c285691171)
+
 
 <br />
 
