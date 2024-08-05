@@ -45,7 +45,7 @@ L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-im
 - Nom                 : MacOS X Catalina (10.15)
 - Type                : Mac OS X
 - Version             : Mac OS X (64 bit)
-- Stockage            : 12 GO
+- Stockage            : 20 GO
 - Lecteur CD-ROM      : Catalina 10.15.iso
  
 [Système]
