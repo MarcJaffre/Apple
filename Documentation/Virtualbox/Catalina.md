@@ -125,6 +125,8 @@ Ignorer le compte Icloud.
 ### A. Démarrage du Système
 Le démarragé de l'installateur de Mac OS est très long à démarrer.
 
+![image](https://github.com/user-attachments/assets/1f55c4b7-20fb-433f-8702-ef82e1d0c32f)
+
 
 
 
