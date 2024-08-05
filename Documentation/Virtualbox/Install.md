@@ -124,5 +124,8 @@ Ignorer le compte Icloud.
 --------------------------------------------------------------------------------------------------------------
 ### III. Compléments
 #### A. Virtualbox - Guest additions
-Monter le lecteur et lancer `VBoxDarwinAdditions.pkg`.
+Monter le lecteur et lancer `VBoxDarwinAdditions.pkg`
+
+#### B. Permission
+System Preferences | Security & Privacy | General
 
