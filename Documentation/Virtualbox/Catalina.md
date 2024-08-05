@@ -163,7 +163,7 @@ nvram -d recovery-boot-mode && shutdown -r now
 Lancez Terminal
 ```bash
 csrutil status
-spctl kext-consent add VB5E2TV963
+spctl kext-consent list
 ```
 
 #### 3. Modifier les permissions
