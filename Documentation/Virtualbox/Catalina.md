@@ -51,7 +51,7 @@ Script Linux:
 clear;
 
 # Simuler une machine MAC Apple iMac 27" (Late 2015)
-VBoxManage modifyvm      "MacOS Catalina (10.15)  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
