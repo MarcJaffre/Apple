@@ -125,10 +125,14 @@ Ignorer le compte Icloud.
 ### III. Installation des Guest additions
 
 #### A. [CATALINA](https://github.com/geerlingguy/macos-virtualbox-vm/issues/79)
-##### 1. Autorisé les applications téléchargés de n'importe où
-Ouvrir le terminal et taper la commande suivante
+##### 1. Désactiver GateKeeper
+Ouvrir le terminal et taper la commande suivante. (Voir screen)
+
+Ensuite Autoriser le téléchargement d’applications à partir de : `N'importe où`.
 ```
 sudo spctl --master-disable
 ```
 
 ![image](https://github.com/user-attachments/assets/634fe82f-bdcc-4d75-8f74-9aae654e9cd3)
+
+##### 2. 
