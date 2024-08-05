@@ -229,11 +229,29 @@ https://archive.org/details/macos-collection
 ### D. Vmware Tools ([Release](https://github.com/DrDonk/unlocker/blob/main/iso/darwin.iso)))
 Télécharger l'image `darwin.iso`.
 
-### E. Automator
-```bash
-echo "admin" | sudo -S /Library/Application\ Support/VMware\ Tools/vmware-resolutionset 1920 1080
-```
+### E. Automator (1920x1080)
+- Ouvrir le menu `LaunchPad` puis Àutomator`.
 
+- Choisir Application
+
+- Utilitaires > Executer un Script Shell (Double clique)
+
+- Coller le code
+
+- Fichier > Enregistrer
+
+- Applications > LoginResolution
+
+- Préférences Systèmes > Utilisateurs et Groupes
+
+- Ouverture > + > LoginResolution
+
+- Redémarrer
+
+```bash
+# Shell: /bin/bash
+# Commande : echo "admin" | sudo -S /Library/Application\ Support/VMware\ Tools/vmware-resolutionset 1920 1080
+```
 
 
 ### E. Support Hardware
