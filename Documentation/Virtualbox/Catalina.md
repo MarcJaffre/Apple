@@ -11,9 +11,8 @@
 L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7. (Ressources en bas)
 
 
-
-
 #### 1. Virtualbox
+Après la création de la VM, clique sur le mot `128 Mo` et tape `256 Mo`.
 ```
 [Creation de la VM]
 - Nom                 : MacOS Catalina (10.15)
@@ -31,7 +30,7 @@ Processeur(s)         : 4 Cores / 8 Threads
 -> Fonctions avancées : PAE/NX
 
 [Affichage]
-- Mémoire Vidéo       : 128 MB
+- Mémoire Vidéo       : 128 Mo
 - Contrôleur Graph.   : VMsvga
 -> Fonctions avancées : Activer l'accélération 3D
 
