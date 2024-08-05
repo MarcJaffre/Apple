@@ -123,9 +123,9 @@ Ignorer le compte Icloud.
 
 --------------------------------------------------------------------------------------------------------------
 ### III. Compléments
-#### A. Virtualbox - Guest additions
+#### A. Virtualbox - Guest additions [CATALINA](https://github.com/geerlingguy/macos-virtualbox-vm/issues/79)
 Monter le lecteur et lancer `VBoxDarwinAdditions.pkg`
 
 #### B. Permission
-Systeme > Preferences > Securité & Privée > General
+Preferences Systeme >  > Securité & confidentialité > General
 
