@@ -70,20 +70,16 @@ Processeur(s)         : 4 Cores / 8 Threads
 Script Linux:
 ```bash
 clear;
-VM_NAME="MacOS X Catalina (10.15)"
 
-# Simuler une machine MAC
-VBoxManage modifyvm     "$VM_NAME"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
-VBoxManage setextradata "$VM_NAME"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
-VBoxManage setextradata "$VM_NAME"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
-VBoxManage setextradata "$VM_NAME"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
-VBoxManage setextradata "$VM_NAME"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-VBoxManage setextradata "$VM_NAME"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
-VBoxManage modifyvm     "$VM_NAME"  --cpu-profile "Intel Core i7-6700K"
+# Simuler une machine MAC Apple iMac 27" (Late 2015)
+VBoxManage modifyvm      "MacOS X Catalina (10.15)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
+VBoxManage modifyvm      "MacOS X Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
 
-
-
-# Apple iMac 27" (Late 2015)
 ```
 
 Script Windows:
