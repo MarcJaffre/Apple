@@ -40,12 +40,14 @@ https://support.apple.com/fr-fr/105113
 L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7.
 
 #### 1. Virtualbox
+![image](https://github.com/user-attachments/assets/1f4cc2e5-b3d0-49b4-b902-572a0e800360)
+
 ```
 [Creation de la VM]
 - Nom                 : MacOS X Catalina (10.15)
 - Type                : Mac OS X
 - Version             : Mac OS X (64 bit)
-- Stockage            : 20 GO
+- Stockage            : 25 GO
 - Lecteur CD-ROM      : Catalina 10.15.iso
  
 [Système]
@@ -141,6 +143,7 @@ Une fois terminé, quitter l'`Utilitaire de Disque`.
 
 ![image](https://github.com/user-attachments/assets/707e3212-d2ca-4824-b1db-0dd025cf2a40)
 
+![image](https://github.com/user-attachments/assets/1bed82d4-4c4d-41aa-a480-2a3f2043dbd3)
 
 
 
