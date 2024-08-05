@@ -156,7 +156,7 @@ shutdown -r now;
 A partir du menu Utilitaires.
 ```bash
 csrutil disable
-spctl kext-consent add VB5E2TV96
+spctl kext-consent add VB5E2TV963
 nvram -d recovery-boot-mode && shutdown -r now
 ```
 ##### Etape 3: Démarrage normal
