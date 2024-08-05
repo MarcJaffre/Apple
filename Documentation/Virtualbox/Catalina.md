@@ -40,10 +40,6 @@ https://support.apple.com/fr-fr/105113
 L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7.
 
 #### 1. Virtualbox
-<p align='center'> 
-  <img src=https://github.com/user-attachments/assets/1f4cc2e5-b3d0-49b4-b902-572a0e800360 /> 
-</p>
-
 ```
 [Creation de la VM]
 - Nom                 : MacOS X Catalina (10.15)
@@ -70,7 +66,13 @@ Processeur(s)         : 4 Cores / 8 Threads
 -> Contrôleur 3.0 (xHCI)
 ```
 
-#### 2. Bypass ([DOC](https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
+<p align='center'> 
+  <img src=https://github.com/user-attachments/assets/1f4cc2e5-b3d0-49b4-b902-572a0e800360 /> 
+</p>
+
+<br />
+
+#### 2. Bypass - EN CAS DE PROBLEM ([DOC](https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
 Script Linux:
 ```bash
 clear;
@@ -83,7 +85,6 @@ VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/efi/0
 VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
 VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
 VBoxManage modifyvm      "MacOS X Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
-
 ```
 
 Script Windows:
