@@ -168,10 +168,11 @@ spctl kext-consent list
 
 #### 3. Modifier les permissions
 ```bash
-mount -uw /
+mount -uw    /
 chown :admin /System/Library/Extensions/
-chmod 775 /System/Library/Extensions/
+chmod 775    /System/Library/Extensions/
 ```
+
 
 #### 4. Installation des Guests Additions
 Monter les guests additions de Virtualbox dans le lecteur DVD, puis ouvrir le lecteur CDROM présent sur le bureau.
