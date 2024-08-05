@@ -32,7 +32,7 @@ Processeur(s)         : 4 Cores / 8 Threads
 
 [Affichage]
 - Mémoire Vidéo       : 128 MB
-- Contrôleur Graph.   : VMsVGA
+- Contrôleur Graph.   : VMsvga
 -> Fonctions avancées : Activer l'accélération 3D
 
 [USB]
@@ -65,7 +65,7 @@ VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/C
 
 # GPU (Resolution, Vram)
 VBoxManage setextradata  "MacOS Catalina (10.15)"  VBoxInternal2/EfiGraphicsResolution "1920x1080"
-VBoxManage modifyvm      "MacOS Catalina (10.15)"  --vram 256
+VBoxManage modifyvm      "MacOS Catalina (10.15)"  --vram 128
 ```
 
 Script Windows:
@@ -94,7 +94,7 @@ VBoxManage modifyvm     "%VM_NAME%"  --cpuidset 00000001 000106e5 00100800 0098e
 
 # GPU (Résolution, Vram)
 VBoxManage setextradata "%VM_NAME%"  VBoxInternal2/EfiGraphicsResolution "1920x1080" 
-VBoxManage modifyvm     "%VM_NAME%"  --vram 256
+VBoxManage modifyvm     "%VM_NAME%"  --vram 128
 ```
 
 #### 3. Information
@@ -229,8 +229,9 @@ https://archive.org/details/macos-collection
 ### D. Vmware Tools ([Release](https://github.com/DrDonk/unlocker/blob/main/iso/darwin.iso)))
 Télécharger l'image `darwin.iso`.
 
+### E. Automator
 ```bash
-
+echo "admin" | sudo -S /Library/Application\ Support/VMware\ Tools/vmware-resolutionset 1920 1080
 ```
 
 
