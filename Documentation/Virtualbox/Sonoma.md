@@ -2,7 +2,6 @@
 ```bash
 clear;
 
-# Simuler une machine MAC Apple iMac 27" (Late 2015)
 VBoxManage modifyvm      "MacOS X Sonoma (14.0)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 VBoxManage setextradata  "MacOS X Sonoma (14.0)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
 VBoxManage setextradata  "MacOS X Sonoma (14.0)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
