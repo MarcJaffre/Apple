@@ -15,7 +15,7 @@ https://archive.org/details/macos-collection
 - https://github.com/CloverHackyColor/CloverBootloader
 - https://osy.gitbook.io/hac-mini-guide/legacy-guide-clover/legacy-installing-osx
 ```
-
+spctl kext-consent
 #### C. Guide
 ```
 - https://www.tech2tech.fr/comment-installer-macos-catalina-10-15-sur-virtualbox-sur-windows/
@@ -122,10 +122,13 @@ Ignorer le compte Icloud.
 <br />
 
 --------------------------------------------------------------------------------------------------------------
-### III. Compléments
-#### A. Virtualbox - Guest additions [CATALINA](https://github.com/geerlingguy/macos-virtualbox-vm/issues/79)
-Monter le lecteur et lancer `VBoxDarwinAdditions.pkg`
+### III. Installation des Guest additions
 
-#### B. Permission
-Preferences Systeme >  > Securité & confidentialité > General
+#### A. [CATALINA](https://github.com/geerlingguy/macos-virtualbox-vm/issues/79)
+##### 1. Autorisé les applications téléchargés de n'importe où
+Ouvrir le terminal et taper la commande suivante
+```
+sudo spctl --master-disable
+```
 
+![image](https://github.com/user-attachments/assets/634fe82f-bdcc-4d75-8f74-9aae654e9cd3)
