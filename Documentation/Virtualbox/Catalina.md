@@ -37,7 +37,7 @@ https://support.apple.com/fr-fr/105113
 --------------------------------------------------------------------------------------------------------------
 ## II. Création et configuration de la Machine Virtuelle
 ### A. Mac OS X 10.15 
-L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et la version de virtualbox est 7.X.
+L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7.
 
 #### 1. Virtualbox
 ```
