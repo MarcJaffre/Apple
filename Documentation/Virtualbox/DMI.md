@@ -100,8 +100,8 @@ VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Con
 
 ### E. DMI OEM strings (type 11)
 ```bash
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxVer"         ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxRev"         ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxVer"         "Extended version info: 1.00.00"
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxRev"         "Extended revision info: 1A"
 
 
 
