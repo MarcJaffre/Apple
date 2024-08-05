@@ -175,7 +175,16 @@ A partir du menu Utilitaires.
 csrutil disable
 spctl kext-consent add VB5E2TV963
 nvram -d recovery-boot-mode && shutdown -r now
+
+
+# Mode Silencieux
+# nvram boot-args="usb=0x800 keepsyms=1 -v -serial=0x1"
+# nvram boot-args="usb=0x800 keepsyms=1 -serial=0x1"
+# nvram boot-args=
 ```
+
+
+
 ##### Etape 3: Démarrage normal
 Lancez Terminal
 ```bash
