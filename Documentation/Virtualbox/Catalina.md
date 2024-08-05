@@ -146,7 +146,7 @@ spctl --master-disable;
 
 #### 2. Désactiver SIP (Protection de l’intégrité du système)
 ##### Etape 1: Redémarrez votre ordinateur en mode de récupération. 
-Attention au caractère `=` lors de la frappe
+Le caractère `=`se tape `!` .
 ```bash
 nvram recovery-boot-mode=unused;
 shutdown -r now;
