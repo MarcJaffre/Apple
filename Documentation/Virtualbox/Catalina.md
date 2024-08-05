@@ -15,7 +15,27 @@ L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-im
 Après la création de la VM, clique sur le mot `128 Mo` et tape `256 Mo`.
 ```
 [Creation de la VM]
-- Nom                 : MacOS Catalina (10.15)
+- Nom                 : MacOS Catalina (10.15)Ouvrir le menu LaunchPad puis Àutomator`.
+
+Choisir Application
+
+Utilitaires > Executer un Script Shell (Double clique)
+
+Coller le code
+
+Fichier > Enregistrer
+
+Applications > LoginResolution
+
+Préférences Systèmes > Utilisateurs et Groupes
+
+Ouverture > + > LoginResolution
+
+Redémarrer
+
+# Shell: /bin/bash
+# Commande : echo "admin" | sudo -S /Library/Application\ Support/VMware\ Tools/vmware-resolutionset 1920 1080
+
 - Type                : Mac OS X
 - Version             : Mac OS X (64 bit)
 - Stockage            : 30 Go (Minimum: 26 GO Utilisable)
@@ -249,7 +269,7 @@ Télécharger l'image `darwin.iso`.
 
 ```bash
 # Shell: /bin/bash
-# Commande : echo "admin" | sudo -S /Library/Application\ Support/VMware\ Tools/vmware-resolutionset 1920 1080
+# Commande : echo "MonPassword" | sudo -S /Library/Application\ Support/VMware\ Tools/vmware-resolutionset 1920 1080
 ```
 
 
