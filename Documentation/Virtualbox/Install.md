@@ -67,6 +67,7 @@ Processeur(s)         : 4 Cores / 8 Thread
 ```
 
 
+
 ##### 2. Bypass ([DOC](https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
 Script Linux:
 ```bash
@@ -89,10 +90,18 @@ VBoxManage modifyvm     "$VM_NAME"  --cpuidset 00000001 000106e5 00100800 0098e3
 
 Script Windows:
 ```bash
-cd "C:\Program Files\Oracle\VirtualBox\"
+@echo off
+
+:: Nettoyage console
+cls;
+
+:: Definir Nom de la machine
 set VM_NAME=MacOS X Catalina (10.15)
 
-# Simuler une machine MAC
+:: Dossier Virtualbox 
+cd "C:\Program Files\Oracle\VirtualBox\"
+
+:: Simuler une machine MAC
 VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
 VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
 VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
