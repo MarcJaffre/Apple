@@ -16,9 +16,9 @@ L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-im
 #### 1. Virtualbox
 ```
 [Creation de la VM]
-- Nom                 : MacOS X Catalina (10.15)
-- Type                : Mac OS X
-- Version             : Mac OS X (64 bit)
+- Nom                 : MacOS Catalina (10.15)
+- Type                : Mac OS 
+- Version             : Mac OS (64 bit)
 - Stockage            : 30 Go (Minimum: 26 GO Utilisable)
 - Lecteur CD-ROM      : Catalina 10.15.iso
  
@@ -51,13 +51,13 @@ Script Linux:
 clear;
 
 # Simuler une machine MAC Apple iMac 27" (Late 2015)
-VBoxManage modifyvm      "MacOS X Catalina (10.15)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
-VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
-VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
-VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
-VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-VBoxManage setextradata  "MacOS X Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
-VBoxManage modifyvm      "MacOS X Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
+VBoxManage modifyvm      "MacOS Catalina (10.15)  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
+VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
 ```
 
 Script Windows:
@@ -68,7 +68,7 @@ Script Windows:
 cls;
 
 :: Definir Nom de la machine
-set VM_NAME=MacOS X Catalina (10.15)
+set VM_NAME=MacOS Catalina (10.15)
 
 :: Dossier Virtualbox 
 cd "C:\Program Files\Oracle\VirtualBox\"
