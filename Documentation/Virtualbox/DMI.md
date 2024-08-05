@@ -59,20 +59,33 @@ VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Con
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiSystemUuid"         "B5FA3000-9403-81E0-3ADA-F46D045CB676"
 ```
 
-
 <br />
 
 ### C. DMI board information (type 2)
 ```bash
+# Vendor Board
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardVendor"        "Apple Inc."
+
+# Product Board
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct"       "Mac-F22788AA"
+
+# Version Board
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardVersion"       "3.0"
+
+# Serial Board
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardSerial"        "BSN12345678901234567"
+
+# Asset Tag Board
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardAssetTag"      "Base Board Asset Tag#"
+
+# Loc In Chassy Board
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardLocInChass"    "Board Loc In"
+
+# Type Board
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardBoardType"     "10"
 ```
 
+<br />
 
 ### D. DMI processor information (type 4)
 ```bash
@@ -80,8 +93,10 @@ VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Con
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisType"        "10"
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisVersion"     "Mac-F22788AA"
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisSerial"      "CSN12345678901234567"
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisAssetTag"    ""Apple
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisAssetTag"    "Apple"
 ```
+
+<br />
 
 ### E. DMI OEM strings (type 11)
 ```bash
