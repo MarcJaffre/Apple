@@ -42,10 +42,11 @@ L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-im
 #### 1. Virtualbox
 ```
 [Creation de la VM]
-- Nom     : MacOS X Catalina (10.15)
-- Type    : Mac OS X
-- Version : Mac OS X (64 bit)
-
+- Nom                 : MacOS X Catalina (10.15)
+- Type                : Mac OS X
+- Version             : Mac OS X (64 bit)
+- Stockage            : 12 GO
+ 
 [Système]
 - Mémoire-vive        : 4096 MB
 - Ordre d'amoçage     : Optique
