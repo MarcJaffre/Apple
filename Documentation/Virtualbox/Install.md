@@ -167,3 +167,9 @@ Monter les guests additions de Virtualbox dans le lecteur DVD, puis ouvrir le le
 
 Lancer l'installation du package `VBoxDarwinAdditions.pkg`.
 
+
+#### 5. Réactivation de Gatekeeper & SIP
+```bash
+spctl --master-enable
+csrutil enable 
+```
