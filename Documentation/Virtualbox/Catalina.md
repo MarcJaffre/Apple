@@ -46,19 +46,25 @@ Processeur(s)         : 4 Cores / 8 Threads
 <br />
 
 #### 2. Bypass - EN CAS DE PROBLEM ([DOC](https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
-Script Linux:
+Simuler une machine MAC Apple iMac 27" (Late 2015)
+
+Linux:
 ```bash
 clear;
 
-# Simuler une machine MAC Apple iMac 27" (Late 2015)
+# CPU
 VBoxManage modifyvm      "MacOS Catalina (10.15)  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
+
+# imac 11.3
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
 VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
-VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
-VBoxManage setextradata  "MacOS Catalina (10.15)"  VBoxInternal2/EfiGraphicsResolution "1920x1080" 
+
+# GPU (Resolution, Vram)
+VBoxManage setextradata  "MacOS Catalina (10.15)"  VBoxInternal2/EfiGraphicsResolution "1920x1080"
 VBoxManage modifyvm      "MacOS Catalina (10.15)"  --vram 128
 ```
 
