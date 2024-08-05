@@ -1,13 +1,16 @@
 --------------------------------------------------------------------------------------------------------------
 # <p align='center'> Installation de Catalina dans Virtualbox </p>
+
+<p align='center'> 
+  <img src=https://github.com/user-attachments/assets/1f4cc2e5-b3d0-49b4-b902-572a0e800360 /> 
+</p>
+
 --------------------------------------------------------------------------------------------------------------
 ## I. Création et configuration de la Machine Virtuelle
 ### A. Mac OS X 10.15 
 L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7. (Ressources en bas)
 
-<p align='center'> 
-  <img src=https://github.com/user-attachments/assets/1f4cc2e5-b3d0-49b4-b902-572a0e800360 /> 
-</p>
+
 
 
 #### 1. Virtualbox
