@@ -119,12 +119,17 @@ Ignorer le compte Icloud.
 --------------------------------------------------------------------------------------------------------------
 ## III. Installation du Système d'exploitation
 ### A. Démarrage du Système
-Le démarragé de l'installateur de Mac OS est très long à démarrer.
+Démarrer la machine Virtuelle, si c'est bon logo de la Pomme apparaît rapidement.
+### B. Création de la partition Mac OS X
+Sélectionner `Utilitaire de Disque` puis faire Continuer
 
-![image](https://github.com/user-attachments/assets/1f55c4b7-20fb-433f-8702-ef82e1d0c32f)
+Ensuite `sélectionner le stockage` et faire `Effacer`.
 
+Et pour finir indiquer un nom de volume et faire OK.
 
+![image](https://github.com/user-attachments/assets/365705dd-f2b6-4d89-b2ab-c31b474f1458)
 
+![image](https://github.com/user-attachments/assets/21b8e413-53a9-4809-9c98-eb7316eecb79)
 
 
 
