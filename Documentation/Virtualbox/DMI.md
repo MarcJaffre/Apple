@@ -33,7 +33,6 @@ VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Con
 VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMinor"  "0"
 ```
 
-
 <br />
 
 ### B. system Information (Type 1)
@@ -65,23 +64,23 @@ VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Con
 
 ### C. DMI board information (type 2)
 ```bash
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardVendor"        ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct"       ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardVersion"       ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardSerial"        ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardAssetTag"      ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardLocInChass"    ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardBoardType"     ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardVendor"        "Apple Inc."
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct"       "Mac-F22788AA"
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardVersion"       "3.0"
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardSerial"        "BSN12345678901234567"
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardAssetTag"      "Base Board Asset Tag#"
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardLocInChass"    "Board Loc In"
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiBoardBoardType"     "10"
 ```
 
 
 ### D. DMI processor information (type 4)
 ```bash
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisVendor"      ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisType"        ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisVersion"     ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisSerial"      ""
-VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisAssetTag"    ""
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisVendor"      "Apple Inc."
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisType"        "10"
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisVersion"     "Mac-F22788AA"
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisSerial"      "CSN12345678901234567"
+VBoxManage setextradata "MacOS Catalina (10.15)" "VBoxInternal/Devices/efi/0/Config/DmiChassisAssetTag"    ""Apple
 ```
 
 ### E. DMI OEM strings (type 11)
