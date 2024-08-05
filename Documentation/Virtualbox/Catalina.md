@@ -12,7 +12,6 @@ L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-im
 
 
 #### 1. Virtualbox
-Après la création de la VM, clique sur le mot `128 Mo` et tape `256 Mo`.
 ```
 [Creation de la VM]
 - Nom                 : MacOS Catalina (10.15)Ouvrir le menu LaunchPad puis Àutomator`.
@@ -60,11 +59,14 @@ Processeur(s)         : 4 Cores / 8 Threads
 ```
 
 <br />
+#### 2. Configuration de la Vram (Video Ram)
+Après la création de la VM, clique sur le mot `128 Mo` et tape `256 Mo`.
 
+![image](https://github.com/user-attachments/assets/f002eea7-1c55-4a26-a1af-d8c285691171)
 
 <br />
 
-#### 2. Bypass - EN CAS DE PROBLEM ([DOC](https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
+#### 3. Bypass ([DOC](https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
 Simuler une machine MAC Apple iMac 27" (Late 2015)
 
 Linux:
