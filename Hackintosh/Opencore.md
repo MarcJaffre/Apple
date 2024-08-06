@@ -10,7 +10,8 @@
 - Désactiver le démarrage via l'iGPU dans le bios.
 ```
 
-### C.
+### C. CPU Configuration
+Activer la virtualisation
 
 ### D. 
 
