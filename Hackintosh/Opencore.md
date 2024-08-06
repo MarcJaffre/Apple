@@ -1,7 +1,7 @@
---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 # <p align='center'> [Création d'une Clé Bootable sous Windows de Mac OS](https://github.com/acidanthera/OpenCorePkg/releases)
 
---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 ## I. Configuration du BIOS
 ### A. TPM Firmware
 ### B. GPU Primary (System Agent)
@@ -15,7 +15,7 @@ Activer la virtualisation
 
 <br />
 
---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 ## II. Préparation de l'environnement
 ### A. OpenCore
 ```
@@ -30,18 +30,28 @@ https://github.com/acidanthera/OpenCorePkg/releases
 - Supprimer : Resources et le contennu de Tools (optionnel)
 ```
 
-### C. ACPI
-#### 1. [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
+---------------------------------------------------------------------------------------------------------------
+## III. ACPI
+### A. [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
 Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitation d'interargir avec la machine. (Vieille, reprise ....)
 
 Lancer le fichier `SSDTTime.bat`.
 
-#### 2. Dump DSDT
-La création d'un `DUMP DSDT` permet d'extraire l'ACPI de la carte-mère. Le fichier se trouve dans lê répertoire `results`.
+![image](https://github.com/user-attachments/assets/79a60e7e-724e-4b39-a429-b631f2fb3195)
 
-#### 4. Select DSDT or Origin folder
-Ce menu permet de charger un fichier DSDT . Il suffit de glisser le fichier dans l'invite de commande.
+### B. Extraire la table ACPI (Dump the current system's ACPI tables)
+```
+- Menu de sélection : P
+```
 
+### C. Charger la Table ACPI (Select ACPI table or folder containing tables)
+```
+- Menu de sélection : D
+- Copier le chemin : ....\SSDTTime-master\SSDTTime-master\Results\ACPI
+- Console : "....\SSDTTime-master\SSDTTime-master\Results\ACPI"
+```
+
+![image](https://github.com/user-attachments/assets/3ad303f6-1d58-49b0-a3f6-bd2f0eb470ac)
 
 
 
