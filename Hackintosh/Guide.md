@@ -15,7 +15,7 @@
 - Ethernet : Intel   I211-AT
 ```
 
-### C. Configuration du bios
+### C. BIOS (Guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#kernel))
 ```
 - TPM : TPM Firmware
 - Démarrage par défaut: PCIe
