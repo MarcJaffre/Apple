@@ -23,15 +23,15 @@
 - Activer la virtualisation
 ```
 
-### D. Sources
-```
-- [Video]    https://www.youtube.com/watch?v=BfcdklKjvY4
-```
-
-### E. CPU AMD
+### D. CPU AMD
 ```
 - https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#kernel
 - https://github.com/dortania/OpenCore-Install-Guide/blob/master/AMD/zen.md
+```
+
+### E. Sources
+```
+- [Video]    https://www.youtube.com/watch?v=BfcdklKjvY4
 ```
 
 <br />
