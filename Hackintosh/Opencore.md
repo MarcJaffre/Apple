@@ -57,43 +57,43 @@ Il suffira de coller le chemin vers le fichier DSDT.aml
 - Alternative       : \SSDTTime-master\Results\ACPI
 ```
 
-### C. FixHPET
+#### 3. FixHPET (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 Ce menu génère des fichiers plist dans `SSDTTime-master\Results\ACPI\`
 
-
-### X. FakeEC
+#### 4. FakeEC (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-
-### X. FakeEC Laptop
+#### 5. FakeEC Laptop (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-### X. USBX
+#### 4. USBX (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-### X. PluginType
+#### 5. PluginType (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-### X. PMC
+#### 6. PMC (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-### X. RTCAWAC
+#### 7. RTCAWAC (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-### X. USB Reset
+#### 8. USB Reset (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-### X. PCI Bridge
+#### 9. PCI Bridge (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-### X. PNLF
+#### 10. PNLF (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-### X. XOSI
+#### 11. XOSI (Optionnel)
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
-### X. Fix DMAR
+#### 12. Fix DMAR (Optionnel)
 
-### X. 
+### C. Fichier aml
+Dans le dossier `SSDTTime-master\Results`, récupérer les fichiers au format `aml`.
+
