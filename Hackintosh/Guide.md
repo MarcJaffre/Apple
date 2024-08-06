@@ -181,8 +181,10 @@ Lancer le fichier `SSDTTime.bat`.
 ## A. Télécharger OpenCorePKG
 Extraire le fichier compresser.
 ```
-https://github.com/acidanthera/OpenCorePkg/releases
+- [General] https://github.com/acidanthera/OpenCorePkg/releases
+- [Zen]     https://github.com/dortania/OpenCore-Install-Guide/blob/master/AMD/zen.md
 ```
+
 
 <br />
 
@@ -217,7 +219,7 @@ https://github.com/acidanthera/OpenCorePkg/releases
 <br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# V. Génération du fichier config
+# V. Génération du fichier config (Base)
 ## A. [ProperTree](https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip)
 ### 1. Présentation de l'outil
 > Le logiciel ProperTree permet de générer le fichier de configuration qui sera utilisé lors du démarrage de la clé USB.
@@ -230,25 +232,33 @@ https://github.com/acidanthera/OpenCorePkg/releases
 > 
 > File > OC Snapshot > .\X64\EFI\OC\
 
+### 4. Sauvegarder le fichier
+Le fichier en état est pas bon, car il manque pas mal de chose.
 
-
-### 4. 
-
-### 5. 
-
-### 6. 
-
-### 7. 
-
-
-<br />
-<br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# VI. XXXXXXXXXXXXXXXXXXXXXXX
+# VI. Configuration Personnalisée
+## A. Guide ACPI
+```
+https://dortania.github.io/Getting-Started-With-ACPI/
+```
+
+## B. ACPI
+### 1. ADD
+### 2. Delete
+### 3. Patch
+### 4. Quirks
+
+
 
 <br />
+
+## X. 
+### X. 
+
 <br />
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## X. Prise de Note
