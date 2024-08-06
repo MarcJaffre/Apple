@@ -101,15 +101,40 @@ XHCI-unsupported
 #### 1. [XHCI-unsupported](https://github.com/RehabMan/OS-X-USB-Inject-All)
 > Nécessaire pour les contrôleurs USB non natifs
 > Les systèmes basés sur un processeur AMD n'en ont pas besoin.
+
+<br />
 <br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# III. XXXXXXXXXXXXXXXXXXXXXXX
+# III. Génération de la Table ACPI
+## A. Présentation
+> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 <br />
 
+## B. Téléchargement de l'outil [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
+> Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitation d'interargir avec la machine. (Vieille, reprise ....)
+> Lancer le fichier SSDTTime.bat
+
+Lancer le fichier `SSDTTime.bat`.
+
+![image](https://github.com/user-attachments/assets/79a60e7e-724e-4b39-a429-b631f2fb3195)
+
+
+
+
+
+
+
+
+
+<br />
+<br />
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# IV. XXXXXXXXXXXXXXXXXXXXXXX
+# IV. OpenCore (Base)
+## A. Télécharger OpenCorePKG
+
 
 <br />
 
