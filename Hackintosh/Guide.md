@@ -140,6 +140,7 @@ Lancer le fichier `SSDTTime.bat`.
 
 ## C. Dump the current system's ACPI tables
 > Permet d'extraire la table ACPI du système.
+> 
 > Dump the current system's ACPI tables
 
 <p align='center'> <img src="" /> </p>
@@ -148,6 +149,7 @@ Lancer le fichier `SSDTTime.bat`.
 
 ### D. Select ACPI table or folder containing tables
 > Permet de charger les fichiers ACPI dans l'outil SSDTTime.
+> 
 > Dans la fenetre indiquer le chemin du fîchier situé dans Results\ACPI\DSDT.aml
 
 <p align='center'> <img src="" /> </p>
@@ -196,31 +198,19 @@ https://github.com/acidanthera/OpenCorePkg/releases
 ```
 
 <br />
-
-
-
-
-
-
-
-
-
-
-
-
 <br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # V. XXXXXXXXXXXXXXXXXXXXXXX
 
 <br />
+<br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # VI. XXXXXXXXXXXXXXXXXXXXXXX
 
 <br />
-
-
+<br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## X. Prise de Note
