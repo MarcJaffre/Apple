@@ -153,31 +153,30 @@ Nécessite macOS 10.13 ou une version plus récente.
 
 
 
-#### 4. [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) (Required)
+#### 4. [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) (Graphics | Required)
 Utilisé pour les correctifs graphiques, les correctifs DRM, les vérifications d'ID de carte, les correctifs de framebuffer, etc.; tous les GPU bénéficient de ce kext.
 
 Note: Nécessite Mac OS X 10.6 ou plus récent
 
 
+### X. [AppleALC](https://github.com/acidanthera/AppleALC/releases) (Audio | Required)
+Utilisé pour le patch AppleHDA, permettant la prise en charge de la majorité des contrôleurs audio intégrés
+AppleALCU.kext est une version simplifiée d'AppleALC qui ne prend en charge que l'audio numérique - mais vous pouvez toujours utiliser AppleALC.kext sur les systèmes uniquement audio numériques
+Les systèmes AMD 15h/16h peuvent avoir des problèmes avec AppleALC et les systèmes Ryzen/Threadripper prennent rarement en charge les micros
+Nécessite OS X 10.4 ou une version plus récente
 
 
+### X. [XXXXXX](AAAAAAAAAAAAAAAA)
 
-### X. XXXXXX
-```
-```
+### X. [XXXXXX](AAAAAAAAAAAAAAAA)
 
-### X. XXXXXX
-```
-```
+### X. [XXXXXX](AAAAAAAAAAAAAAAA)
 
-### X. XXXXXX
-```
-```
+### X. [XXXXXX](AAAAAAAAAAAAAAAA)
 
-### X. XXXXXX
-```
-```
+### X. [XXXXXX](AAAAAAAAAAAAAAAA)
 
-### X. XXXXXX
-```
-```
+### X. [XXXXXX](AAAAAAAAAAAAAAAA)
+
+### X. [XXXXXX](AAAAAAAAAAAAAAAA)
+
