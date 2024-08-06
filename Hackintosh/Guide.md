@@ -79,6 +79,12 @@ Le guide des Kext d'[Opencore](https://dortania.github.io/OpenCore-Install-Guide
 #### 1. [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)
 > Utilisé pour corriger la gestion de l'alimentation et l'initialisation sur les NVMe non Apple
 
+<br />
+
+### G. USB
+#### 1. [XHCI-unsupported](https://github.com/RehabMan/OS-X-USB-Inject-All)
+> Nécessaire pour les contrôleurs USB non natifs
+
 
 <br />
 
