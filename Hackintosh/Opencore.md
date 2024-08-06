@@ -101,9 +101,28 @@ Copier les fichiers `.\SSDTTime-master\Results\*.aml` dans le dossier `.\X64\EFI
 ### C. Drivers EFI
 Supprimer tous les fichiers sauf :
 ```
-- OpenCanopy    :
-- OpenHFSPlus   :
-- OpenRuntTime  :
+- OpenHFSPlus   : Indispensable pour les systèmes Apple sous HFS
+- OpenRuntTime  : Indispensable pour les corrections de mémoire (nvram)
+- OpenCanopy    : 
+```
+Intéressant:
+```
+- AudioDxe
+- BiosVideo
+- Ext4Dxe
+- FirmwareSettingsEntry
+- NvmExpressDxe
+- OpenLinuxBoot
+- OpenNtfsDxe
+- OpenPartitionDxe
+- OpenUsbKbDxe
+- ResetNvramEntry
+- UsbMouseDxe
+
+- Dhcp4Dxe
+- DnsDxe
+- Ip4Dxe
+- Udp4Dxe.efi
 ```
 
 
