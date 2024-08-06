@@ -186,6 +186,9 @@ https://github.com/acidanthera/OpenCorePkg/releases
 ## E. SSDTTime (ACPI)
 > Copier les fichiers SSDTTime-master\Results\*.aml ==>  X64\EFI\OC\ACPI.
 
+<br />
+
+
 ## F. EFI Drivers ([Complements](https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md))
 > Le boot EFI utilise des pilotes pour gérer les interactions nécessaires aux instructions. (X64\EFI\OC\Drivers)
 >
