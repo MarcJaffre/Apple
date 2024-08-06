@@ -14,28 +14,9 @@ Activer la virtualisation
 
 
 <br />
-<br />
 
 ---------------------------------------------------------------------------------------------------------------
-## II. Préparation de l'environnement
-### A. OpenCore
-```
-https://github.com/acidanthera/OpenCorePkg/releases
-```
-
-### B. EFI
-```
-- Extraire le fichier (7Zip)
-- Déplacer  : X64\EFI           ==> Bureau
-- Copier    : Docs\Sample.plist ==> Bureau\EFI\config.plist
-- Supprimer : Resources et le contennu de Tools (optionnel)
-```
-
-<br />
-<br />
-
----------------------------------------------------------------------------------------------------------------
-## III. ACPI
+## II. ACPI
 ### A. [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
 Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitation d'interargir avec la machine. (Vieille, reprise ....)
 
@@ -52,9 +33,9 @@ Lancer le fichier `SSDTTime.bat`.
 Il suffira de coller le chemin vers le fichier DSDT.aml
 ```
 - Menu de sélection : D
-- Copier le chemin  : SSDTTime-master\Results\ACPI
-- Console           : SSDTTime-master\Results\ACPI\DSDT.aml
-- Alternative       : \SSDTTime-master\Results\ACPI
+- Copier le chemin  : .\SSDTTime-master\Results\ACPI
+- Console           : .\SSDTTime-master\Results\ACPI\DSDT.aml
+- Alternative       : .\SSDTTime-master\Results\ACPI
 ```
 
 #### 3. FixHPET (Optionnel)
@@ -94,9 +75,25 @@ Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre con
 
 #### 12. Fix DMAR (Optionnel)
 
-### C. Fichier aml
+---------------------------------------------------------------------------------------------------------------
+## III. Préparation de l'environnement
+### A. OpenCore
 ```
-Source      : SSDTTime-master\Results\*.aml
-Destination : X64\EFI\ACPI
+https://github.com/acidanthera/OpenCorePkg/releases
 ```
 
+### B. EFI
+```
+- Extraire le fichier (7Zip)
+- Déplacer  : .\X64\EFI           ==> Bureau
+- Copier    : .\Docs\Sample.plist ==> Bureau\EFI\config.plist
+- Supprimer : Resources et le contennu de Tools (optionnel)
+```
+
+### C. Fichier ACPI
+```
+Source      : .\SSDTTime-master\Results\*.aml
+Destination : .\X64\EFI\ACPI
+```
+<br />
+<br />
