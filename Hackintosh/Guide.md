@@ -3,7 +3,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------
 # I. Information de base
-## A. Matériel ([X570](https://www.asus.com/fr/motherboards-components/motherboards/prime/prime-x570-pro/techspec/))
+## A. Matériel ([Doc](https://www.asus.com/fr/motherboards-components/motherboards/prime/prime-x570-pro/techspec/))
 ```
 - Carte-mère : Asus Prime X570 (Audio : Realtek® S1220A | Ethernet: Intel® I211-AT)
 - Processeurs: Ryzen 7 3700x
