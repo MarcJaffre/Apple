@@ -2,7 +2,20 @@
 # <p align='center'> [Création d'une Clé Bootable sous Windows de Mac OS](https://github.com/acidanthera/OpenCorePkg/releases)
 
 --------------------------------------------------------------------------------------------------------------------------------------
-## I. Préparation de l'environnement
+## I. Configuration du BIOS
+### A. TPM Firmware
+### B.
+
+### C.
+
+### D. 
+
+### E. 
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+## II. Préparation de l'environnement
 ### A. OpenCore
 ```
 https://github.com/acidanthera/OpenCorePkg/releases
