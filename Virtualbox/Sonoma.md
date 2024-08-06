@@ -59,8 +59,6 @@ VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/TM/TSCMode"       
 ```
 
 
-
-
 ------------------------
 ### Ressource:
 ```
