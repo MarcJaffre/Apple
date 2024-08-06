@@ -35,6 +35,8 @@ L'image utilisé est [Sonoma 14.iso](https://archive.org/details/macOS-X-images)
 
 ### B. Bypass
 ```bash
+/usr/bin/Bash
+
 clear;
 
 # VirtualBox
