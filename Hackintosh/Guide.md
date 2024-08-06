@@ -1,7 +1,7 @@
------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> Installation de Mac OS sur PC </p>
 
------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## I. Information de base
 ### A. Matériel ([Doc]())
 ```
@@ -25,10 +25,12 @@
 
 <br />
 
------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## II. Pilotes de MacOS (Kexts)
 ### A. OpenCore
 Le guide des Kext d'[Opencore](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts) contient la liste des Kexts utiles.
+
+
 
 ### B. Indispensables
 #### 1. [Lilu](https://github.com/acidanthera/Lilu)
@@ -70,8 +72,6 @@ Le guide des Kext d'[Opencore](https://dortania.github.io/OpenCore-Install-Guide
 > Nécessite AMDRyzenCPUPowerManagement (voir Kexts spécifiques au processeur AMD)
 > Nécessite macOS 10.13 ou une version plus récente.
 
-
-
 #### 2. [WhateverGreen](https://github.com/acidanthera/WhateverGreen/)
 > Utilisé pour les correctifs graphiques, les correctifs DRM, les vérifications d'ID de carte, les correctifs de framebuffer, etc.; tous les GPU bénéficient de ce kext.
 
@@ -80,27 +80,27 @@ Le guide des Kext d'[Opencore](https://dortania.github.io/OpenCore-Install-Guide
 ### F. NVME
 #### 1. [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)
 > Utilisé pour corriger la gestion de l'alimentation et l'initialisation sur les NVMe non Apple
+> Note: Nécessite Mac OS X 10.6 ou plus récent
 
 <br />
 
 ### G. USB
 #### 1. [XHCI-unsupported](https://github.com/RehabMan/OS-X-USB-Inject-All)
 > Nécessaire pour les contrôleurs USB non natifs
-
-
+> Les systèmes basés sur un processeur AMD n'en ont pas besoin.
 <br />
 
------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # III. XXXXXXXXXXXXXXXXXXXXXXX
 
 <br />
 
------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # IV. XXXXXXXXXXXXXXXXXXXXXXX
 
 <br />
 
------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # V. XXXXXXXXXXXXXXXXXXXXXXX
 
 <br />
