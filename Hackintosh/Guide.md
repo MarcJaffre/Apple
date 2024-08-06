@@ -63,7 +63,8 @@ XHCI-unsupported
 > 
 > AppleALCU.kext est une version simplifiée d'AppleALC qui ne prend en charge que l'audio numérique - mais vous pouvez toujours utiliser AppleALC.kext sur les systèmes uniquement audio numériques.
 
-> Les systèmes AMD 15h/16h peuvent avoir des problèmes avec AppleALC et les systèmes Ryzen/Threadripper prennent rarement en charge les micros
+> Les systèmes AMD 15h/16h peuvent avoir des problèmes avec AppleALC et les systèmes Ryzen/Threadripper prennent rarement en charge les micros.
+> 
 > Nécessite OS X 10.4 ou une version plus récente
 
 <br />
@@ -71,8 +72,11 @@ XHCI-unsupported
 ### D. Ethernet
 #### 1. [AppleIGB](https://github.com/donatengit/AppleIGB) (Ethernet)
 > Requis pour les cartes réseau I211 exécutées sur macOS Monterey et versions ultérieures.
+> 
 > Il peut y avoir des problèmes d'instabilité sur certaines cartes réseau, il est recommandé de rester sur Big Sur et d'utiliser SmallTree.
+> 
 > Requis pour la plupart des cartes AMD exécutant des cartes réseau Intel.
+> 
 > Nécessite macOS 12 et versions ultérieures
 
 <br />
@@ -82,7 +86,9 @@ XHCI-unsupported
 > **En cours de développement, potentiellement instable**
 >
 > Utilisé pour surveiller la température du processeur sur les systèmes basés sur AMD Zen.
-> Nécessite AMDRyzenCPUPowerManagement (voir Kexts spécifiques au processeur AMD)
+> 
+> Nécessite AMDRyzenCPUPowerManagement. (voir Kexts spécifiques au processeur AMD)
+> 
 > Nécessite macOS 10.13 ou une version plus récente.
 
 #### 2. [WhateverGreen](https://github.com/acidanthera/WhateverGreen/)
@@ -92,14 +98,16 @@ XHCI-unsupported
 
 ### F. NVME
 #### 1. [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)
-> Utilisé pour corriger la gestion de l'alimentation et l'initialisation sur les NVMe non Apple
-> Note: Nécessite Mac OS X 10.6 ou plus récent
+> Utilisé pour corriger la gestion de l'alimentation et l'initialisation sur les NVMe non Apple.
+> 
+> Note: Nécessite Mac OS X 10.6 ou plus récent.
 
 <br />
 
 ### G. USB
 #### 1. [XHCI-unsupported](https://github.com/RehabMan/OS-X-USB-Inject-All)
-> Nécessaire pour les contrôleurs USB non natifs
+> Nécessaire pour les contrôleurs USB non natifs.
+> 
 > Les systèmes basés sur un processeur AMD n'en ont pas besoin.
 
 <br />
@@ -114,6 +122,7 @@ XHCI-unsupported
 
 ## B. Téléchargement de l'outil [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
 > Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitation d'interargir avec la machine. (Vieille, reprise ....)
+> 
 > Lancer le fichier SSDTTime.bat
 
 Lancer le fichier `SSDTTime.bat`.
