@@ -9,15 +9,11 @@
 - Démarrage par défaut: PCIe
 - Désactiver le démarrage via l'iGPU dans le bios.
 ```
-
 ### C. CPU Configuration
 Activer la virtualisation
 
-### D. 
 
-### E. 
-
-
+<br />
 
 --------------------------------------------------------------------------------------------------------------------------------------
 ## II. Préparation de l'environnement
@@ -35,7 +31,10 @@ https://github.com/acidanthera/OpenCorePkg/releases
 ```
 
 ### C. ACPI
-Télécharger le programme [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip) pour permettre de créer la table ACPI. (Interaction MAC / Carte-mère)
+#### 1. [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
+Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitation d'interargir avec la machine. (Vieille, reprise ....)
+
+#### 2. Dump DSDT
 
 
 
