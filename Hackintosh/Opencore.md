@@ -35,7 +35,7 @@ https://github.com/acidanthera/OpenCorePkg/releases
 Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitation d'interargir avec la machine. (Vieille, reprise ....)
 
 #### 2. Dump DSDT
-
+La création d'un `DUMP DSDT` permet d'extraire l'ACPI de la carte-mère. Le fichier se trouve dans lê répertoire `results`.
 
 
 
