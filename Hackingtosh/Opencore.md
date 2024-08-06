@@ -17,7 +17,8 @@ https://github.com/acidanthera/OpenCorePkg/releases
 ```
 
 ### C. ACPI
-Télécharger `SDDTTIME`
+Télécharger le programme [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
+
 
 
 
