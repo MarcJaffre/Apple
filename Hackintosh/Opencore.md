@@ -144,7 +144,6 @@ https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md
 ---------------------------------------------------------------------------------------------------------------
 ## IV. [Kexts](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts)
 
-
 ### A. [Lilu](https://github.com/acidanthera/Lilu) (Required)
 Un kext pour patcher de nombreux processus, requis pour AppleALC, WhichGreen, VirtualSMC et bien d'autres kexts. Sans Lilu, ils ne fonctionneront pas.
 
@@ -225,6 +224,7 @@ Nécessite macOS 12 et versions ultérieures
 
 ```
 AppleALC
+AppleIGB
 Lilu
 SMCAMDProcessor
 VirtualSMC
