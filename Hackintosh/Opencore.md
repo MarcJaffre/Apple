@@ -4,7 +4,11 @@
 --------------------------------------------------------------------------------------------------------------------------------------
 ## I. Configuration du BIOS
 ### A. TPM Firmware
-### B.
+### B. GPU Primary (System Agent)
+```
+- Démarrage par défaut: PCIe
+- Désactiver le démarrage via l'iGPU dans le bios.
+```
 
 ### C.
 
