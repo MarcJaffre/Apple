@@ -3,6 +3,7 @@
 
 --------------------------------------------------------------------------------------------------------------
 ## I. Création et configuration de la Machine Virtuelle
+
 ### A. Mac OS
 L'image utilisé est [Sonoma 14.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7. (Ressources en bas)
 #### 1. Virtualbox
@@ -56,3 +57,13 @@ VBoxManage setextradata  "MacOS Sonoma (14.0)"  VBoxInternal2/EfiGraphicsResolut
 # TM
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/TM/TSCMode"                              "RealTSCOffset"
 ```
+
+
+
+
+------------------------
+### Ressource:
+```
+https://www.sysnettechsolutions.com/en/install-macos-virtualbox/
+```
+
