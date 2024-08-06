@@ -57,6 +57,28 @@ Linux:
 ```bash
 clear;
 
+# Virtualbox
+VBoxManage modifyvm      "MacOS Catalina (10.15)"  --vram 256
+VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
+
+# EFI
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct"   "Iloveapple"
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct"  "iMac11,3"
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion"  "1.0"
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey"         "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+
+# SMC
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" "0"
+
+# GPU : Resolution, Vram (Requis: VMSVGA)
+VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal2/EfiGraphicsResolution"                 "1920x1080"
+```
+
+OLD
+```
+clear;
+
 # CPU
 VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
@@ -73,34 +95,7 @@ VBoxManage setextradata  "MacOS Catalina (10.15)"  VBoxInternal2/EfiGraphicsReso
 VBoxManage modifyvm      "MacOS Catalina (10.15)"  --vram 256
 ```
 
-Script Windows:
-```bash
-@echo off
 
-:: Nettoyage console
-cls;
-
-:: Definir Nom de la machine
-set VM_NAME=MacOS Catalina (10.15)
-
-:: Dossier Virtualbox 
-cd "C:\Program Files\Oracle\VirtualBox\"
-
-:: Simuler une machine MAC
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
-
-# CPU (i7-6700K : 4 Cores / 8 Threads)
-VBoxManage modifyvm     "%VM_NAME%"  --cpu-profile "Intel Core i7-6700K"
-VBoxManage modifyvm     "%VM_NAME%"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
-
-# GPU : Resolution, Vram (Requis: VMSVGA)
-VBoxManage setextradata "%VM_NAME%"  VBoxInternal2/EfiGraphicsResolution "1920x1080" 
-VBoxManage modifyvm     "%VM_NAME%"  --vram 256
-```
 
 #### 3. Information
 Lors du démarrage de l'installation , ceci peut être très long. Pareil pour le 1er démarrage.
