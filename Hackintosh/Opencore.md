@@ -107,8 +107,9 @@ Supprimer tous les fichiers sauf :
 ```
 
 
-### D. 
+### D. Kexts
 ```
+https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md
 ```
 
 
