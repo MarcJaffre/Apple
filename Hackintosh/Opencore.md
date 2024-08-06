@@ -95,12 +95,11 @@ https://github.com/acidanthera/OpenCorePkg/releases
 - Supprimer : Resources et le contennu de Tools (optionnel)
 ```
 
-### C. [ACPI](https://dortania.github.io/Getting-Started-With-ACPI/#a-quick-explainer-on-acpi)
+### C. [Table ACPI](https://dortania.github.io/Getting-Started-With-ACPI/#a-quick-explainer-on-acpi)
 Copier les fichiers `.\SSDTTime-master\Results\*.aml` dans le dossier `.\X64\EFI\ACPI`.
 
 
-### C. [EFI Drivers](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
-)
+### C. [EFI Drivers](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers)
 Supprimer tous les fichiers sauf :
 ```
 - OpenHFSPlus   : Indispensable pour les systèmes Apple sous HFS
@@ -134,8 +133,12 @@ https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md
 <br />
 
 
+
+
+
 ---------------------------------------------------------------------------------------------------------------
 ## IV. [Kexts](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts)
+
 ### A. [Lilu](https://github.com/acidanthera/Lilu/releases) (Required)
 Un kext pour patcher de nombreux processus, requis pour AppleALC, WhichGreen, VirtualSMC et bien d'autres kexts. Sans Lilu, ils ne fonctionneront pas.
 
