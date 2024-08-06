@@ -49,34 +49,50 @@ Lancer le fichier `SSDTTime.bat`.
 - Menu de sélection : P
 ```
 #### 2. Select ACPI table or folder containing tables
+Il suffira de coller le chemin vers le fichier DSDT.aml
 ```
 - Menu de sélection : D
 - Copier le chemin  : SSDTTime-master\Results\ACPI
-- Console           : SSDTTime-master\Results\ACPI\DSDT.aml"
+- Console           : SSDTTime-master\Results\ACPI\DSDT.aml
+- Alternative       : \SSDTTime-master\Results\ACPI
 ```
 
 ### C. FixHPET
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
 Ce menu génère des fichiers plist dans `SSDTTime-master\Results\ACPI\`
 
+
 ### X. FakeEC
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
 
 ### X. FakeEC Laptop
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 ### X. USBX
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 ### X. PluginType
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 ### X. PMC
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 ### X. RTCAWAC
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 ### X. USB Reset
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 ### X. PCI Bridge
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 ### X. PNLF
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 ### X. XOSI
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 ### X. Fix DMAR
 
