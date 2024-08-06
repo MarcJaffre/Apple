@@ -32,9 +32,9 @@ Le guide des Kext d'[Opencore](https://dortania.github.io/OpenCore-Install-Guide
 
 ### B. Indispensables
 #### 1. [Lilu](https://github.com/acidanthera/Lilu)
-| Un kext pour patcher de nombreux processus, requis pour AppleALC, WhichGreen, VirtualSMC et bien d'autres kexts. Sans Lilu, ils ne fonctionneront pas.
+> Un kext pour patcher de nombreux processus, requis pour AppleALC, WhichGreen, VirtualSMC et bien d'autres kexts. Sans Lilu, ils ne fonctionneront pas.
+> Notez que même si Lilu prend en charge Mac OS X 10.4, de nombreux plugins ne fonctionnent que sur les versions plus récentes.
 
-Notez que même si Lilu prend en charge Mac OS X 10.4, de nombreux plugins ne fonctionnent que sur les versions plus récentes.
 
 #### 2. [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 Émule la puce SMC trouvée sur les vrais Mac, sans cela macOS ne démarrera pas Nécessite Mac OS X 10.4 ou version ultérieure.
