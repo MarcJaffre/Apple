@@ -13,8 +13,11 @@ https://github.com/acidanthera/OpenCorePkg/releases
 - Extraire le fichier (7Zip)
 - Déplacer  : X64\EFI           ==> Bureau
 - Copier    : Docs\Sample.plist ==> Bureau\EFI\config.plist
-- Supprimer : Resources et le contennu de Tools
+- Supprimer : Resources et le contennu de Tools (optionnel)
 ```
+
+### C. ACPI
+Télécharger `SDDTTIME`
 
 
 
