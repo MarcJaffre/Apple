@@ -13,5 +13,4 @@ https://archive.org/details/macOS-X-images
 Les tutoriaux ont pas étés testé avec les images suivantes.
 ```
 https://archive.org/details/macos-collection
-
 ```
