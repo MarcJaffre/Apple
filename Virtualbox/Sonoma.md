@@ -78,12 +78,46 @@ clear;
 
 --------------------------------------------------------------------------------------------------------------
 ## II. Installation de MacOS Sonoma
+```
+modifiervm "Mac OS 12" --cpuid-set 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage setextradata "Mac OS 12" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "MacBookPro15,1"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Mac-551B86E5744E2388"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/TM/TSCMode" "RealTSCOffset"
+```
 
-
-
-
-
-
+```
+Si vous utilisez un processeur AMD, exécutez également la commande suivante :
+VBoxManage modifyvm "Mac OS 12" --cpu-profile "Intel Core i7-6700K"
+Assurez-vous que la machine virtuelle Mac OS Sonoma est sélectionnée et cliquez sur Démarrer > Normal
+Après une longue séquence d'initialisation, la configuration MAC OS devrait démarrer
+Sélectionnez une langue > Cliquez sur la flèche
+Sélectionnez Utilitaire de disque
+Sélectionnez le DISQUE DUR VBOX > Cliquez sur Effacer
+Nommez le lecteur OS12 > Définir Formater en APFS > Cliquez sur Effacer
+Cliquez sur Terminé > Fermer l'utilitaire de disque
+Cliquez sur Installer macOS
+Cliquez sur Continuer > Cliquez sur Accepter > Cliquez à nouveau sur Accepter
+Sélectionnez le disque OS12 > Cliquez sur Installer
+Attendez que Mac OS installe les fichiers, la VM redémarrera plusieurs fois
+Sélectionnez votre pays > Cliquez sur Continuer
+Confirmez vos langues et la disposition du clavier > Cliquez sur Continuer
+Cliquez sur Pas maintenant sur l'écran Accessibilité
+Cliquez sur Continuer sur l'écran Données et confidentialité
+Sélectionnez Pas maintenant sur l'écran Assistant de migration
+Sélectionnez Configurer plus tard, puis Ignorer sur l'écran ID Apple
+Cliquez sur Accepter > Accepter à nouveau
+Entrez un nom, un nom d'utilisateur, un mot de passe > Cliquez sur Continuer
+Cliquez sur Continuer > Sélectionnez Utiliser ou Ne pas utiliser pour les services de localisation
+Choisissez un fuseau horaire > Cliquez sur Continuer
+Décochez Partager Mac Analytics avec Apple > Cliquez sur Continuer
+Cliquez sur Configurer plus tard sur l'écran Temps d'écran
+Décochez la case Activer Demander à Siri > Cliquez sur Continuer
+Choisissez un thème > Cliquez sur Continuer
+Bienvenue sur MacOS
+```
 
 --------------------------------------------------------------------------------------------------------------
 ### Sources:
