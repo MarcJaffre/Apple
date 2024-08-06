@@ -80,13 +80,14 @@ clear;
 ## II. Installation de MacOS Sonoma
 ```
 modifiervm "Mac OS 12" --cpuid-set 00000001 000106e5 00100800 0098e3fd bfebfbff
-VBoxManage setextradata "Mac OS 12" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "MacBookPro15,1"
-VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
-VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Mac-551B86E5744E2388"
-VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
-VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/TM/TSCMode" "RealTSCOffset"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct"    "MacBookPro15,1"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion"    "1.0"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct"     "Mac-551B86E5744E2388"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/smc/0/Config/DeviceKey"           "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC"   "1"
+VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/TM/TSCMode"                               "RealTSCOffset"
 ```
+
 
 ```
 Si vous utilisez un processeur AMD, exécutez également la commande suivante :
