@@ -168,6 +168,24 @@ Lancer le fichier `SSDTTime.bat`.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # IV. OpenCore (Base)
 ## A. Télécharger OpenCorePKG
+Extraire le fichier compresser.
+```
+https://github.com/acidanthera/OpenCorePkg/releases
+```
+
+<br />
+
+## C. Config.plist
+Copier le fichier `OpenCore\Docs\Sample.plist` dans le dossier `OpenCore\X64\EFI` et renommer en `config.plist`.
+
+<br />
+
+## D. EFI
+Sortir le Dossier `OpenCore\X64\EFI` du dossier `OpenCore`.
+
+## E. 
+## F. 
+
 
 
 <br />
