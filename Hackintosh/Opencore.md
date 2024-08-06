@@ -227,17 +227,18 @@ Les systèmes basés sur un processeur AMD n'en ont pas besoin.
 
 <br />
 
-
-
-
 ```
 AppleALC
 AppleIGB
 Lilu
+NVMeFix
 SMCAMDProcessor
 VirtualSMC
 WhateverGreen
+XHCI-unsupported
+```
 
-
-
+### Tech2Tech
+```
+RTCMemoryFixup
 ```
