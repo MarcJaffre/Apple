@@ -37,6 +37,9 @@ Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitat
 #### 2. Dump DSDT
 La création d'un `DUMP DSDT` permet d'extraire l'ACPI de la carte-mère. Le fichier se trouve dans lê répertoire `results`.
 
+#### 3. Select DSDT or Origin folder
+Ce menu permet de charger le fichier DSDT qu'on à crée précédemment.
+
 
 
 
