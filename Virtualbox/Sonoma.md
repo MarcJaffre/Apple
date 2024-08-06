@@ -8,7 +8,7 @@ L'image utilisé est [Sonoma 14.iso](https://archive.org/details/macOS-X-images)
 #### 1. Virtualbox
 ```
 [Creation de la VM]
-- Nom                 : MacOS Sonoma (14.00)
+- Nom                 : MacOS Sonoma (14.0)
 - Type                : Mac OS X
 - Version             : Mac OS X (64 bit)
 - Stockage            :
