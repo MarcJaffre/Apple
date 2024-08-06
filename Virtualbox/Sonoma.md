@@ -60,7 +60,7 @@ VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/TM/TSCMode"       
 
 
 ------------------------
-### Ressource:
+### Sources:
 ```
 https://www.sysnettechsolutions.com/en/install-macos-virtualbox/
 ```
