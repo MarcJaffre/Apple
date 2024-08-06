@@ -59,5 +59,23 @@ Lancer le fichier `SSDTTime.bat`.
 
 ![image](https://github.com/user-attachments/assets/c6553d63-b6a9-4401-bb27-374af8649fd8)
 
+### C. FixHPET 
 
-
+### X. FakeEC
+### X. FakeEC Laptop
+### X. USBX
+### X. PluginType
+### X. PMC
+### X. RTCAWAC
+### X. USB Reset
+### X. PCI Bridge
+### X. PNLF
+### X. XOSI
+### X. Fix DMAR
+### X. 
+### X. 
+### X. 
+### X. 
+### X. 
+### X. 
+### X. 
