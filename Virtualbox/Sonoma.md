@@ -3,17 +3,16 @@
 
 --------------------------------------------------------------------------------------------------------------
 ## I. Création et configuration de la Machine Virtuelle
-### A. Mac OS X 
-L'image utilisé est [Catalina 10.15.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7. (Ressources en bas)
-
+### A. Mac OS
+L'image utilisé est [Sonoma 14.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7. (Ressources en bas)
 #### 1. Virtualbox
 ```
 [Creation de la VM]
-- Nom                 : MacOS Catalina (10.15)
+- Nom                 : MacOS Sonoma (14.00)
 - Type                : Mac OS X
 - Version             : Mac OS X (64 bit)
-- Stockage            : 30 Go (Minimum: 26 GO Utilisable)
-- Lecteur CD-ROM      : Catalina 10.15.iso
+- Stockage            :
+- Lecteur CD-ROM      : Sonoma 14.iso
  
 [Système]
 - Mémoire-vive        : 4096 MB
@@ -24,8 +23,8 @@ Processeur(s)         : 4 Cores / 8 Threads
 -> Fonctions avancées : PAE/NX
 
 [Affichage]
-- Mémoire Vidéo       : 128 MB
-- Contrôleur Graph.   : VBox VGA
+- Mémoire Vidéo       : 128 Mo ==> 256 Mo
+- Contrôleur Graph.   : VMSVGA
 -> Fonctions avancées : Activer l'accélération 3D
 
 [USB]
@@ -36,47 +35,24 @@ Processeur(s)         : 4 Cores / 8 Threads
 <br />
 
 
-<br />
-
-#### 2. Bypass - EN CAS DE PROBLEM ([DOC](https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
+#### 2. Bypass ([DOC](https://gist.github.com/notsidney/50a211527567962a5dc93b8a765fa6fc))
 Script Linux:
 ```bash
 clear;
 
 # Simuler une machine MAC Apple iMac 27" (Late 2015)
-VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
-VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
-VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
-VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
-VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-VBoxManage setextradata  "MacOS Catalina (10.15)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
-VBoxManage modifyvm      "MacOS Catalina (10.15)"  --cpu-profile "Intel Core i7-6700K"
+VBoxManage modifyvm      "MacOS Sonoma (14.00)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage setextradata  "MacOS Sonoma (14.00)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+VBoxManage setextradata  "MacOS Sonoma (14.00)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata  "MacOS Sonoma (14.00)"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+VBoxManage setextradata  "MacOS Sonoma (14.00)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata  "MacOS Sonoma (14.00)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
+VBoxManage modifyvm      "MacOS Sonoma (14.00)"  --cpu-profile "Intel Core i7-6700K"
 ```
 
-Script Windows:
-```bash
-@echo off
 
-:: Nettoyage console
-cls;
 
-:: Definir Nom de la machine
-set VM_NAME=MacOS Catalina (10.15)
 
-:: Dossier Virtualbox 
-cd "C:\Program Files\Oracle\VirtualBox\"
-
-:: Simuler une machine MAC
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-VBoxManage setextradata "%VM_NAME%"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
-
-# CPU (i7-6700K : 4 Cores / 8 Threads)
-VBoxManage modifyvm "%VM_NAME%" --cpu-profile "Intel Core i7-6700K"
-VBoxManage modifyvm "%VM_NAME%" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
-```
 
 #### 3. Information
 Lors du démarrage de l'installation , ceci peut être très long. Pareil pour le 1er démarrage.
