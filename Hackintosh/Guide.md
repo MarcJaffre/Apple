@@ -28,8 +28,21 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## II. Pilotes de MacOS (Kexts)
 ### A. OpenCore
+#### 1. Base
 Le guide des Kext d'[Opencore](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts) contient la liste des Kexts utiles.
 
+#### 2. Liste
+La liste suivante n'est pas vérifier et fonctionnel.
+```
+Lilu
+VirtualSMC
+AppleALC
+AppleIGB
+SMCAMDProcessor
+WhateverGreen
+NVMeFix
+XHCI-unsupported
+```
 
 
 ### B. Indispensables
