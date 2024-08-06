@@ -57,6 +57,7 @@ La liste suivante n'est pas vérifié et fonctionnelle.
 >
 > Notez que même si Lilu prend en charge Mac OS X 10.4, de nombreux plugins ne fonctionnent que sur les versions plus récentes.
 
+<br />
 
 #### 2. [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 > Émule la puce SMC trouvée sur les vrais Mac, sans cela macOS ne démarrera pas Nécessite Mac OS X 10.4 ou version ultérieure.
@@ -178,6 +179,8 @@ https://github.com/acidanthera/OpenCorePkg/releases
 ## D. EFI
 > Déplacer le dossier OpenCore\X64\EFI du dossier OpenCore.
 
+<br />
+
 ## E. SSDTTime (ACPI)
 > Copier les fichiers SSDTTime-master\Results\*.aml ==>  X64\EFI\OC\ACPI.
 
@@ -191,6 +194,17 @@ https://github.com/acidanthera/OpenCorePkg/releases
 - OpenRuntTime  : Indispensable pour les corrections de mémoire (nvram)
 - OpenCanopy    : 
 ```
+
+<br />
+
+
+
+
+
+
+
+
+
 
 
 
