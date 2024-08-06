@@ -80,6 +80,8 @@ clear;
 ## II. Installation de MacOS Sonoma
 ```
 modifiervm "Mac OS 12" --cpuid-set 00000001 000106e5 00100800 0098e3fd bfebfbff
+
+# Compatibilite : https://support.apple.com/fr-fr/105113 (Identification de votre ... >  Recherche terme "Identifiant du modèle : ")
 VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct"    "MacBookPro15,1"
 VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion"    "1.0"
 VBoxManage setextradata "Mac OS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct"     "Mac-551B86E5744E2388"
