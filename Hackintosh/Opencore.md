@@ -35,7 +35,7 @@ https://github.com/acidanthera/OpenCorePkg/releases
 ```
 
 ### C. ACPI
-Télécharger le programme [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
+Télécharger le programme [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip) pour permettre de créer la table ACPI. (Interaction MAC / Carte-mère)
 
 
 
