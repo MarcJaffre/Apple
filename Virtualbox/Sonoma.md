@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------------------------------------
-# <p align='center'> Installation de Sonoma dans Virtualbox </p>
+# <p align='center'> Installation de Sonoma dans Virtualbox (KO) </p>
 
 --------------------------------------------------------------------------------------------------------------
 ## I. Création et configuration de la Machine Virtuelle
@@ -49,7 +49,6 @@ VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/efi/0/Conf
 # SMC
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey"          "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC"  "0"
-
 
 # EFI GPU
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  VBoxInternal2/EfiGraphicsResolution                    "1920x1080"
