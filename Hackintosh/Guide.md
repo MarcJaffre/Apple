@@ -218,19 +218,19 @@ https://github.com/acidanthera/OpenCorePkg/releases
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## X. Prise de Note
 ```
-FixHPET
-FakeEC
-FakeEC Laptop
-USBX
-PluginType
-PMC
-RTCAWAC
-USB Reset
-PCI Bridge
-PNLF
-XOSI
-Fix DMAR
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+Assurez-vous de fusionner le contenu de patches_[OC/****].plist avec votre config.plist !
+> FixHPET
+> FakeEC
+> FakeEC Laptop
+> USBX
+> PluginType
+> PMC
+> RTCAWAC
+> USB Reset
+> PCI Bridge
+> PNLF
+> XOSI
+> Fix DMAR
 ```
 
 
