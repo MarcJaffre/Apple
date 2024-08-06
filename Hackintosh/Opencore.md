@@ -51,32 +51,33 @@ Lancer le fichier `SSDTTime.bat`.
 #### 2. Select ACPI table or folder containing tables
 ```
 - Menu de sélection : D
-- Copier le chemin  : ....\SSDTTime-master\SSDTTime-master\Results\ACPI
-- Console           : "....\SSDTTime-master\SSDTTime-master\Results\ACPI"
-- Information       : ....\SSDTTime-master\SSDTTime-master\Results\ACPI ne contient pas de fichier plist
+- Copier le chemin  : SSDTTime-master\Results\ACPI
+- Console           : SSDTTime-master\Results\ACPI\DSDT.aml"
 ```
 
-![image](https://github.com/user-attachments/assets/3ad303f6-1d58-49b0-a3f6-bd2f0eb470ac)
-
-![image](https://github.com/user-attachments/assets/c6553d63-b6a9-4401-bb27-374af8649fd8)
-
-### C. FixHPET 
+### C. FixHPET
+Ce menu génère des fichiers plist dans `SSDTTime-master\Results\ACPI\`
 
 ### X. FakeEC
+
 ### X. FakeEC Laptop
+
 ### X. USBX
+
 ### X. PluginType
+
 ### X. PMC
+
 ### X. RTCAWAC
+
 ### X. USB Reset
+
 ### X. PCI Bridge
+
 ### X. PNLF
+
 ### X. XOSI
+
 ### X. Fix DMAR
-### X. 
-### X. 
-### X. 
-### X. 
-### X. 
-### X. 
+
 ### X. 
