@@ -46,7 +46,7 @@ VBoxManage modifyvm      "MacOS Sonoma (14.0)"  --vram 256
 # DMI
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct"    "Mac-551B86E5744E2388"
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct"   "MacBookPro15,1"
-VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion"   "1.0" 
+VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion"   "1.0"
 
 # SMC
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey"          "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
