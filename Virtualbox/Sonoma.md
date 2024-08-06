@@ -39,6 +39,9 @@ L'image utilisé est [Sonoma 14.iso](https://archive.org/details/macOS-X-images)
 
 clear;
 
+# HOST CPU AMD
+VBoxManage modifyvm      "MacOS Sonoma (14.0)"  --cpu-profile "Intel Core i7-6700K"
+
 # VirtualBox
 VBoxManage modifyvm      "MacOS Sonoma (14.0)"  --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 VBoxManage modifyvm      "MacOS Sonoma (14.0)"  --vram 256
