@@ -74,6 +74,11 @@ Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre con
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
 
 #### 12. Fix DMAR (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+<br />
+<br />
+
 
 ---------------------------------------------------------------------------------------------------------------
 ## III. Préparation de l'environnement
@@ -91,9 +96,41 @@ https://github.com/acidanthera/OpenCorePkg/releases
 ```
 
 ### C. Fichier ACPI
+Copier les fichiers `.\SSDTTime-master\Results\*.aml` dans le dossier `.\X64\EFI\ACPI`.
+
+### C. Drivers
+Supprimer tous les fichiers sauf :
 ```
-Source      : .\SSDTTime-master\Results\*.aml
-Destination : .\X64\EFI\ACPI
+- OpenCanopy    :
+- OpenHFSPlus   :
+- OpenRuntTime  :
 ```
-<br />
-<br />
+
+
+### D. 
+```
+```
+
+
+
+
+
+### X. XXXXXX
+```
+```
+
+### X. XXXXXX
+```
+```
+
+### X. XXXXXX
+```
+```
+
+### X. XXXXXX
+```
+```
+
+### X. XXXXXX
+```
+```
