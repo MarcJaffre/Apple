@@ -10,9 +10,12 @@ https://github.com/acidanthera/OpenCorePkg/releases
 
 ### B. Extraction du dossier EFI
 ```
-- Extraire du fichier Zip le dossier EFI (OpenCore-1.0.1-RELEASE.zip\X64\EFI)
-- Copier le fichier `OpenCore-1.0.1-RELEASE.zip\Docs\Sample.plist` dans `EFI\config.plist`.
+- Extraire le fichier (7Zip)
+- Déplacer : X64\EFI           ==> Bureau
+- Copier   : Docs\Sample.plist ==> Bureau\EFI\config.plist
 ```
+
+
 
 ### C. EFI
 #### 1. Alleger la clé
