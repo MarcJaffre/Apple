@@ -62,7 +62,6 @@ VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/TM/TSCMode"       
 #VBoxManage setextradata  "MacOS Sonoma (14.0)"  VBoxInternal2/EfiGraphicsResolution                    "1920x1080"
 ```
 
-
 ------------------------
 ### Sources:
 ```
