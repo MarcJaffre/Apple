@@ -30,7 +30,8 @@
 
 ### E. CPU AMD
 ```
-https://github.com/dortania/OpenCore-Install-Guide/blob/master/AMD/zen.md
+- https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#kernel
+- https://github.com/dortania/OpenCore-Install-Guide/blob/master/AMD/zen.md
 ```
 
 <br />
