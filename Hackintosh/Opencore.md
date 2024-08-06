@@ -39,12 +39,12 @@ Lancer le fichier `SSDTTime.bat`.
 
 ![image](https://github.com/user-attachments/assets/79a60e7e-724e-4b39-a429-b631f2fb3195)
 
-### B. Extraire la table ACPI (Dump the current system's ACPI tables)
+### B. Extraire la table ACPI
+#### 1. Dump the current system's ACPI tables
 ```
 - Menu de sélection : P
 ```
-
-### C. Charger la Table ACPI (Select ACPI table or folder containing tables)
+#### 2. Select ACPI table or folder containing tables
 ```
 - Menu de sélection : D
 - Copier le chemin : ....\SSDTTime-master\SSDTTime-master\Results\ACPI
