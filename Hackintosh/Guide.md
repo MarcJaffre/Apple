@@ -79,8 +79,8 @@ XHCI-unsupported
 
 ### E. Graphics
 #### 1. [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) (Plugin VirtualSMC)
-**En cours de développement, potentiellement instable**
-
+> **En cours de développement, potentiellement instable**
+>
 > Utilisé pour surveiller la température du processeur sur les systèmes basés sur AMD Zen.
 > Nécessite AMDRyzenCPUPowerManagement (voir Kexts spécifiques au processeur AMD)
 > Nécessite macOS 10.13 ou une version plus récente.
