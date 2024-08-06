@@ -127,7 +127,7 @@ XHCI-unsupported
 
 Lancer le fichier `SSDTTime.bat`.
 
-<p align='center'> <img src=https://github.com/user-attachments/assets/79a60e7e-724e-4b39-a429-b631f2fb3195 /> </p>
+<p align='center'> <img src="" /> </p>
 
 <br />
 
@@ -135,13 +135,23 @@ Lancer le fichier `SSDTTime.bat`.
 > Permet d'extraire la table ACPI du système.
 > Dump the current system's ACPI tables
 
+<p align='center'> <img src="" /> </p>
+
+<br />
+
 ### D. Select ACPI table or folder containing tables
 > Permet de charger les fichiers ACPI dans l'outil SSDTTime.
 > Dans la fenetre indiquer le chemin du fîchier situé dans Results\ACPI\DSDT.aml
 
+<p align='center'> <img src="" /> </p>
 
+<br />
 
+### 
 
+<p align='center'> <img src="" /> </p>
+
+<br />
 
 
 
@@ -161,7 +171,27 @@ Lancer le fichier `SSDTTime.bat`.
 
 <br />
 
------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # VI. XXXXXXXXXXXXXXXXXXXXXXX
 
 <br />
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## X. Prise de Note
+```
+FixHPET
+FakeEC
+FakeEC Laptop
+USBX
+PluginType
+PMC
+RTCAWAC
+USB Reset
+PCI Bridge
+PNLF
+XOSI
+Fix DMAR
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+```
