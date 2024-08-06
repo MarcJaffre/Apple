@@ -15,7 +15,7 @@
 - Ethernet : Intel® I211-AT
 ```
 
-## C. Bios
+## C. Configuration du bios
 ```
 - TPM : TPM Firmware
 - Démarrage par défaut: PCIe
