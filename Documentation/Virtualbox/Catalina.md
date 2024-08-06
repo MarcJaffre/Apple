@@ -183,8 +183,6 @@ nvram -d recovery-boot-mode && shutdown -r now
 # nvram boot-args=
 ```
 
-
-
 ##### Etape 3: Démarrage normal
 Lancez Terminal
 ```bash
@@ -213,34 +211,10 @@ csrutil enable
 ```
 
 <br />
-<br />
 
 --------------------------------------------------------------------------------------------------------------
-## X. Télécharger les images ISO
-### A. MyArchive
-```
-https://archive.org/details/macOS-X-images
-https://archive.org/details/macos-collection
-```
-
-### B. BootLoader
-```
-- Opencore
-- https://github.com/CloverHackyColor/CloverBootloader
-- https://osy.gitbook.io/hac-mini-guide/legacy-guide-clover/legacy-installing-osx
-```
-
-### C. Guide
-```
-- https://www.tech2tech.fr/comment-installer-macos-catalina-10-15-sur-virtualbox-sur-windows/
-- https://forums.virtualbox.org/viewtopic.php?t=85631
-- https://hackintosh.com/
-- https://tonymacx86.com
-
-- [OpenCore] https://www.youtube.com/watch?v=ETO4qhUPBfA
-```
-
-### D. Vmware Tools / Vram 256 Mo ([Release](https://github.com/DrDonk/unlocker/blob/main/iso/darwin.iso)))
+## IV. Vmware Tools
+### A. Optimisation Graphique - 256 Mo ([Release](https://github.com/DrDonk/unlocker/blob/main/iso/darwin.iso)))
 Télécharger l'image `darwin.iso`. Installer le package et redémarrer la machine
 
 ![Menu d'installation](https://github.com/user-attachments/assets/a3af2b02-3d1e-48d2-adad-b30f6c9bbcae)
@@ -254,8 +228,7 @@ Après:
 ![image](https://github.com/user-attachments/assets/833e12c1-77c0-4144-b55d-d4f88e504b3f)
 
 
-
-### E. Automator (1920x1080 [youtube](https://www.youtube.com/watch?v=gDwFdGUsBOo)))
+### B. Automator (1920x1080 [youtube](https://www.youtube.com/watch?v=gDwFdGUsBOo)))
 - Ouvrir le menu `LaunchPad` puis Àutomator`.
 
 ![Launchpad](https://github.com/user-attachments/assets/9ff315a3-3507-41af-9891-4edeedb1c5c1)
