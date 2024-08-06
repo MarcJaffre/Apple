@@ -9,7 +9,7 @@
 - Processeurs: Ryzen 7 3700x
 ```
 
-### B. Chipset [X570](https://www.asus.com/fr/motherboards-components/motherboards/prime/prime-x570-pro/techspec)
+### B. Chipset ([X570](https://www.asus.com/fr/motherboards-components/motherboards/prime/prime-x570-pro/techspec))
 ```
 - Audio    : Realtek S1220A
 - Ethernet : Intel   I211-AT
