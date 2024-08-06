@@ -95,5 +95,8 @@ Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre con
 #### 12. Fix DMAR (Optionnel)
 
 ### C. Fichier aml
-Dans le dossier `SSDTTime-master\Results`, récupérer les fichiers au format `aml`.
+```
+Source      : SSDTTime-master\Results\*.aml
+Destination : X64\EFI\ACPI
+```
 
