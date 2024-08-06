@@ -8,18 +8,13 @@
 https://github.com/acidanthera/OpenCorePkg/releases
 ```
 
-### B. Extraction du dossier EFI
+### B. EFI
 ```
 - Extraire le fichier (7Zip)
-- Déplacer : X64\EFI           ==> Bureau
-- Copier   : Docs\Sample.plist ==> Bureau\EFI\config.plist
+- Déplacer  : X64\EFI           ==> Bureau
+- Copier    : Docs\Sample.plist ==> Bureau\EFI\config.plist
+- Supprimer : Resources et le contennu de Tools
 ```
-
-
-
-### C. EFI
-#### 1. Alleger la clé
-Supprimer le dossiers `Resources` et le contennu de `Tools`.
 
 
 
