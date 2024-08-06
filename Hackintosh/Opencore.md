@@ -14,6 +14,7 @@ Activer la virtualisation
 
 
 <br />
+<br />
 
 ---------------------------------------------------------------------------------------------------------------
 ## II. Préparation de l'environnement
@@ -29,6 +30,9 @@ https://github.com/acidanthera/OpenCorePkg/releases
 - Copier    : Docs\Sample.plist ==> Bureau\EFI\config.plist
 - Supprimer : Resources et le contennu de Tools (optionnel)
 ```
+
+<br />
+<br />
 
 ---------------------------------------------------------------------------------------------------------------
 ## III. ACPI
