@@ -34,12 +34,19 @@ Le guide des Kext d'[Opencore](https://dortania.github.io/OpenCore-Install-Guide
 #### 2. Liste
 La liste suivante n'est pas vérifié et fonctionnelle.
 > Lilu
+> 
 > VirtualSMC
+> 
 > AppleALC
+> 
 > AppleIGB
+> 
 > SMCAMDProcessor
+> 
 > WhateverGreen
+> 
 > NVMeFix
+> 
 > XHCI-unsupported
 
 <br />
