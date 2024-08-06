@@ -9,23 +9,21 @@ L'image utilisé est [Sonoma 14.iso](https://archive.org/details/macOS-X-images)
 ```
 [Creation de la VM]
 - Nom                 : MacOS Sonoma (14.0)
+- Lecteur CD-ROM      : Sonoma 14.iso
 - Type                : Mac OS X
 - Version             : Mac OS X (64 bit)
-- Stockage            :
-- Lecteur CD-ROM      : Sonoma 14.iso
- 
-[Système]
 - Mémoire-vive        : 4096 MB
+- Processeur(s)       : 4 Cores / 8 Threads
+- Stockage            : 60 Go
+
+[Système]
 - Ordre d'amoçage     : Optique
 -> Fonctions avancées : IO-APIC, Clock in UTC Time, EFI
 
-Processeur(s)         : 4 Cores / 8 Threads
--> Fonctions avancées : PAE/NX
-
 [Affichage]
-- Mémoire Vidéo       : 128 Mo ==> 256 Mo
+- Mémoire Vidéo       : 128 Mo
 - Contrôleur Graph.   : VMSVGA
--> Fonctions avancées : Activer l'accélération 3D
+-> Fonctions avancées : Activer l'accélération 3D (OFF)
 
 [USB]
 - Activer le controleur USB : OUI
