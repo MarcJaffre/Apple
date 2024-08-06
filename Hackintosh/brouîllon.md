@@ -21,128 +21,7 @@ Activer la virtualisation
 <br />
 
 ---------------------------------------------------------------------------------------------------------------
-## II. ACPI
-### A. [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
-Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitation d'interargir avec la machine. (Vieille, reprise ....)
-
-Lancer le fichier `SSDTTime.bat`.
-
-![image](https://github.com/user-attachments/assets/79a60e7e-724e-4b39-a429-b631f2fb3195)
-
-### B. Extraire la table ACPI
-#### 1. Dump the current system's ACPI tables
-```
-- Menu de sélection : P
-```
-#### 2. Select ACPI table or folder containing tables
-Il suffira de coller le chemin vers le fichier DSDT.aml
-```
-- Menu de sélection : D
-- Copier le chemin  : .\SSDTTime-master\Results\ACPI
-- Console           : .\SSDTTime-master\Results\ACPI\DSDT.aml
-- Alternative       : .\SSDTTime-master\Results\ACPI
-```
-
-#### 3. FixHPET (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-Ce menu génère des fichiers plist dans `SSDTTime-master\Results\ACPI\`
-
-#### 4. FakeEC (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 5. FakeEC Laptop (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 4. USBX (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 5. PluginType (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 6. PMC (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 7. RTCAWAC (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 8. USB Reset (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 9. PCI Bridge (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 10. PNLF (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 11. XOSI (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-#### 12. Fix DMAR (Optionnel)
-Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
-
-<br />
-<br />
-
-
----------------------------------------------------------------------------------------------------------------
-## III. Préparation de l'environnement
-### A. OpenCore
-```
-https://github.com/acidanthera/OpenCorePkg/releases
-```
-
-### B. EFI
-```
-- Extraire le fichier (7Zip)
-- Déplacer  : .\X64\EFI           ==> Bureau
-- Copier    : .\Docs\Sample.plist ==> Bureau\EFI\config.plist
-- Supprimer : Resources et le contennu de Tools (optionnel)
-```
-
-### C. [Table ACPI](https://dortania.github.io/Getting-Started-With-ACPI/#a-quick-explainer-on-acpi)
-Copier les fichiers `.\SSDTTime-master\Results\*.aml` dans le dossier `.\X64\EFI\ACPI`.
-
-
-### C. [EFI Drivers](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers)
-Supprimer tous les fichiers sauf :
-```
-- OpenHFSPlus   : Indispensable pour les systèmes Apple sous HFS
-- OpenRuntTime  : Indispensable pour les corrections de mémoire (nvram)
-- OpenCanopy    : 
-```
-Intéressant:
-```
-- AudioDxe
-- BiosVideo
-- Ext4Dxe
-- FirmwareSettingsEntry
-- NvmExpressDxe
-- OpenLinuxBoot
-- OpenNtfsDxe
-- OpenPartitionDxe
-- OpenUsbKbDxe
-- ResetNvramEntry
-- UsbMouseDxe
-
-- Dhcp4Dxe
-- DnsDxe
-- Ip4Dxe
-- Udp4Dxe
-```
-
-```
-https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md
-```
-
-<br />
-
-
-
-
-
----------------------------------------------------------------------------------------------------------------
-## IV. [Kexts](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts)
+## II. [Kexts](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts)
 
 ### A. [Lilu](https://github.com/acidanthera/Lilu) (Required)
 Un kext pour patcher de nombreux processus, requis pour AppleALC, WhichGreen, VirtualSMC et bien d'autres kexts. Sans Lilu, ils ne fonctionneront pas.
@@ -237,6 +116,134 @@ VirtualSMC
 WhateverGreen
 XHCI-unsupported
 ```
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+## III. ACPI
+### A. [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
+Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitation d'interargir avec la machine. (Vieille, reprise ....)
+
+Lancer le fichier `SSDTTime.bat`.
+
+![image](https://github.com/user-attachments/assets/79a60e7e-724e-4b39-a429-b631f2fb3195)
+
+### B. Extraire la table ACPI
+#### 1. Dump the current system's ACPI tables
+```
+- Menu de sélection : P
+```
+#### 2. Select ACPI table or folder containing tables
+Il suffira de coller le chemin vers le fichier DSDT.aml
+```
+- Menu de sélection : D
+- Copier le chemin  : .\SSDTTime-master\Results\ACPI
+- Console           : .\SSDTTime-master\Results\ACPI\DSDT.aml
+- Alternative       : .\SSDTTime-master\Results\ACPI
+```
+
+#### 3. FixHPET (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+Ce menu génère des fichiers plist dans `SSDTTime-master\Results\ACPI\`
+
+#### 4. FakeEC (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 5. FakeEC Laptop (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 4. USBX (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 5. PluginType (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 6. PMC (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 7. RTCAWAC (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 8. USB Reset (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 9. PCI Bridge (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 10. PNLF (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 11. XOSI (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+#### 12. Fix DMAR (Optionnel)
+Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+
+<br />
+<br />
+
+
+---------------------------------------------------------------------------------------------------------------
+## II. Préparation de l'environnement
+### A. OpenCore
+```
+https://github.com/acidanthera/OpenCorePkg/releases
+```
+
+### B. EFI
+```
+- Extraire le fichier (7Zip)
+- Déplacer  : .\X64\EFI           ==> Bureau
+- Copier    : .\Docs\Sample.plist ==> Bureau\EFI\config.plist
+- Supprimer : Resources et le contennu de Tools (optionnel)
+```
+
+### C. [Table ACPI](https://dortania.github.io/Getting-Started-With-ACPI/#a-quick-explainer-on-acpi)
+Copier les fichiers `.\SSDTTime-master\Results\*.aml` dans le dossier `.\X64\EFI\ACPI`.
+
+
+### C. [EFI Drivers](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers)
+Supprimer tous les fichiers sauf :
+```
+- OpenHFSPlus   : Indispensable pour les systèmes Apple sous HFS
+- OpenRuntTime  : Indispensable pour les corrections de mémoire (nvram)
+- OpenCanopy    : 
+```
+Intéressant:
+```
+- AudioDxe
+- BiosVideo
+- Ext4Dxe
+- FirmwareSettingsEntry
+- NvmExpressDxe
+- OpenLinuxBoot
+- OpenNtfsDxe
+- OpenPartitionDxe
+- OpenUsbKbDxe
+- ResetNvramEntry
+- UsbMouseDxe
+
+- Dhcp4Dxe
+- DnsDxe
+- Ip4Dxe
+- Udp4Dxe
+```
+
+```
+https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md
+```
+
+<br />
+
+
+
+
+
 
 ### Tech2Tech
 ```
