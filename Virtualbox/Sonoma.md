@@ -23,7 +23,7 @@ L'image utilisé est [Sonoma 14.iso](https://archive.org/details/macOS-X-images)
 [Affichage]
 - Mémoire Vidéo       : 128 Mo
 - Contrôleur Graph.   : VMSVGA
--> Fonctions avancées : Activer l'accélération 3D (OFF)
+-> Fonctions avancées : Activer l'accélération 3D
 
 [USB]
 - Activer le controleur USB : OUI
