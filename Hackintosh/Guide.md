@@ -184,7 +184,7 @@ Extraire le fichier compresser.
 ```
 - [General] https://github.com/acidanthera/OpenCorePkg/releases
 - [Zen]     https://github.com/dortania/OpenCore-Install-Guide/blob/master/AMD/zen.md
-- [Zen2]    https://en.wikipedia.org/wiki/Zen_2
+- [AMD Zen 2 Family 17h]  https://en.wikipedia.org/wiki/Zen_2
 ```
 
 
