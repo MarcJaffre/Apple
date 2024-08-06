@@ -120,6 +120,15 @@ Lancer le fichier `SSDTTime.bat`.
 
 <p align='center'> <img src=https://github.com/user-attachments/assets/79a60e7e-724e-4b39-a429-b631f2fb3195 /> </p>
 
+<br />
+
+## C. Dump the current system's ACPI tables
+> Permet d'extraire la table ACPI du système.
+> Dump the current system's ACPI tables
+
+### D. Select ACPI table or folder containing tables
+> Permet de charger les fichiers ACPI dans l'outil SSDTTime.
+> Dans la fenetre indiquer le chemin du fîchier situé dans Results\ACPI\DSDT.aml
 
 
 
