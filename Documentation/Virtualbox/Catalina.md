@@ -254,7 +254,7 @@ Après:
 # Commande : echo "MonPassword" | sudo -S /Library/Application\ Support/VMware\ Tools/vmware-resolutionset 1920 1080
 ```
 
-### E. Support Hardware
+### C. Support Hardware
 ```
 https://support.apple.com/fr-fr/105113
 ```
