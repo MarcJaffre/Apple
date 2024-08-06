@@ -145,14 +145,14 @@ https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md
 ## IV. [Kexts](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts)
 
 
-### A. [Lilu](https://github.com/acidanthera/Lilu/releases) (Required)
+### A. [Lilu](https://github.com/acidanthera/Lilu) (Required)
 Un kext pour patcher de nombreux processus, requis pour AppleALC, WhichGreen, VirtualSMC et bien d'autres kexts. Sans Lilu, ils ne fonctionneront pas.
 
 Notez que même si Lilu prend en charge Mac OS X 10.4, de nombreux plugins ne fonctionnent que sur les versions plus récentes.
 
 <br />
 
-### B. [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) (Required)
+### B. [VirtualSMC](https://github.com/acidanthera/VirtualSMC) (Required)
 Émule la puce SMC trouvée sur les vrais Mac, sans cela macOS ne démarrera pas Nécessite Mac OS X 10.4 ou version ultérieure.
 
 <br />
@@ -168,14 +168,14 @@ Nécessite macOS 10.13 ou une version plus récente.
 
 <br />
 
-### D. [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) (Graphics | Required)
+### D. [WhateverGreen](https://github.com/acidanthera/WhateverGreen/) (Graphics | Required)
 Utilisé pour les correctifs graphiques, les correctifs DRM, les vérifications d'ID de carte, les correctifs de framebuffer, etc.; tous les GPU bénéficient de ce kext.
 
 Note: Nécessite Mac OS X 10.6 ou plus récent
 
 <br />
 
-### E. [AppleALC](https://github.com/acidanthera/AppleALC/releases) (Audio | Required)
+### E. [AppleALC](https://github.com/acidanthera/AppleALC/) (Audio | Required)
 Utilisé pour le patch AppleHDA, permettant la prise en charge de la majorité des contrôleurs audio intégrés
 AppleALCU.kext est une version simplifiée d'AppleALC qui ne prend en charge que l'audio numérique - mais vous pouvez toujours utiliser AppleALC.kext sur les systèmes uniquement audio numériques
 Les systèmes AMD 15h/16h peuvent avoir des problèmes avec AppleALC et les systèmes Ryzen/Threadripper prennent rarement en charge les micros
@@ -183,7 +183,7 @@ Nécessite OS X 10.4 ou une version plus récente
 
 <br />
 
-### X. [XXXXXX](UUUUUUUUUUUUU)
+### X. [AppleIGB](https://github.com/donatengit/AppleIGB)
 
 <br />
 
@@ -221,11 +221,12 @@ Nécessite OS X 10.4 ou une version plus récente
 
 
 ```
-Lilu
-
-VirtualSMC
- -> SMCAMDProcessor
-
-WhateverGreen
 AppleALC
+Lilu
+SMCAMDProcessor
+VirtualSMC
+WhateverGreen
+
+
+
 ```
