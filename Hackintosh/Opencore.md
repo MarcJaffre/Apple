@@ -34,11 +34,16 @@ https://github.com/acidanthera/OpenCorePkg/releases
 #### 1. [SDDTTIME](https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip)
 Le logiciel permet d'extraire les tables ACPI qui permet au système d'exploitation d'interargir avec la machine. (Vieille, reprise ....)
 
+Lancer le fîchier PatchMerge.bat.
+
+
+
 #### 2. Dump DSDT
 La création d'un `DUMP DSDT` permet d'extraire l'ACPI de la carte-mère. Le fichier se trouve dans lê répertoire `results`.
 
 #### 3. Select DSDT or Origin folder
-Ce menu permet de charger le fichier DSDT qu'on à crée précédemment.
+Ce menu permet de charger un fichier DSDT . Il suffit de glisser le fichier dans l'invite de commande.
+
 
 
 
