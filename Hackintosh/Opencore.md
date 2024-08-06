@@ -51,8 +51,9 @@ Lancer le fichier `SSDTTime.bat`.
 #### 2. Select ACPI table or folder containing tables
 ```
 - Menu de sélection : D
-- Copier le chemin : ....\SSDTTime-master\SSDTTime-master\Results\ACPI
-- Console : "....\SSDTTime-master\SSDTTime-master\Results\ACPI"
+- Copier le chemin  : ....\SSDTTime-master\SSDTTime-master\Results\ACPI
+- Console           : "....\SSDTTime-master\SSDTTime-master\Results\ACPI"
+- Information       : ....\SSDTTime-master\SSDTTime-master\Results\ACPI ne contient pas de fichier plist
 ```
 
 ![image](https://github.com/user-attachments/assets/3ad303f6-1d58-49b0-a3f6-bd2f0eb470ac)
