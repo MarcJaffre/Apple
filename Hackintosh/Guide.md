@@ -158,11 +158,6 @@ Lancer le fichier `SSDTTime.bat`.
 <p align='center'> <img src="" /> </p>
 
 <br />
-
-
-
-
-<br />
 <br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -176,15 +171,26 @@ https://github.com/acidanthera/OpenCorePkg/releases
 <br />
 
 ## C. Config.plist
-Copier le fichier `OpenCore\Docs\Sample.plist` dans le dossier `OpenCore\X64\EFI` et renommer en `config.plist`.
+> Copier le fichier OpenCore\Docs\Sample.plist ==> OpenCore\X64\EFI\config.plist
 
 <br />
 
 ## D. EFI
-Sortir le Dossier `OpenCore\X64\EFI` du dossier `OpenCore`.
+> Déplacer le dossier OpenCore\X64\EFI du dossier OpenCore.
 
-## E. 
-## F. 
+## E. SSDTTime (ACPI)
+> Copier les fichiers SSDTTime-master\Results\*.aml ==>  X64\EFI\OC\ACPI.
+
+## F. EFI Drivers ([Complements](https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md))
+> Le boot EFI utilise des pilotes pour gérer les interactions nécessaires aux instructions. (X64\EFI\OC\Drivers)
+>
+> Boot, clavier, souris, correctif mémoire à chaud, prise en charge HFS/NTFS ....
+
+```
+- OpenHFSPlus   : Indispensable pour les systèmes Apple sous HFS
+- OpenRuntTime  : Indispensable pour les corrections de mémoire (nvram)
+- OpenCanopy    : 
+```
 
 
 
@@ -218,4 +224,24 @@ PNLF
 XOSI
 Fix DMAR
 Assurez-vous de fusionner le contenu de patches_[OC/Clover].plist avec votre config.plist !
+```
+
+
+```
+- AudioDxe
+- BiosVideo
+- Ext4Dxe
+- FirmwareSettingsEntry
+- NvmExpressDxe
+- OpenLinuxBoot
+- OpenNtfsDxe
+- OpenPartitionDxe
+- OpenUsbKbDxe
+- ResetNvramEntry
+- UsbMouseDxe
+
+- Dhcp4Dxe
+- DnsDxe
+- Ip4Dxe
+- Udp4Dxe
 ```
