@@ -182,28 +182,36 @@ Nécessite OS X 10.4 ou une version plus récente
 
 <br />
 
-### X. [AppleIGB](https://github.com/donatengit/AppleIGB) (Ethernet)
+### F. [AppleIGB](https://github.com/donatengit/AppleIGB) (Ethernet)
 Requis pour les cartes réseau I211 exécutées sur macOS Monterey et versions ultérieures
 Il peut y avoir des problèmes d'instabilité sur certaines cartes réseau, il est recommandé de rester sur Big Sur et d'utiliser SmallTree
 Requis pour la plupart des cartes AMD exécutant des cartes réseau Intel
 Nécessite macOS 12 et versions ultérieures
 <br />
 
+### G. [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)
+Utilisé pour corriger la gestion de l'alimentation et l'initialisation sur les NVMe non Apple
+
+### X. [XXXXXX](UUUUUUUUUUUUU)
+
+<br />
+
+### X. [XXXXXX](UUUUUUUUUUUUU)
+
+<br />
 
 ### X. [XXXXXX](UUUUUUUUUUUUU)
 
 <br />
 
 
-### X. [XXXXXX](UUUUUUUUUUUUU)
+### X. [XHCI-unsupported](https://github.com/RehabMan/OS-X-USB-Inject-All)
+Nécessaire pour les contrôleurs USB non natifs
+
+Les systèmes basés sur un processeur AMD n'en ont pas besoin.
 
 <br />
-
-
-### X. [XXXXXX](UUUUUUUUUUUUU)
-
 <br />
-
 
 ### X. [XXXXXX](UUUUUUUUUUUUU)
 
