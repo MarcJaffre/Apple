@@ -98,7 +98,7 @@ https://github.com/acidanthera/OpenCorePkg/releases
 ### C. Fichier ACPI
 Copier les fichiers `.\SSDTTime-master\Results\*.aml` dans le dossier `.\X64\EFI\ACPI`.
 
-### C. Drivers
+### C. Drivers EFI
 Supprimer tous les fichiers sauf :
 ```
 - OpenCanopy    :
@@ -109,6 +109,7 @@ Supprimer tous les fichiers sauf :
 
 ### D. Kexts
 ```
+https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
 https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md
 ```
 
