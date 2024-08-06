@@ -3,12 +3,19 @@
 
 --------------------------------------------------------------------------------------------------------------------------------
 # I. Information de base
-## A. Matériel ([Doc](https://www.asus.com/fr/motherboards-components/motherboards/prime/prime-x570-pro/techspec/))
+## A. Matériel ([Doc]())
 ```
-- Carte-mère : Asus Prime X570 (Audio : Realtek® S1220A | Ethernet: Intel® I211-AT)
+- Carte-mère : Asus Prime X570 (https://www.asus.com/fr/motherboards-components/motherboards/prime/prime-x570-pro/techspec)
 - Processeurs: Ryzen 7 3700x
 ```
-## B. Bios
+
+## B. Chipset X570
+```
+- Audio    : Realtek® S1220A
+- Ethernet : Intel® I211-AT
+```
+
+## C. Bios
 ```
 - TPM : TPM Firmware
 - Démarrage par défaut: PCIe
