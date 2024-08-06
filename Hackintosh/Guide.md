@@ -32,7 +32,7 @@
 Le guide des Kext d'[Opencore](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts) contient la liste des Kexts utiles.
 
 #### 2. Liste
-La liste suivante n'est pas vérifier et fonctionnelle.
+La liste suivante n'est pas vérifié et fonctionnelle.
 ```
 Lilu
 VirtualSMC
