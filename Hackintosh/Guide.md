@@ -178,23 +178,23 @@ https://github.com/acidanthera/OpenCorePkg/releases
 
 <br />
 
-## C. Config.plist
-> Copier le fichier OpenCore\Docs\Sample.plist ==> OpenCore\X64\EFI\config.plist
+## B. EFI
+> Déplacer le dossier .\OpenCore\X64\EFI du dossier .\OpenCore.
 
 <br />
 
-## D. EFI
-> Déplacer le dossier OpenCore\X64\EFI du dossier OpenCore.
+## C. SSDTTime (ACPI)
+> Copier les fichiers .\SSDTTime-master\Results\*.aml ==> .\X64\EFI\OC\ACPI.
 
 <br />
 
-## E. SSDTTime (ACPI)
-> Copier les fichiers SSDTTime-master\Results\*.aml ==>  X64\EFI\OC\ACPI.
+## D. Config.plist
+> Copier le fichier .\OpenCore\Docs\Sample.plist ==> .\X64\EFI\config.plist
 
 <br />
 
 
-## F. EFI Drivers ([Complements](https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md))
+## E. EFI Drivers ([Complements](https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md))
 > Le boot EFI utilise des pilotes pour gérer les interactions nécessaires aux instructions. (X64\EFI\OC\Drivers)
 >
 > Boot, clavier, souris, correctif mémoire à chaud, prise en charge HFS/NTFS ....
@@ -209,7 +209,19 @@ https://github.com/acidanthera/OpenCorePkg/releases
 <br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# V. XXXXXXXXXXXXXXXXXXXXXXX
+# V. Génération du fichier config
+## A. [ProperTree](https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip)
+### 1. Présentation de l'outil
+> Le logiciel ProperTree permet de générer le fichier de configuration qui sera utilisé lors du démarrage de la clé USB.
+
+### 2. Ouverture du fichier config
+> Cliquer sur File puîs sur Open et sélectionner le fichier .\X64\EFI\config.plist.
+> 
+
+
+
+## 
+
 
 <br />
 <br />
