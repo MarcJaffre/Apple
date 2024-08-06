@@ -4,7 +4,10 @@
 --------------------------------------------------------------------------------------------------------------
 ## I. Création et configuration de la Machine Virtuelle
 ### A. Mac OS
-L'image utilisé est [Sonoma 14.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox 7. (Ressources en bas)
+L'image utilisé est [Sonoma 14.iso](https://archive.org/details/macOS-X-images) et l'hyperviseur utilisé est virtualbox X. (Ressources en bas)
+
+Incompatibilité: Virtualbox 7 ([Forum](https://macos86.it/topic/6535-guidevirtualbox-on-sonoma-and-amd-hackintosh/))
+
 #### 1. Virtualbox
 ```
 [Creation de la VM]
