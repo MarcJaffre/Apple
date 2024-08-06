@@ -12,6 +12,11 @@
 ### C. CPU Configuration
 Activer la virtualisation
 
+### D. Chipset [X570](https://www.asus.com/fr/motherboards-components/motherboards/prime/prime-x570-pro/techspec/)
+```
+- Audio   : Realtek® S1220A
+- Ethernet: Intel® I211-AT
+```
 
 <br />
 
@@ -139,6 +144,7 @@ https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md
 ---------------------------------------------------------------------------------------------------------------
 ## IV. [Kexts](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts)
 
+
 ### A. [Lilu](https://github.com/acidanthera/Lilu/releases) (Required)
 Un kext pour patcher de nombreux processus, requis pour AppleALC, WhichGreen, VirtualSMC et bien d'autres kexts. Sans Lilu, ils ne fonctionneront pas.
 
@@ -210,3 +216,16 @@ Nécessite OS X 10.4 ou une version plus récente
 ### X. [XXXXXX](UUUUUUUUUUUUU)
 
 <br />
+
+
+
+
+```
+Lilu
+
+VirtualSMC
+ -> SMCAMDProcessor
+
+WhateverGreen
+AppleALC
+```
