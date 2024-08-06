@@ -98,7 +98,8 @@ https://github.com/acidanthera/OpenCorePkg/releases
 ### C. Fichier ACPI
 Copier les fichiers `.\SSDTTime-master\Results\*.aml` dans le dossier `.\X64\EFI\ACPI`.
 
-### C. Drivers EFI
+### C. [EFI Drivers](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
+)
 Supprimer tous les fichiers sauf :
 ```
 - OpenHFSPlus   : Indispensable pour les systèmes Apple sous HFS
@@ -125,13 +126,37 @@ Intéressant:
 - Udp4Dxe
 ```
 
-
-
-### D. Kexts
 ```
-https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
 https://github.com/acidanthera/OpenCorePkg/blob/1.0.1/Docs/Kexts.md
 ```
+
+
+### D. [Kexts](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts)
+#### 1. [Lilu](https://github.com/acidanthera/Lilu/releases) (Required)
+Un kext pour patcher de nombreux processus, requis pour AppleALC, WhichGreen, VirtualSMC et bien d'autres kexts. Sans Lilu, ils ne fonctionneront pas.
+
+Notez que même si Lilu prend en charge Mac OS X 10.4, de nombreux plugins ne fonctionnent que sur les versions plus récentes.
+
+#### 2. [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) (Required)
+Émule la puce SMC trouvée sur les vrais Mac, sans cela macOS ne démarrera pas Nécessite Mac OS X 10.4 ou version ultérieure.
+
+
+#### 3. [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) (Plugin VirtualSMC)
+Utilisé pour surveiller la température du processeur sur les systèmes basés sur AMD Zen.
+
+Nécessite **AMDRyzenCPUPowerManagement** (voir Kexts spécifiques au processeur AMD)
+
+Nécessite macOS 10.13 ou une version plus récente.
+
+**En cours de développement, potentiellement instable**
+
+
+
+
+#### 4. [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) (Required)
+Utilisé pour les correctifs graphiques, les correctifs DRM, les vérifications d'ID de carte, les correctifs de framebuffer, etc.; tous les GPU bénéficient de ce kext.
+
+Note: Nécessite Mac OS X 10.6 ou plus récent
 
 
 
