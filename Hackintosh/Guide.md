@@ -189,7 +189,7 @@ https://github.com/acidanthera/OpenCorePkg/releases
 <br />
 
 ## D. Config.plist
-> Copier le fichier .\OpenCore\Docs\Sample.plist ==> .\X64\EFI\config.plist
+> Copier le fichier .\OpenCore\Docs\Sample.plist ==> .\X64\EFI\OC\config.plist
 
 <br />
 
@@ -215,12 +215,22 @@ https://github.com/acidanthera/OpenCorePkg/releases
 > Le logiciel ProperTree permet de générer le fichier de configuration qui sera utilisé lors du démarrage de la clé USB.
 
 ### 2. Ouverture du fichier config
-> Cliquer sur File puîs sur Open et sélectionner le fichier .\X64\EFI\config.plist.
+> Cliquer sur File puîs sur Open et sélectionner le fichier .\X64\EFI\OC\config.plist.
+
+### 3. Snapshot
+> Permet de générer le fichier config.plist avec les pilotes présents dans .\X64\EFI\OC\. (ACPI, Drivers, Kexts, Resources, Tools)
 > 
+> File > OC Snapshot > .\X64\EFI\OC\
 
 
 
-## 
+### 4. 
+
+### 5. 
+
+### 6. 
+
+### 7. 
 
 
 <br />
