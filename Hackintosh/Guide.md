@@ -6,7 +6,7 @@
 ### A. Matériel ([Doc]())
 ```
 - Carte-mère : Asus Prime X570
-- Processeurs: Ryzen 7 3700x
+- Processeurs: Ryzen 7 3700x (Zen 2)
 ```
 
 ### B. Chipset ([X570](https://www.asus.com/fr/motherboards-components/motherboards/prime/prime-x570-pro/techspec))
@@ -27,6 +27,7 @@ Guide : [1](https://github.com/dortania/OpenCore-Install-Guide/blob/master/AMD/z
 
 ### D. CPU AMD
 ```
+- [Zen2] https://en.wikipedia.org/wiki/Zen_2
 - https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#kernel
 - https://github.com/dortania/OpenCore-Install-Guide/blob/master/AMD/zen.md
 ```
@@ -183,6 +184,7 @@ Extraire le fichier compresser.
 ```
 - [General] https://github.com/acidanthera/OpenCorePkg/releases
 - [Zen]     https://github.com/dortania/OpenCore-Install-Guide/blob/master/AMD/zen.md
+- [Zen2]    https://en.wikipedia.org/wiki/Zen_2
 ```
 
 
