@@ -118,7 +118,7 @@ XHCI-unsupported
 
 Lancer le fichier `SSDTTime.bat`.
 
-![image](https://github.com/user-attachments/assets/79a60e7e-724e-4b39-a429-b631f2fb3195)
+<p align='center'> <img src=https://github.com/user-attachments/assets/79a60e7e-724e-4b39-a429-b631f2fb3195 /> </p>
 
 
 
