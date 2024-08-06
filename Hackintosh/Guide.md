@@ -38,51 +38,46 @@ Le guide des Kext d'[Opencore](https://dortania.github.io/OpenCore-Install-Guide
 
 
 #### 2. [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
-Émule la puce SMC trouvée sur les vrais Mac, sans cela macOS ne démarrera pas Nécessite Mac OS X 10.4 ou version ultérieure.
+> Émule la puce SMC trouvée sur les vrais Mac, sans cela macOS ne démarrera pas Nécessite Mac OS X 10.4 ou version ultérieure.
 
 <br />
 
 ### C. Audio
 #### 1. [AppleALC](https://github.com/acidanthera/AppleALC/)
-Utilisé pour le patch AppleHDA, permettant la prise en charge de la majorité des contrôleurs audio intégrés.
+> Utilisé pour le patch AppleHDA, permettant la prise en charge de la majorité des contrôleurs audio intégrés.
+> 
+> AppleALCU.kext est une version simplifiée d'AppleALC qui ne prend en charge que l'audio numérique - mais vous pouvez toujours utiliser AppleALC.kext sur les systèmes uniquement audio numériques.
 
-AppleALCU.kext est une version simplifiée d'AppleALC qui ne prend en charge que l'audio numérique - mais vous pouvez toujours utiliser AppleALC.kext sur les systèmes uniquement audio numériques.
-
-Les systèmes AMD 15h/16h peuvent avoir des problèmes avec AppleALC et les systèmes Ryzen/Threadripper prennent rarement en charge les micros
-Nécessite OS X 10.4 ou une version plus récente
+> Les systèmes AMD 15h/16h peuvent avoir des problèmes avec AppleALC et les systèmes Ryzen/Threadripper prennent rarement en charge les micros
+> Nécessite OS X 10.4 ou une version plus récente
 
 <br />
 
 ### D. Ethernet
 #### 1. [AppleIGB](https://github.com/donatengit/AppleIGB) (Ethernet)
-Requis pour les cartes réseau I211 exécutées sur macOS Monterey et versions ultérieures.
-
-Il peut y avoir des problèmes d'instabilité sur certaines cartes réseau, il est recommandé de rester sur Big Sur et d'utiliser SmallTree.
-
-Requis pour la plupart des cartes AMD exécutant des cartes réseau Intel.
-
-Nécessite macOS 12 et versions ultérieures
+> Requis pour les cartes réseau I211 exécutées sur macOS Monterey et versions ultérieures.
+> Il peut y avoir des problèmes d'instabilité sur certaines cartes réseau, il est recommandé de rester sur Big Sur et d'utiliser SmallTree.
+> Requis pour la plupart des cartes AMD exécutant des cartes réseau Intel.
+> Nécessite macOS 12 et versions ultérieures
 
 <br />
 
 ### E. Graphics
 #### 1. [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) (Plugin VirtualSMC)
-Utilisé pour surveiller la température du processeur sur les systèmes basés sur AMD Zen.
-
-Nécessite **AMDRyzenCPUPowerManagement** (voir Kexts spécifiques au processeur AMD)
-
-Nécessite macOS 10.13 ou une version plus récente.
+> Utilisé pour surveiller la température du processeur sur les systèmes basés sur AMD Zen.
+> Nécessite AMDRyzenCPUPowerManagement (voir Kexts spécifiques au processeur AMD)
+> Nécessite macOS 10.13 ou une version plus récente.
 
 **En cours de développement, potentiellement instable**
 
 #### 2. [WhateverGreen](https://github.com/acidanthera/WhateverGreen/)
-Utilisé pour les correctifs graphiques, les correctifs DRM, les vérifications d'ID de carte, les correctifs de framebuffer, etc.; tous les GPU bénéficient de ce kext.
+> Utilisé pour les correctifs graphiques, les correctifs DRM, les vérifications d'ID de carte, les correctifs de framebuffer, etc.; tous les GPU bénéficient de ce kext.
 
 <br />
 
 ### F. NVME
 #### 1. [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)
-Utilisé pour corriger la gestion de l'alimentation et l'initialisation sur les NVMe non Apple
+> Utilisé pour corriger la gestion de l'alimentation et l'initialisation sur les NVMe non Apple
 
 
 <br />
