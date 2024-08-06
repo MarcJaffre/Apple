@@ -52,11 +52,11 @@ VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/efi/0/Conf
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/smc/0/Config/DeviceKey"          "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC"  "0"
 
-# EFI GPU
-VBoxManage setextradata  "MacOS Sonoma (14.0)"  VBoxInternal2/EfiGraphicsResolution                    "1920x1080"
-
 # TM
 VBoxManage setextradata  "MacOS Sonoma (14.0)"  "VBoxInternal/TM/TSCMode"                              "RealTSCOffset"
+
+# EFI GPU
+#VBoxManage setextradata  "MacOS Sonoma (14.0)"  VBoxInternal2/EfiGraphicsResolution                    "1920x1080"
 ```
 
 
