@@ -37,26 +37,34 @@ La valeur `ResizeAppleGpuBars` a été mise sur `0` car l'option `Resizable BAR 
 <br />
 
 ### C. [DeviceProperties](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#deviceproperties)
+#### 1. ADD
 Supprimer l'entrée `PciRoot(0x0)/Pci(0x1b,0x0)` .
 
 ![image](https://github.com/user-attachments/assets/18d2f753-0268-456d-bb99-02f438ed2e76)
 
 <br />
 
+### D. Kernel
+> C'est ici que nous spécifions quels kexts charger, dans quel ordre spécifique, et pour quelles architectures chaque kext est destiné.
 
-### D.
+Par défaut, nous recommandons de laisser ce que ProperTree
+
+
+#### 1. 
+#### 2. 
+#### 3. 
+#### 4. 
+
+
+
 ### E.
 ### F.
 ### G.
-#### 1.
+#### 1. 
 #### 2. 
-#### 3.
-#### 4.
+#### 3. 
+#### 4. 
 
-Kernel
-Misc
-NVRAM
-PlatformInfo
 
 <br />
 
