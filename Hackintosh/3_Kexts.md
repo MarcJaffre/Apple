@@ -21,7 +21,7 @@ Un Kexts est un pilote pour le matériel ou une fonction permettant de faire fon
 
 --------------------------------------------------------------------------------------------------------------------------
 ## III. Pilote (matériel)
-Il existe deux versions : Debug (Bavard en log) et Release 
+Pour avoir la log des événements au démarrage, on privilégera la version DEBUG.
 
 ### A. Lilu (Requis)
 > Un kext pour patcher de nombreux processus, nécessaire pour AppleALC, WhateverGreen, VirtualSMC et de nombreux autres kexts.
