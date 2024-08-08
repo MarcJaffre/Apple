@@ -141,12 +141,8 @@ Permer l'activation des différents Debug
 #### 1. add 
 | Paramètres              | Type   | Valeur                                            |
 | ----------------------- | ------ | ------------------------------------------------- |
-| boot-args       	      |        | -v keepsyms=1 debug=0x100	agdpmod=pikera         |
+| boot-args       	       |        | -v keepsyms=1 debug=0x100	agdpmod=pikera          |
 | prev-lang:kbd	          | STRING | fr:1                                              |
-
-
-
- » à la variable «
 
 
 ### G. UEFI
