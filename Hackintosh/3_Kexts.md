@@ -14,8 +14,8 @@ https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
 <br />
 
 ------------------------------------------------------------------------------------------------------------------------------
-## II. Drivers
-### A. Guide
+## II. Pilote (Bios)
+### A. Drivers
 Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
 
 #### 1. OpenRuntime (Requis)
@@ -23,5 +23,15 @@ Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
 
 #### 2. HfsPlus (Requis)
 > Nécessaire pour visualiser les volumes HFS (c'est-à-dire les installateurs macOS et les partitions/images de récupération).
+
+<br />
+
+------------------------------------------------------------------------------------------------------------------------------
+## III. Pilote (matériel)
+### A. Kexts
+Les dossiers se terminant en `.kexts` doit être dépose dans le répertoire `Kexts`.
+
+Un kexts peut contenir un dossier `content`, `Tools`.
+
 
 
