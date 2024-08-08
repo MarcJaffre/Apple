@@ -108,13 +108,14 @@ Le fichier doit être ouvert avec `ProperTree`.
 ![image](https://github.com/user-attachments/assets/f3079e0a-b6aa-48a0-b9b4-ba5f8b69f54d)
 
 ### C. Définir le nombre de coeur
-#### 1.
 
 
 | Ordre | Version supporté | Variable | VALEUR Defaut  | 8 Core(s)          |
 | ----- | ---------------- | -------- |--------------- | ------------------ |
-| 0     | 10.13 - 10.14    | Replace  | B80X0000 0000  | B80**8**0000 0000  |
-
+| 0     | 10.13 - 10.14    | Replace  |
+| 1     | 10.15 - 11       | Replace  |
+| 2     | 12    - 13.2.1   | Replace  |
+| 3     | 13.3 +	
 
 
 
