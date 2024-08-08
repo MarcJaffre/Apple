@@ -27,21 +27,10 @@ https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip
 https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-DEBUG.zip
 ```
 
-
 #### 2. Création du fichier de configuration 
 Copier le fichier `OpenCore\Docs\Sample.plist` dans le répertoire `\EFI\OC\` et renommer en `config.plist`. (OpenCore)
 
-Docs :
-
 ![image](https://github.com/user-attachments/assets/514bb01c-b653-4705-9dc3-40bf297027bd)
-
-OC :
-
-![image](https://github.com/user-attachments/assets/ddb63988-b82b-479c-a625-6f07dc1639f8)
-
-<br />
-<br />
-
 
 #### 3. Nettoyage
 > Supprimer tout fichier qui est pas conforme au screenshoot. (tree /F)
@@ -50,9 +39,9 @@ Boot:
 
 ![Boot](https://github.com/user-attachments/assets/f85f177f-7df7-4bfc-b6c4-bb9de17e8012)
 
-OC:
+OC :
 
-![OC](https://github.com/user-attachments/assets/7ad7edb5-98f2-4c10-acf0-678e2b59ee49)
+![image](https://github.com/user-attachments/assets/ddb63988-b82b-479c-a625-6f07dc1639f8)
 
 Drivers:
 
@@ -85,10 +74,6 @@ Tools:
         └───Tools
                 OpenShell.efi
 ```
-
-
-
-
 
 
 <br />
