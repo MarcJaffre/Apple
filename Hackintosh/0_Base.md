@@ -24,8 +24,6 @@ https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip
 https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-DEBUG.zip
 ```
 
-<br />
-
 #### 2. Nettoyage
 > Boot
 
