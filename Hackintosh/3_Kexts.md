@@ -15,7 +15,5 @@ https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
 
 -------------------------------------------------------------------------------------------------------------------
 ## II. Kexts
-### A. HfsPlus.efi
+### A. HfsPlus
 Nécessaire pour visualiser les volumes HFS (c'est-à-dire les installateurs macOS et les partitions/images de récupération).
-
-Ne pas mélanger d'autres pilotes HFS
