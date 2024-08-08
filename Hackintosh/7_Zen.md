@@ -131,8 +131,20 @@ Permer l'activation des différents Debug
 
 ![image](https://github.com/user-attachments/assets/b2d16bea-8642-48e5-a7e2-5afa2f29998d)
 
+<br />
 
-### F.
+### F. NVRAM
+#### 1. add 
+| Paramètres              | Type   | Valeur                                            |
+| ----------------------- | ------ | ------------------------------------------------- |
+| boot-args       	      |        | -v keepsyms=1 debug=0x100	agdpmod=pikera         |
+| prev-lang:kbd	          | STRING | fr:1                                              |
+
+
+
+ » à la variable «
+
+
 ### G.
 
 #### 2. 
