@@ -44,7 +44,7 @@ https://github.com/acidanthera/Lilu/releases
 ```
 
 #### 2. VirtualSMC (Requis)
-> Emule la puce SMC que l'on trouve sur les vrais macs, sans laquelle macOS ne démarre pas. 
+> Emule la puce SMC que l'on trouve que sur les vrais macs, sans laquelle macOS ne démarre pas. 
 >
 > Nécessite Mac OS X 10.4 ou plus récent
 ```
