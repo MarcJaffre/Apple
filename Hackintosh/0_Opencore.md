@@ -18,7 +18,7 @@
 
 ### D. Nettoyage de OpenCorePKG
 #### 1. Boot
-![image](https://github.com/user-attachments/assets/b83dce55-acd6-450a-8bce-811b4e021c69)
+![Boot](https://github.com/user-attachments/assets/f85f177f-7df7-4bfc-b6c4-bb9de17e8012)
 
 #### 2. OC
 ![OC](https://github.com/user-attachments/assets/7ad7edb5-98f2-4c10-acf0-678e2b59ee49)
