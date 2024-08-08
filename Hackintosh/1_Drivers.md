@@ -7,7 +7,7 @@
 Le dossier Drivers est utilisé pour le démarrage de MacOS uniquement
 
 ### B. HfsPlus
-Télécharger le fichier et placer le dossier dans le répertoire `Drivers`.
+Déposer le fichier dans le répertoire `Drivers` de OpenCorePKG.
 
 ```
 https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.efi
