@@ -60,6 +60,13 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 | 6                  | AppleIGB.kext                        |
 | 7                  | NVMeFix.kext                         |
 | 8                  | SMCAMDProcessor.kext                 |
+| 9                  | XXXXXXXXXX.kext                      |
+| 10                 | XXXXXXXXXX.kext                      |
+| 11                 | XXXXXXXXXX.kext                      |
+| 12                 | XXXXXXXXXX.kext                      |
+| 13                 | XXXXXXXXXX.kext                      |
+| 14                 | XXXXXXXXXX.kext                      |
+| 15                 | XXXXXXXXXX.kext                      |
 
 
 
