@@ -45,9 +45,9 @@ Supprimer l'entrée `PciRoot(0x0)/Pci(0x1b,0x0)` .
 <br />
 
 ### D. Kernel
+Par défaut, nous recommandons de laisser ce que ProperTree
 > C'est ici que nous spécifions quels kexts charger, dans quel ordre spécifique, et pour quelles architectures chaque kext est destiné.
 
-Par défaut, nous recommandons de laisser ce que ProperTree
 
 
 #### 1. 
