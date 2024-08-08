@@ -47,6 +47,9 @@ https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.
 
 ### X. SSDTTime
 SSDTTime propose de faire des correctifs pour MacOS.
+```
+https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip
+```
 
 ### X. ProperTree
 ProperTree permet l'édition des fichiers `.plist`.
