@@ -4,3 +4,5 @@
 -------------------------------------------------------------------------------------------------------------------
 ## I. Installation d'une clé Hackintosh
 ### A. Présentation
+Pour connaitre les pilotes nécessaire, il est impératif de faire l'inventaire matériel
+### B. OCSysInfo
