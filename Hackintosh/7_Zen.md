@@ -112,6 +112,17 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 <br />
 
 ### E. Misc
+#### 1. Debug
+Permer l'activation des différents Debug
+
+| Paramètres               | Valeur     | Commentaire                     |
+| ------------------------ | ---------- | ------------------------------- |
+| AppleDebug     	         | True       |                                 |
+| ApplePanic               | True       |                                 |
+| Target                   | 67         |                                 |
+| SysReport                | True       | Génére un raport dans la clé    |
+
+
 ### F.
 ### G.
 #### 1. 
