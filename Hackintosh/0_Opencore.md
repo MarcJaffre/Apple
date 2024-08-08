@@ -27,4 +27,4 @@
 ![Drivers](https://github.com/user-attachments/assets/86ad5806-8a56-4528-9710-efce67c95617)
 
 #### 4. Tools
-![Tools](https://github.com/user-attachments/assets/9652c83a-3446-4dec-b6fa-a496b5ccfdf6)
+![Tools](https://github.com/user-attachments/assets/6d37d831-77cf-4792-a535-945276e38a3a)
