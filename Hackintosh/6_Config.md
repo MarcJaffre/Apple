@@ -8,6 +8,8 @@ Le fichier de configuration contient les instructions servant au démarrage du s
 
 ### B. AMD
 Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer.
+
+<br />
 <br />
 
 --------------------------------------------------------------------------------------------------------------------------
