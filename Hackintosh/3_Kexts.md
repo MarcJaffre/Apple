@@ -101,20 +101,196 @@ https://github.com/acidanthera/NVMeFix/releases
 
 <br />
 
-### J.
->
+### J. Arborescence
 ```
+C:.
+│   OpenCore.efi
+│
+├───ACPI
+├───Drivers
+│       HfsPlus.efi
+│       OpenCanopy.efi
+│       OpenRuntime.efi
+│
+├───Kexts
+│   │   alc-verb
+│   │
+│   ├───AMDRyzenCPUPowerManagement.kext
+│   │   └───Contents
+│   │       │   Info.plist
+│   │       │
+│   │       ├───MacOS
+│   │       │       AMDRyzenCPUPowerManagement
+│   │       │
+│   │       └───_CodeSignature
+│   │               CodeResources
+│   │
+│   ├───AppleALC.kext
+│   │   └───Contents
+│   │       │   Info.plist
+│   │       │
+│   │       └───MacOS
+│   │               AppleALC
+│   │
+│   ├───AppleIGB.kext
+│   │   └───Contents
+│   │       │   Info.plist
+│   │       │
+│   │       ├───MacOS
+│   │       │       AppleIGB
+│   │       │
+│   │       └───_CodeSignature
+│   │               CodeResources
+│   │
+│   ├───AppleMCEReporterDisabler.kext
+│   │   └───Contents
+│   │           Info.plist
+│   │
+│   ├───Lilu.kext
+│   │   └───Contents
+│   │       │   Info.plist
+│   │       │
+│   │       ├───MacOS
+│   │       │       Lilu
+│   │       │
+│   │       └───Resources
+│   │           ├───Headers
+│   │           │   │   hde32.h
+│   │           │   │   hde64.h
+│   │           │   │   kern_api.hpp
+│   │           │   │   kern_compat.hpp
+│   │           │   │   kern_compression.hpp
+│   │           │   │   kern_config.hpp
+│   │           │   │   kern_cpu.hpp
+│   │           │   │   kern_crypto.hpp
+│   │           │   │   kern_devinfo.hpp
+│   │           │   │   kern_disasm.hpp
+│   │           │   │   kern_efi.hpp
+│   │           │   │   kern_file.hpp
+│   │           │   │   kern_iokit.hpp
+│   │           │   │   kern_mach.hpp
+│   │           │   │   kern_nvram.hpp
+│   │           │   │   kern_patcher.hpp
+│   │           │   │   kern_policy.hpp
+│   │           │   │   kern_rtc.hpp
+│   │           │   │   kern_time.hpp
+│   │           │   │   kern_user.hpp
+│   │           │   │   kern_util.hpp
+│   │           │   │   kern_version.hpp
+│   │           │   │   plugin_start.hpp
+│   │           │   │
+│   │           │   └───capstone
+│   │           │           arm.h
+│   │           │           arm64.h
+│   │           │           capstone.h
+│   │           │           mips.h
+│   │           │           platform.h
+│   │           │           ppc.h
+│   │           │           sparc.h
+│   │           │           systemz.h
+│   │           │           x86.h
+│   │           │           xcore.h
+│   │           │
+│   │           └───Library
+│   │               │   plugin_start.cpp
+│   │               │
+│   │               └───wrappers
+│   │                       build.tool
+│   │                       entry32.S
+│   │                       entry64.S
+│   │                       wrappers.inc
+│   │
+│   ├───NVMeFix.kext
+│   │   └───Contents
+│   │       │   Info.plist
+│   │       │
+│   │       └───MacOS
+│   │               NVMeFix
+│   │
+│   ├───SMCAMDProcessor.kext
+│   │   └───Contents
+│   │       │   Info.plist
+│   │       │
+│   │       ├───MacOS
+│   │       │       SMCAMDProcessor
+│   │       │
+│   │       └───_CodeSignature
+│   │               CodeResources
+│   │
+│   ├───Tools
+│   │       libaistat.dylib
+│   │       rtcread
+│   │       smc
+│   │       smcread
+│   │
+│   ├───VirtualSMC.kext
+│   │   └───Contents
+│   │       │   Info.plist
+│   │       │
+│   │       ├───MacOS
+│   │       │       VirtualSMC
+│   │       │
+│   │       └───Resources
+│   │           └───VirtualSMCSDK
+│   │                   AppleSmc.h
+│   │                   AppleSmcBridge.hpp
+│   │                   kern_keyvalue.hpp
+│   │                   kern_smcinfo.hpp
+│   │                   kern_value.hpp
+│   │                   kern_vsmcapi.hpp
+│   │
+│   ├───WhateverGreen.kext
+│   │   └───Contents
+│   │       │   Info.plist
+│   │       │
+│   │       └───MacOS
+│   │               WhateverGreen
+│   │
+│   └───__MACOSX
+│       │   ._AppleMCEReporterDisabler.kext
+│       │
+│       ├───AMDRyzenCPUPowerManagement.kext
+│       │   │   ._Contents
+│       │   │
+│       │   └───Contents
+│       │       │   ._Info.plist
+│       │       │   ._MacOS
+│       │       │   .__CodeSignature
+│       │       │
+│       │       ├───MacOS
+│       │       │       ._AMDRyzenCPUPowerManagement
+│       │       │
+│       │       └───_CodeSignature
+│       │               ._CodeResources
+│       │
+│       ├───AppleMCEReporterDisabler.kext
+│       │   │   ._Contents
+│       │   │
+│       │   └───Contents
+│       │           ._Info.plist
+│       │
+│       └───SMCAMDProcessor.kext
+│           │   ._Contents
+│           │
+│           └───Contents
+│               │   ._Info.plist
+│               │   ._MacOS
+│               │   .__CodeSignature
+│               │
+│               ├───MacOS
+│               │       ._SMCAMDProcessor
+│               │
+│               └───_CodeSignature
+│                       ._CodeResources
+│
+├───Resources
+│   ├───Audio
+│   ├───Font
+│   ├───Image
+│   └───Label
+└───Tools
+        OpenShell.efi
 ```
-
-<br />
-
-### K.
->
-```
-```
-
-
-
 
 
 
