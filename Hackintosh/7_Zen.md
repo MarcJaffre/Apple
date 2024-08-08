@@ -18,8 +18,6 @@ Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer
 
 <img width="890" height="199" src=https://github.com/user-attachments/assets/167e889d-9cc8-47a2-acc9-d352961df4ad />
 
-
-
 <br />
 
 ### B. Booter
@@ -40,13 +38,18 @@ La valeur `ResizeAppleGpuBars` a été mise sur `0` car l'option `Resizable BAR 
 
 <br />
 
+
+
+
 ### C. [DeviceProperties](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#deviceproperties)
 #### 1. ADD
 Supprimer l'entrée `PciRoot(0x0)/Pci(0x1b,0x0)` .
 
-![image](https://github.com/user-attachments/assets/18d2f753-0268-456d-bb99-02f438ed2e76)
+<img width="890" height="200" src=https://github.com/user-attachments/assets/18d2f753-0268-456d-bb99-02f438ed2e76 />
 
 <br />
+
+
 
 ### D. Kernel
 #### 1. ADD
