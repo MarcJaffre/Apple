@@ -27,6 +27,7 @@ Cette opération supprime toutes les entrées du fichier config.plist et ajoute 
 
 ### C. Rétablir l'affichage
 Depuis l'emplacement `Root`, faire Clique droit puis `Collapse Children`.
+
 ![image](https://github.com/user-attachments/assets/056028c4-34bf-469f-9a44-204dac8307ad)
 
 
