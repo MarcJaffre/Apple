@@ -6,22 +6,6 @@
 ### A. Qu'est ce qu'un Kexts ?
 Un Kexts est un pilote pour le matériel ou une fonction permettant de faire fonctionner le système.
 
-Il existe deux versions : Debug (Bavard en log) et Release 
-
-### B. Sources
-```
-https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
-```
-
-
-### C. Installation des pilotes
-#### 1. Drivers
-> Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
-
-#### 2. Kexts
-> Les dossiers se terminant en `.kexts` doit être dépose dans le répertoire `Kexts`.
->
-> Un kexts peut contenir un dossier `content`, `Tools`.
 
 <br />
 
@@ -37,6 +21,8 @@ https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
 
 --------------------------------------------------------------------------------------------------------------------------
 ## III. Pilote (matériel)
+Il existe deux versions : Debug (Bavard en log) et Release 
+
 ### A. Lilu (Requis)
 > Un kext pour patcher de nombreux processus, nécessaire pour AppleALC, WhateverGreen, VirtualSMC et de nombreux autres kexts.
 >
@@ -58,9 +44,9 @@ https://github.com/acidanthera/VirtualSMC/releases
 
 
 
-<br />
 
-
-
-
-
+--------------------------------------------------------------------------------------------------------------------------
+## IV. Sources
+```
+https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
+```
