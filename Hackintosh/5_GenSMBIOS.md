@@ -17,11 +17,12 @@
 
 ### D. Please type the SMBIOS to gen and the number of times to generate
 ```
+iMacPro1,1 : NVIDIA Maxwell and Pascal or AMD Polaris and newer
+
+
 MacPro7,1  : AMD Polaris and newer
 MacPro7,1  : Exclusive to macOS 10.15, Catalina and newer
 MacPro6,1  : AMD GCN GPUs (supported HD and R5/R7/R9 series)
-iMacPro1,1 : NVIDIA Maxwell and Pascal or AMD Polaris and newer
-
 iMac14,2   : NVIDIA Maxwell and Pascal
 ```
 
