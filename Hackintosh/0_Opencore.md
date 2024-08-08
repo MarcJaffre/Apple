@@ -21,8 +21,7 @@
 ![image](https://github.com/user-attachments/assets/b83dce55-acd6-450a-8bce-811b4e021c69)
 
 #### 2. OC
-![OC](https://github.com/user-attachments/assets/f3d3d7e0-33e3-4548-b239-b3298b4b19a3)
-
+![OC](https://github.com/user-attachments/assets/7ad7edb5-98f2-4c10-acf0-678e2b59ee49)
 
 #### 3. Drivers
 ![Drivers](https://github.com/user-attachments/assets/86ad5806-8a56-4528-9710-efce67c95617)
