@@ -31,6 +31,11 @@ La valeur `ResizeAppleGpuBars` a été mise sur `0` car l'option `Resizable BAR 
 | SyncRuntimePermissions  | True       |                                                           |
 
 
+![image](https://github.com/user-attachments/assets/abd6493b-b976-491c-bace-e574b6e900e5)
+
+
+
+
 #### 2.
 #### 3.
 #### 4.
