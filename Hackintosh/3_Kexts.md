@@ -43,6 +43,8 @@ Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
 https://github.com/acidanthera/Lilu/releases
 ```
 
+<br />
+
 #### 2. VirtualSMC (Requis)
 > Emule la puce SMC que l'on trouve que sur les vrais macs, sans laquelle macOS ne démarre pas. 
 >
@@ -50,3 +52,5 @@ https://github.com/acidanthera/Lilu/releases
 ```
 https://github.com/acidanthera/VirtualSMC/releases
 ```
+
+<br />
