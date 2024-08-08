@@ -2,6 +2,9 @@
 ## <p align='center'> [Création d'une Clé d'installation HackinTosh (Partie 8)](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#starting-point) </p>
 
 --------------------------------------------------------------------------------------------------------------------------
+
+# NON FONCTIONNELLE !!!
+
 ## I. Information
 ### A. Présentation
 La configuration suivante est pour les ordinateurs ayant un processeur `AMD`.
@@ -10,6 +13,7 @@ La configuration suivante est pour les ordinateurs ayant un processeur `AMD`.
 Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer.
 
 <br />
+
 
 --------------------------------------------------------------------------------------------------------------------------
 ## II. Edition de la configuration MacOS
