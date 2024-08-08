@@ -13,3 +13,14 @@ Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer
 
 --------------------------------------------------------------------------------------------------------------------------
 ## II. Edition de la configuration MacOS
+### A. ACPI
+### B. Booter
+### C. 
+### D.
+
+Kernel
+Misc
+NVRAM
+PlatformInfo
+AMD Vanilla
+
