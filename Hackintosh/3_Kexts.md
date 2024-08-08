@@ -34,7 +34,7 @@ https://github.com/acidanthera/Lilu/releases
 <br />
 
 ### B. VirtualSMC (Requis)
-> Emule la puce SMC que l'on trouve que sur les vrais macs, sans laquelle macOS ne démarre pas. (Supporté à partir de MacOS 10.4 ou plus récent)
+> Emule la puce SMC que l'on trouve que sur les vrais macs, sans laquelle macOS ne démarre pas.
 ```
 https://github.com/acidanthera/VirtualSMC/releases
 ```
@@ -42,12 +42,10 @@ https://github.com/acidanthera/VirtualSMC/releases
 <br />
 
 ### C. SMCAMDProcessor (Requis)
-> Utilisé pour surveiller la température du processeur sur les systèmes AMD Zen. (Requiert AMDRyzenCPUPowerManagement et compatible depuis 10.13 ou plus récent)
+> Utilisé pour surveiller la température du processeur sur les systèmes AMD Zen. (Requiert AMDRyzenCPUPowerManagement)
 >
 ```
 https://github.com/trulyspinach/SMCAMDProcessor/releases
-> SMCAMDProcessor.kext.zip
-> AMDRyzenCPUPowerManagement.kext.zip
 ```
 
 
