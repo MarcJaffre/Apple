@@ -27,3 +27,6 @@ La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 #### 3. OpenCorePKG
 > Les fichiers `aml` doivent être placé dans `ACPI`.
 
+ACPI:
+
+![image](https://github.com/user-attachments/assets/de1595c9-d10e-48bd-bda0-aa3b64626dff)
