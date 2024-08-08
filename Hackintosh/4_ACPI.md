@@ -13,6 +13,10 @@ La page [Kext](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#desk
 
 ![image](https://github.com/user-attachments/assets/7d189d10-e5d2-4895-8881-194b8017a191)
 
+![image](https://github.com/user-attachments/assets/2719449c-4f45-4173-8189-af8faafaa075)
+
+
+
 
 <br />
 
