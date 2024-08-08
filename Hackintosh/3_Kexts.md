@@ -85,15 +85,32 @@ https://github.com/donatengit/AppleIGB/releases
 
 <br />
 
-### H .
+### H. AppleMCEReporterDisabler
+> Nécessaire sous macOS 12.3 et versions ultérieures sur les systèmes AMD, et sous macOS 10.15. (MacPro6,1 | MacPro7,1 | iMacPro1,1)
+```
+https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip
+```
+
+<br />
+
+### I.
 >
 ```
 ```
 
+<br />
 
+### J.
+>
+```
+```
 
+<br />
 
-
+### K.
+>
+```
+```
 
 
 
