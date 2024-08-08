@@ -4,7 +4,13 @@
 ---------------------------------------------------------------------------------------------------------------------
 ## I. Installation d'une clé Hackintosh
 ### A. Présentation
+> GenSMBIOS
+> 
 > OpenCorePKG est l'outil de base pour la création d'une clé USB Hackintosh
+>
+> ProperTree
+>
+> SSDTTime
 
 ### B. OpenCorePKG
 > L'archive Debug permet lors de l'installation de voir les événements au démarrage.
