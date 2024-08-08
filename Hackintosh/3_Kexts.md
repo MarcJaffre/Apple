@@ -6,6 +6,8 @@
 ### A. Qu'est ce qu'un Kexts ?
 Un Kexts est un pilote pour le matériel ou une fonction permettant de faire fonctionner le système.
 
+Il existe deux versions : Debug (Bavard en log) et Release 
+
 ### B. Sources
 ```
 https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
@@ -33,5 +35,18 @@ Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
 >
 > Un kexts peut contenir un dossier `content`, `Tools`.
 
+#### 1. Lilu (Requis)
+> Un kext pour patcher de nombreux processus, nécessaire pour AppleALC, WhateverGreen, VirtualSMC et de nombreux autres kexts.
+>
+> Sans Lilu, ils ne fonctionneront pas.
+```
+https://github.com/acidanthera/Lilu/releases
+```
 
-
+#### 2. VirtualSMC (Requis)
+> Emule la puce SMC que l'on trouve sur les vrais macs, sans laquelle macOS ne démarre pas. 
+>
+> Nécessite Mac OS X 10.4 ou plus récent
+```
+https://github.com/acidanthera/VirtualSMC/releases
+```
