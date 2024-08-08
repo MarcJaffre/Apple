@@ -13,12 +13,20 @@ Il existe deux versions : Debug (Bavard en log) et Release
 https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
 ```
 
+
+### C. Installation des pilotes
+#### 1. Drivers
+> Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
+
+#### 2. Kexts
+> Les dossiers se terminant en `.kexts` doit être dépose dans le répertoire `Kexts`.
+>
+> Un kexts peut contenir un dossier `content`, `Tools`.
+
 <br />
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## II. Pilote (Bios)
-### A. Drivers
-Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
 
 ### B. OpenRuntime (Requis)
 > Extension pour OpenCore pour aider à patcher boot.efi pour des corrections NVRAM et une meilleure gestion de la mémoire.
@@ -30,10 +38,6 @@ Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## III. Pilote (matériel)
-### A. Kexts
-> Les dossiers se terminant en `.kexts` doit être dépose dans le répertoire `Kexts`.
->
-> Un kexts peut contenir un dossier `content`, `Tools`.
 
 ### B. Lilu (Requis)
 > Un kext pour patcher de nombreux processus, nécessaire pour AppleALC, WhateverGreen, VirtualSMC et de nombreux autres kexts.
