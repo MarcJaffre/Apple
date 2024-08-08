@@ -6,7 +6,10 @@
 ### A. Présentation
 Le fichier de configuration contient les instructions servant au démarrage du système.
 
-
+### B. AMD
+Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer.
+<br />
 
 --------------------------------------------------------------------------------------------------------------------------
 ## II. ProperTree
+### A. 
