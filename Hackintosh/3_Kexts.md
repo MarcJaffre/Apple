@@ -93,9 +93,10 @@ https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler
 
 <br />
 
-### I.
->
+### I. NVMeFix
+> Utilisé pour corriger la gestion de l'alimentation et l'initialisation sur les NVMe non-Apple (nécessite macOS 10.14 ou une version plus récente).
 ```
+https://github.com/acidanthera/NVMeFix/releases
 ```
 
 <br />
