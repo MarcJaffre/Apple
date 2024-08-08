@@ -124,15 +124,16 @@ Le fichier doit être ouvert avec `ProperTree`.
 
 <br />
 
-![image](https://github.com/user-attachments/assets/4d22a16b-c200-40a2-abd6-adc0e64b5e1c)
+<img width="890" height="259" src=https://github.com/user-attachments/assets/4d22a16b-c200-40a2-abd6-adc0e64b5e1c />
 
 <br />
 
-![image](https://github.com/user-attachments/assets/9e6d4b0d-0769-4b0f-aeaa-d69cc18f0bf7)
+<img width="890" height="259" src=https://github.com/user-attachments/assets/9e6d4b0d-0769-4b0f-aeaa-d69cc18f0bf7 />
 
 <br />
 
-![image](https://github.com/user-attachments/assets/6a558c34-a049-4d68-aa9c-b0493f468c6f)
+
+<img width="890" height="259" src=https://github.com/user-attachments/assets/6a558c34-a049-4d68-aa9c-b0493f468c6f />
 
 ### C. config.plist
 Supprimer l'objet `Patch` dans `Kernel`.
