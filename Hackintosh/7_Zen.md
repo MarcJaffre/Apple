@@ -38,9 +38,6 @@ La valeur `ResizeAppleGpuBars` a été mise sur `0` car l'option `Resizable BAR 
 
 <br />
 
-
-
-
 ### C. [DeviceProperties](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#deviceproperties)
 #### 1. ADD
 Supprimer l'entrée `PciRoot(0x0)/Pci(0x1b,0x0)` .
@@ -48,8 +45,6 @@ Supprimer l'entrée `PciRoot(0x0)/Pci(0x1b,0x0)` .
 <img src=https://github.com/user-attachments/assets/18d2f753-0268-456d-bb99-02f438ed2e76 />
 
 <br />
-
-
 
 ### D. Kernel
 #### 1. ADD
@@ -90,43 +85,47 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 <br />
 
 #### 4. Quirks
-| Paramètres               | Valeur     | Commentaire                     |
-| ------------------------ | ---------- | ------------------------------- |
-| PanicNoKextDump	         | True       |                                 |
-| PowerTimeoutKernelPanic  | True       |                                 |
-| ProvideCurrentCpuInfo    | True       |                                 |
-| XhciPortLimit            | True       | Disable if running macOS 11.3+  |
-
+| Paramètres               | Valeur  | Commentaire                     |
+| ------------------------ | ------- | ------------------------------- |
+| PanicNoKextDump	         | True    |                                 |
+| PowerTimeoutKernelPanic  | True    |                                 |
+| ProvideCurrentCpuInfo    | True    |                                 |
+| XhciPortLimit            | True    | Disable if running macOS 11.3+  |
 
 <br />
 
 ![image](https://github.com/user-attachments/assets/729ef4ec-8327-4694-97f5-540049b822ad)
 
 
-
-
-
-
-
-
 <br />
 
 ### E. Misc
-#### 1. Debug
+#### 1. Boot
+| Paramètres     | Valeur  | Commentaire                     |
+| -------------- | ------- | ------------------------------- |
+| HideAuxiliary  | True    |                                 |
+
+#### 2. Debug
 Permer l'activation des différents Debug
-| Paramètres               | Valeur     | Commentaire                     |
-| ------------------------ | ---------- | ------------------------------- |
-| AppleDebug     	         | True       |                                 |
-| ApplePanic               | True       |                                 |
-| SysReport                | False      | SI besoin de verbose, activer   |
-| Target                   | 67         |                                 |
 
+| Paramètres       | Valeur    | Commentaire                     |
+| ---------------- | --------- | ------------------------------- |
+| AppleDebug     	 | True      |                                 |
+| ApplePanic       | True      |                                 |
+| DisableWatchDog  | **True**  | A voir si c'est problèmatique   |
+| SysReport        | False     | SI besoin de verbose, activer   |
+| Target           | 67        |                                 |
 
+![image](https://github.com/user-attachments/assets/63205542-5975-4c36-a229-d8d98a0aefe0)
+
+<br />
+
+#### 3. Security
 
 
 ### F.
 ### G.
-#### 1. 
+
 #### 2. 
 #### 3. 
 #### 4. 
@@ -205,7 +204,6 @@ Ouvrir le fichier `config.plist` puis coller dans l'objet `Kernel`.
 <br />
 
 <img width="890" height="380" src=https://github.com/user-attachments/assets/1c0f9693-8246-4c9a-bb1c-3230771f8ab2 />
-
 
 <br />
 <br />
