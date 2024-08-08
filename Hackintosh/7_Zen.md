@@ -32,7 +32,8 @@ La valeur `ResizeAppleGpuBars` a été mise sur `0` car l'option `Resizable BAR 
 | SetupVirtualMap         | **FALSE**  | Option mis sur False car [carte-mère X570](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#quirks-2) |
 | SyncRuntimePermissions  | True       |                                                           |
 
-![image](https://github.com/user-attachments/assets/3197e479-2e2f-459b-9f56-44bad271f523)
+
+<img width="890" height="199" src=https://github.com/user-attachments/assets/3197e479-2e2f-459b-9f56-44bad271f523 />
 
 <br />
 
