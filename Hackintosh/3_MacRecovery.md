@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------------------------------------------
-## <p align='center'> [Création d'une Clé d'installation HackinTosh (Partie 3)]https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) </p>
+## <p align='center'> [Création d'une Clé d'installation HackinTosh (Partie 3)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) </p>
 
 -------------------------------------------------------------------------------------------------------------------
 ## I. MacRecovery
