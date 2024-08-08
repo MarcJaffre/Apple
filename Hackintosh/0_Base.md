@@ -29,7 +29,9 @@ https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.
 ```
 
 #### 2. Nettoyage
-Supprimer tout fichier qui est pas conforme au screenshoot.
+> Supprimer tout fichier qui est pas conforme au screenshoot.
+
+
 > Boot
 
 ![Boot](https://github.com/user-attachments/assets/f85f177f-7df7-4bfc-b6c4-bb9de17e8012)
