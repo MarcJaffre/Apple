@@ -58,14 +58,51 @@ https://github.com/trulyspinach/SMCAMDProcessor/releases
 https://github.com/aluveitie/RadeonSensor
 ```
 
+<br />
+
 ### E. WhateverGreen (Requis)
 > Utilisé pour les correctifs graphiques, les corrections de DRM, les vérifications d'ID de carte, les corrections de framebuffer, etc ; tous les GPU bénéficient de ce kext.
-
 ```
 https://github.com/acidanthera/WhateverGreen/releases
 ```
 
 <br />
+
+### F. AppleALC (Requis)
+>  Utilisé pour le patching AppleHDA, permettant la prise en charge de la majorité des contrôleurs de son embarqués.
+
+```
+https://github.com/acidanthera/AppleALC/releases
+```
+
+<br />
+
+### G. AppleIGB (Requis)
+> Nécessaire pour les cartes réseau I211 fonctionnant sous macOS Monterey (11.2) et supérieur.
+```
+https://github.com/donatengit/AppleIGB/releases
+```
+
+<br />
+
+### H .
+>
+```
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
