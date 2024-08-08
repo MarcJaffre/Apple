@@ -39,9 +39,13 @@ https://github.com/acidanthera/Lilu/releases
 https://github.com/acidanthera/VirtualSMC/releases
 ```
 
-Le dossier Tools et VirtualSMC.kext sont à extraire.
-
-
+### C. SMCAMDProcessor
+> Utilisé pour surveiller la température du processeur sur les systèmes AMD Zen. (Nécessite macOS 10.13 ou plus récent)
+>
+> Requiert AMDRyzenCPUPowerManagement
+```
+https://github.com/trulyspinach/SMCAMDProcessor/releases
+```
 
 
 
