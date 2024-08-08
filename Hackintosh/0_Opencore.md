@@ -13,10 +13,7 @@
 
 <br />
 
-### C. Dossier de travail
-> Sortir le dossier `OpenCore-1.0.1-DEBUG\X64\EFI` de `OpenCore-1.0.1-DEBUG`. 
-
-### D. Nettoyage de OpenCorePKG
+### B. Nettoyage de OpenCorePKG
 #### 1. Boot
 ![Boot](https://github.com/user-attachments/assets/f85f177f-7df7-4bfc-b6c4-bb9de17e8012)
 
