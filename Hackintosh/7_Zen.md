@@ -32,13 +32,24 @@ La valeur `ResizeAppleGpuBars` a été mise sur `0` car l'option `Resizable BAR 
 
 ![image](https://github.com/user-attachments/assets/3197e479-2e2f-459b-9f56-44bad271f523)
 
-#### 2.
+
+
+
+### C. DeviceProperties
+
+
+
+
+
+### D.
+### E.
+### F.
+### G.
+#### 1.
+#### 2. 
 #### 3.
 #### 4.
 
-
-### C. 
-### D.
 Kernel
 Misc
 NVRAM
