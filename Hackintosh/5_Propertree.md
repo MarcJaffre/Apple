@@ -29,9 +29,4 @@ Depuis l'emplacement `Root`, faire Clique droit puis `Collapse Children`.
 ![image](https://github.com/user-attachments/assets/056028c4-34bf-469f-9a44-204dac8307ad)
 
 ### C. Zen
-
 ![image](https://github.com/user-attachments/assets/8445b719-cf31-4fbc-8f13-0608faa8a139)
-
-
-### B. AMD
-Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer.
