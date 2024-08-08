@@ -3,7 +3,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------
 ## I. Présentation
-### A. 
-
+### A. Kexts
+La page [Kext](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#desktop) pour un CPU AMD de 17/19h (Ryzen 7 3700x), il est nécessaire de faire `SSDT-EC-USB`.
 
 
