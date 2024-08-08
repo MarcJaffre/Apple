@@ -1,16 +1,18 @@
----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> Création d'une Clé d'installation HackinTosh (Partie 1) </p>
 
----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 ## I. Installation d'une clé Hackintosh
-### A. OpenCorePKG
+### A. Présentation
+
+### B. OpenCorePKG
 > L'archive Debug permet lors de l'installation de voir les événements au démarrage.
 
 [OpenCore-1.0.1-DEBUG](https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-DEBUG.zip)
 
 <br />
 
-### B. Nettoyage de OpenCorePKG
+### C. Nettoyage de OpenCorePKG
 #### 1. Boot
 ![Boot](https://github.com/user-attachments/assets/f85f177f-7df7-4bfc-b6c4-bb9de17e8012)
 
@@ -25,12 +27,8 @@
 
 
 
-```
-> GenSMBIOS
-> 
-> OpenCorePKG
->
-> ProperTree
->
-> SSDTTime
-```
+### X. ProperTree
+
+### X. GenSMBIOS
+
+### X. SSDTTime
