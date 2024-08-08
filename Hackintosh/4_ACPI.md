@@ -30,3 +30,11 @@ La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 ACPI:
 
 ![image](https://github.com/user-attachments/assets/de1595c9-d10e-48bd-bda0-aa3b64626dff)
+
+
+<br />
+
+### E. Exemple ACPI
+> Dans le dossier `OpenCore\Docs\AcpiSamples\Binaries`, il existe de nombreux binaire. 
+
+![image](https://github.com/user-attachments/assets/b86ea2d6-dc8c-42d7-8b79-991c8fde890f)
