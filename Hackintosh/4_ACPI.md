@@ -33,7 +33,7 @@ La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 
 ![image](https://github.com/user-attachments/assets/97a9c2a0-3e2e-4043-a4c8-5082a5c1ba4a)
 
-![image](https://github.com/user-attachments/assets/6291a632-c70e-4c0c-82bc-9e88ed4dbce5)
+![image](https://github.com/user-attachments/assets/369e7d59-de90-4835-91e4-1085e26fed40)
 
 
 #### 4. OpenCorePKG
@@ -41,7 +41,8 @@ La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 
 ACPI:
 
-![image](https://github.com/user-attachments/assets/369e7d59-de90-4835-91e4-1085e26fed40)
+![image](https://github.com/user-attachments/assets/b812949c-c27c-4af5-a39d-c298b83c201d)
+
 
 <br />
 
