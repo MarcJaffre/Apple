@@ -4,10 +4,10 @@
 -------------------------------------------------------------------------------------------------------------------
 ## I. Installation de Drivers
 ### A. Présentation
-Le dossier Drivers est utilisé pour le démarrage de MacOS uniquement
+> Le dossier Drivers est utilisé pour le démarrage de MacOS uniquement
 
 ### B. HfsPlus
-Télécharger le fichier et placer le dossier dans le répertoire `Drivers`.
+>Télécharger le fichier et placer le dossier dans le répertoire `Drivers`.
 
 ![HfsPlus](https://github.com/user-attachments/assets/dca7d216-71a2-4743-8294-63bd6a8943d2)
 
