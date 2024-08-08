@@ -45,12 +45,12 @@ Big Sur: (11)
 macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000  download
 ```
 
-Monterey:
+Monterey: (12)
 ```
 macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000000000  download
 ```
 
-Ventura:
+Ventura: (13)
 ```
 macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000  download
 ```
