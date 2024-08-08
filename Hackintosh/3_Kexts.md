@@ -50,6 +50,8 @@ https://github.com/trulyspinach/SMCAMDProcessor/releases
 
 ### D. RadeonSensor
 > Utilisé pour surveiller la température du GPU sur les systèmes GPU AMD. (Nécessite RadeonSensor du même dépôt)
+>
+> Note: This repository has been archived by the owner on Jun 24, 2023. It is now read-only.
 ```
 https://github.com/aluveitie/RadeonSensor
 ```
