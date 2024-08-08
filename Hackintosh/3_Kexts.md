@@ -10,7 +10,7 @@ Un Kexts est un pilote pour le matériel ou une fonction permettant de faire fon
 <br />
 
 --------------------------------------------------------------------------------------------------------------------------
-## II. Pilote (Bios)
+## II. Pilotes (Bios)
 ### A. OpenRuntime (Requis)
 > Extension pour OpenCore pour aider à patcher boot.efi pour des corrections NVRAM et une meilleure gestion de la mémoire.
 
@@ -20,7 +20,7 @@ Un Kexts est un pilote pour le matériel ou une fonction permettant de faire fon
 <br />
 
 --------------------------------------------------------------------------------------------------------------------------
-## III. Pilote (matériel)
+## III. Pilotes (Matériel)
 Pour avoir la log des événements au démarrage, on privilégera la version DEBUG.
 
 ### A. Lilu (Requis)
@@ -38,6 +38,8 @@ https://github.com/acidanthera/Lilu/releases
 ```
 https://github.com/acidanthera/VirtualSMC/releases
 ```
+
+<br />
 
 ### C. SMCAMDProcessor
 > Utilisé pour surveiller la température du processeur sur les systèmes AMD Zen. (Nécessite macOS 10.13 ou plus récent)
