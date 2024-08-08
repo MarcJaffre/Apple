@@ -147,6 +147,8 @@ Supprimer l'objet `Patch` dans `Kernel`.
 
 <img width="890" height="380" src=https://github.com/user-attachments/assets/42759e1d-2a32-4933-af6b-f5684d5b21e8 />
 
+<br />
+
 <img width="890" height="380" src=https://github.com/user-attachments/assets/c5294283-1546-4e64-a617-1fc340ab6576 />
 
 
@@ -163,6 +165,8 @@ Ouvrir le fichier `patch.plist` puis copier l'objet `Patch`.
 Ouvrir le fichier `config.plist` puis coller dans l'objet `Kernel`.
 
 <img width="890" height="380" src=https://github.com/user-attachments/assets/dad2ef26-3d90-4d73-bf46-e9fe20bbb88b />
+
+<br />
 
 <img width="890" height="380" src=https://github.com/user-attachments/assets/1c0f9693-8246-4c9a-bb1c-3230771f8ab2 />
 
