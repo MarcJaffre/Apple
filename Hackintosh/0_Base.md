@@ -80,7 +80,6 @@ La commande `tree /F` permet de vérifier.
         │
         ├───ACPI
         ├───Drivers
-        │       HfsPlus.efi
         │       OpenCanopy.efi
         │       OpenRuntime.efi
         ├───Kexts
