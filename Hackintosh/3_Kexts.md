@@ -1,7 +1,7 @@
-------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> Création d'une Clé d'installation HackinTosh (Partie 4) </p>
 
-------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 ## I. Présentation
 ### A. Qu'est ce qu'un Kexts ?
 Un Kexts est un pilote pour le matériel ou une fonction permettant de faire fonctionner le système.
@@ -25,10 +25,9 @@ https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
 
 <br />
 
-------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 ## II. Pilote (Bios)
-
-### B. OpenRuntime (Requis)
+### A. OpenRuntime (Requis)
 > Extension pour OpenCore pour aider à patcher boot.efi pour des corrections NVRAM et une meilleure gestion de la mémoire.
 
 ### C. HfsPlus (Requis)
@@ -36,10 +35,9 @@ https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
 
 <br />
 
-------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 ## III. Pilote (matériel)
-
-### B. Lilu (Requis)
+### A. Lilu (Requis)
 > Un kext pour patcher de nombreux processus, nécessaire pour AppleALC, WhateverGreen, VirtualSMC et de nombreux autres kexts.
 >
 > Sans Lilu, ils ne fonctionneront pas.
@@ -57,4 +55,11 @@ https://github.com/acidanthera/Lilu/releases
 https://github.com/acidanthera/VirtualSMC/releases
 ```
 
+
+
 <br />
+
+
+
+
+
