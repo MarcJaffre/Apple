@@ -108,8 +108,6 @@ Le fichier doit être ouvert avec `ProperTree`.
 ![image](https://github.com/user-attachments/assets/f3079e0a-b6aa-48a0-b9b4-ba5f8b69f54d)
 
 ### C. Définir le nombre de coeur
-
-
 | Ordre | Version supporté | Variable | Valeur (Defaut) | 8 Core(s)          |
 | ----- | ---------------- | -------- |---------------- | ------------------ |
 | 0     | 10.13 - 10.14    | Replace  | B8000000 0000   | B80**8**0000 0000  |
@@ -117,12 +115,21 @@ Le fichier doit être ouvert avec `ProperTree`.
 | 2     | 12.0  - 13.2     | Replace  | BA000000 0090   | BA0**8**0000 0090  |
 | 3     | 13.3 +	         | Replace  | BA000000 00     | BA0**8**0000 00    |
 
+![image](https://github.com/user-attachments/assets/49db8a9d-0489-4cb7-828f-7adfd70f602c)
+
+![image](https://github.com/user-attachments/assets/4d22a16b-c200-40a2-abd6-adc0e64b5e1c)
+
+![image](https://github.com/user-attachments/assets/9e6d4b0d-0769-4b0f-aeaa-d69cc18f0bf7)
+
+![image](https://github.com/user-attachments/assets/6a558c34-a049-4d68-aa9c-b0493f468c6f)
 
 
 
+<br />
+<br />
+<br />
 
-
-
+### X. Note
 ```
 https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#amd-zen
 ```
