@@ -6,6 +6,11 @@
 ### A. Qu'est ce qu'un Kexts ?
 Un Kexts est un pilote pour le matériel ou une fonction permettant de faire fonctionner le système.
 
+### B. SSDTime
+```
+- Page : https://dortania.github.io/OpenCore-Install-Guide/ktext.html#desktop
+- AMD (17/19h) : SSDT-EC-USB
+```
 
 <br />
 
