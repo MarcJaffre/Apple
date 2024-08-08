@@ -133,4 +133,5 @@ https://github.com/acidanthera/NVMeFix/releases
 ## IV. Sources
 ```
 https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
+https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html
 ```
