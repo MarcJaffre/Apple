@@ -10,8 +10,8 @@ Le fichier de configuration contient les instructions servant au démarrage du s
 Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer.
 
 <br />
-<br />
 
 --------------------------------------------------------------------------------------------------------------------------
 ## II. ProperTree
-### A. 
+### A. Ouvrir par défaut les `.plist`
+Ouvrir un fichier `.plist` et ouvrir avec le programme `ProperTree.bat`.
