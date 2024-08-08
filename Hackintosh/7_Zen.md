@@ -70,6 +70,9 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 
 
 #### 2. Emulate
+| Paramètres              | Valeur  |
+| ----------------------- | ------- |
+| DummyPowerManagement    | true    |
 
 ![image](https://github.com/user-attachments/assets/ff4f7cab-defd-4521-aec7-68786e8e9a86)
 
