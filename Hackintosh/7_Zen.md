@@ -29,3 +29,12 @@ PlatformInfo
 ## III. Patch AMD Vanilla
 
 ### A. 
+
+
+
+
+
+
+```
+https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#amd-zen
+```
