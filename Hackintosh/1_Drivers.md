@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------------------------------------------
-## <p align='center'> Création d'une Clé d'installation HackinTosh (Partie 1) </p>
+## <p align='center'> Création d'une Clé d'installation HackinTosh (Partie 2) </p>
 
 -------------------------------------------------------------------------------------------------------------------
 ## I. Installation de Drivers
