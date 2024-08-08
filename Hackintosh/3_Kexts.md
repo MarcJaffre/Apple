@@ -48,6 +48,11 @@ https://github.com/acidanthera/VirtualSMC/releases
 https://github.com/trulyspinach/SMCAMDProcessor/releases
 ```
 
+### D. RadeonSensor
+> Utilisé pour surveiller la température du GPU sur les systèmes GPU AMD. (Nécessite RadeonSensor du même dépôt)
+```
+https://github.com/aluveitie/RadeonSensor
+```
 
 
 <br />
