@@ -77,8 +77,10 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 ![image](https://github.com/user-attachments/assets/ff4f7cab-defd-4521-aec7-68786e8e9a86)
 
 
+
+
 #### 3. Patch (AMD Vanilla)
-Appliquer les actions de la partie III.
+Voir Partie III
 
 
 
@@ -96,7 +98,12 @@ Appliquer les actions de la partie III.
 --------------------------------------------------------------------------------------------------------------------------
 ## III. Patch AMD Vanilla
 
-### A. 
+### A. Télécharger le patch
+```
+https://github.com/AMD-OSX/AMD_Vanilla
+```
+
+### B. Editer le part
 
 
 
