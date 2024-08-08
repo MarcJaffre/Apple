@@ -90,6 +90,27 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 <br />
 
 #### 4. Quirks
+| Paramètres               | Valeur     | Commentaire                     |
+| ------------------------ | ---------- | ------------------------------- |
+| PanicNoKextDump	         | True       |                                 |
+| PowerTimeoutKernelPanic  | True       |                                 |
+| ProvideCurrentCpuInfo    | True       |                                 |
+| XhciPortLimit            | True       | Disable if running macOS 11.3+  |
+
+
+<br />
+
+![image](https://github.com/user-attachments/assets/5d847d21-85dd-4109-9370-790ac125aecd)
+
+
+
+
+
+
+
+
+
+
 
 <br />
 
@@ -100,6 +121,12 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 #### 2. 
 #### 3. 
 #### 4. 
+
+
+| Paramètres              | Valeur     |
+| ----------------------- | ---------- |
+| XXXXXXXXXXXXXXXX	      | False      |
+| XXXXXXXXXXXXXXXX	      | True       |
 
 
 <br />
