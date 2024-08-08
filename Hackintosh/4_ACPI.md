@@ -14,7 +14,9 @@ La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 
 ![image](https://github.com/user-attachments/assets/7d189d10-e5d2-4895-8881-194b8017a191)
 
-![image](https://github.com/user-attachments/assets/2719449c-4f45-4173-8189-af8faafaa075)
+![image](https://github.com/user-attachments/assets/17b539d7-3130-4b97-9b6d-b0bb7e2c6beb)
+
+![image](https://github.com/user-attachments/assets/d2f7997c-95bb-480e-855d-917c8a710e2e)
 
 ![image](https://github.com/user-attachments/assets/2eab20db-ed41-4ff6-8b6b-7dff73d22f20)
 
