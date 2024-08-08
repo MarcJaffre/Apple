@@ -100,10 +100,7 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 
 <br />
 
-![image](https://github.com/user-attachments/assets/5d847d21-85dd-4109-9370-790ac125aecd)
-
-
-
+![image](https://github.com/user-attachments/assets/729ef4ec-8327-4694-97f5-540049b822ad)
 
 
 
