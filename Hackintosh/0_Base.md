@@ -4,6 +4,7 @@
 -------------------------------------------------------------------------------------------------------------------
 ## I. Installation d'une clé Hackintosh
 ### A. Présentation
+Pour réaliser un HackinTosh, il est nécessaire d'avoir des utilitaires pour permettre sa réalisation
 
 -------------------------------------------------------------------------------------------------------------------
 ## II. Utilitaires
@@ -46,14 +47,22 @@ Tools:
 ![Tools](https://github.com/user-attachments/assets/6d37d831-77cf-4792-a535-945276e38a3a)
 
 
-### C. SSDTTime
+### E Rufus
+Rufus permettra de créer la clé USB.
+```
+https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe
+```
+
+
+### D. SSDTTime
 SSDTTime propose de faire des correctifs pour MacOS.
 ```
 https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip
 ```
 
-### D. ProperTree
+### E. ProperTree
 ProperTree permet l'édition des fichiers `.plist`.
 ```
 https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
 ```
+
