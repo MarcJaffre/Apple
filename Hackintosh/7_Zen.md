@@ -77,15 +77,13 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 ![image](https://github.com/user-attachments/assets/ff4f7cab-defd-4521-aec7-68786e8e9a86)
 
 
-
-
 #### 3. Patch (AMD Vanilla)
 Voir Partie III
 
 
 <br />
 
-### E.
+### E. Misc
 ### F.
 ### G.
 #### 1. 
@@ -104,7 +102,8 @@ Voir Partie III
 https://github.com/AMD-OSX/AMD_Vanilla
 ```
 
-### B. Editer le part
+### B. Editer le patch.plist
+
 
 
 
