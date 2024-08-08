@@ -21,6 +21,16 @@ Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer
 #### 1. Quirks
 La valeur `ResizeAppleGpuBars` a été mise sur `0` car l'option `Resizable BAR Support` dans le bios a été activé. 
 
+| Paramètres              | Valeur     | Commentaire                                               |
+| ----------------------- | ---------- | --------------------------------------------------------- |
+| DevirtualiseMmio	      | False      |                                                           |
+| EnableWriteUnprotector  | False      |                                                           |
+| RebuildAppleMemoryMap   | True       |                                                           |
+| ResizeAppleGpuBars      | **0**      | L'option Resizable BAR Support dans le bios est activée.  |
+| SetupVirtualMap         | **FALSE**  | Option mis sur False car [carte-mère X570](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#quirks-2) |
+| SyncRuntimePermissions  | True       |                                                           |
+
+
 #### 2.
 #### 3.
 #### 4.
