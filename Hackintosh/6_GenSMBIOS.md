@@ -24,3 +24,5 @@ iMacPro1,1 : NVIDIA Maxwell and Pascal or AMD Polaris and newer
 
 iMac14,2   : NVIDIA Maxwell and Pascal
 ```
+
+![image](https://github.com/user-attachments/assets/a90db4c9-ab14-4eee-9957-fc6221ee19aa)
