@@ -78,7 +78,8 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 
 
 #### 3. Patch (AMD Vanilla)
-Voir Partie III
+> Voir III. Patch AMD Vanilla
+
 
 
 <br />
@@ -130,6 +131,21 @@ Le fichier doit être ouvert avec `ProperTree`.
 <br />
 
 ![image](https://github.com/user-attachments/assets/6a558c34-a049-4d68-aa9c-b0493f468c6f)
+
+### C. config.plist
+Supprimer l'objet `Patch` dans `Kernel`.
+
+![image](https://github.com/user-attachments/assets/42759e1d-2a32-4933-af6b-f5684d5b21e8)
+
+![image](https://github.com/user-attachments/assets/c5294283-1546-4e64-a617-1fc340ab6576)
+
+
+<br />
+
+### D. Intégrer le patch
+Ouvrir le fichier `patch.plist` puis copier l'objet `Patch`.
+
+![image](https://github.com/user-attachments/assets/b2217b2e-ab1c-4f72-8091-a30571517e64)
 
 
 <br />
