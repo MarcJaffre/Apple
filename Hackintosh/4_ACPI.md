@@ -7,7 +7,7 @@
 La page [Kext](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#desktop) pour un CPU AMD de 17/19h (Ryzen 7 3700x), il est nécessaire de faire [SSDT-EC-USB](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html)
 
 ### B. SSDTTime
-#### 1. Partie I ([Guide](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html))
+#### 1. Génération de l'ACPI ([Guide](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html))
 La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 
 ![image](https://github.com/user-attachments/assets/7b1503dc-9b06-46fe-b8ef-cbbf55212099)
