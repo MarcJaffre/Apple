@@ -17,3 +17,26 @@ https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.efi
 
 ![HfsPlus](https://github.com/user-attachments/assets/dca7d216-71a2-4743-8294-63bd6a8943d2)
 
+```
+#
+└───EFI
+    ├───BOOT
+    │       BOOTx64.efi
+    │
+    └───OC
+        │   OpenCore.efi
+        │
+        ├───ACPI
+        ├───Drivers
+        │       HfsPlus.efi
+        │       OpenCanopy.efi
+        │       OpenRuntime.efi
+        ├───Kexts
+        ├───Resources
+        │   ├───Audio
+        │   ├───Font
+        │   ├───Image
+        │   └───Label
+        └───Tools
+                OpenShell.efi
+```
