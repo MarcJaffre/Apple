@@ -29,9 +29,9 @@ Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
 ------------------------------------------------------------------------------------------------------------------------------
 ## III. Pilote (matériel)
 ### A. Kexts
-Les dossiers se terminant en `.kexts` doit être dépose dans le répertoire `Kexts`.
-
-Un kexts peut contenir un dossier `content`, `Tools`.
+> Les dossiers se terminant en `.kexts` doit être dépose dans le répertoire `Kexts`.
+>
+> Un kexts peut contenir un dossier `content`, `Tools`.
 
 
 
