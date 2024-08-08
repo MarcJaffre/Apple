@@ -4,10 +4,10 @@
 -------------------------------------------------------------------------------------------------------------------
 ## I. Installation de Drivers
 ### A. Présentation
-> Le dossier Drivers est utilisé pour le démarrage de MacOS uniquement
+Le dossier Drivers est utilisé pour le démarrage de MacOS uniquement
 
 ### B. HfsPlus
-> Télécharger le fichier et placer le dossier dans le répertoire `Drivers`.
+Télécharger le fichier et placer le dossier dans le répertoire `Drivers`.
 
 ```
 https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.efi
