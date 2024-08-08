@@ -21,6 +21,41 @@ Un Kexts est un pilote pour le matériel ou une fonction permettant de faire fon
 
 ### C. HfsPlus (Requis)
 > Nécessaire pour visualiser les volumes HFS (c'est-à-dire les installateurs macOS et les partitions/images de récupération).
+>
+> Déposer le fichier dans le répertoire `Drivers` de OpenCorePKG.
+
+```
+https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.efi
+```
+
+<br />
+
+![HfsPlus](https://github.com/user-attachments/assets/dca7d216-71a2-4743-8294-63bd6a8943d2)
+
+```
+#
+└───EFI
+    ├───BOOT
+    │       BOOTx64.efi
+    │
+    └───OC
+        │   OpenCore.efi
+        │
+        ├───ACPI
+        ├───Drivers
+        │       HfsPlus.efi
+        │       OpenCanopy.efi
+        │       OpenRuntime.efi
+        ├───Kexts
+        ├───Resources
+        │   ├───Audio
+        │   ├───Font
+        │   ├───Image
+        │   └───Label
+        └───Tools
+                OpenShell.efi
+```
+
 
 <br />
 
