@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------------------------------------------
+## <p align='center'> Création d'une Clé d'installation HackinTosh (Partie 2) </p>
+
+-------------------------------------------------------------------------------------------------------------------
+## I. MacRecovery
+### A. Présentation
+L'outil MacRecovery permet de télécharger l'image MacOS Recovery qui sera nécessaire lors de la création de la clé USB.
+
+### B. Python3
+Installer le logiciel Python 3.
+```
+https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe
+```
+
+### C. Mac Recovery (Image)
+#### 1 CMD
+> Ouvrir l'invite de commande
+>
+> cd ...\OpenCore\Utilities\macrecovery
+
+#### 2. Version MaCOS
+````
+:: # - [10.13] High Sierra	-b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download
+:: #				                -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download
+:: # - [10.14] Mojave		    -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
+:: # - [10.15] Catalina		  -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
+:: # - [11]    Big Sur		  -b Mac-42FD25EABCABB274 -m 00000000000000000 download
+:: # - [12]    Monterey		  -b Mac-FFE5EF870D7BA81A -m 00000000000000000 download
+:: # - [13]    Ventura      -b Mac-4B682C642B45593E -m 00000000000000000 download
+```
