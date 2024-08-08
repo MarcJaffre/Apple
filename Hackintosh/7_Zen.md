@@ -18,10 +18,14 @@ Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer
 ### B. Booter
 ### C. 
 ### D.
-
 Kernel
 Misc
 NVRAM
 PlatformInfo
-AMD Vanilla
 
+<br />
+
+--------------------------------------------------------------------------------------------------------------------------
+## III. Patch AMD Vanilla
+
+### A. 
