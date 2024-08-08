@@ -45,12 +45,24 @@ Supprimer l'entrée `PciRoot(0x0)/Pci(0x1b,0x0)` .
 <br />
 
 ### D. Kernel
+#### 1. ADD
 Par défaut, nous recommandons de laisser ce que ProperTree
 > C'est ici que nous spécifions quels kexts charger, dans quel ordre spécifique, et pour quelles architectures chaque kext est destiné.
 
+| Ordre de démarrage | BundlePath                           |
+| ------------------ | ------------------------------------ |
+| 0                  | Lilu.kext                            |
+| 1                  | VirtualSMC.kext                      |
+| 2                  | WhateverGreen.kext                   |
+| 3                  | AppleALC.kext                        |
+| 4                  | AppleMCEReporterDisabler.kext        |
+| 5                  | AMDRyzenCPUPowerManagement.kext      |
+| 6                  | AppleIGB.kext                        |
+| 7                  | NVMeFix.kext                         |
+| 8                  | SMCAMDProcessor.kext                 |
 
 
-#### 1. 
+
 #### 2. 
 #### 3. 
 #### 4. 
