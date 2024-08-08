@@ -48,6 +48,8 @@ https://github.com/acidanthera/VirtualSMC/releases
 https://github.com/trulyspinach/SMCAMDProcessor/releases
 ```
 
+<br />
+
 ### D. RadeonSensor (Optionnel)
 > Utilisé pour surveiller la température du GPU sur les systèmes GPU AMD. (Nécessite RadeonSensor du même dépôt)
 >
@@ -55,6 +57,17 @@ https://github.com/trulyspinach/SMCAMDProcessor/releases
 ```
 https://github.com/aluveitie/RadeonSensor
 ```
+
+### E. WhateverGreen (Requis)
+> Utilisé pour les correctifs graphiques, les corrections de DRM, les vérifications d'ID de carte, les corrections de framebuffer, etc ; tous les GPU bénéficient de ce kext.
+
+```
+https://github.com/acidanthera/WhateverGreen/releases
+```
+
+<br />
+
+
 
 
 <br />
