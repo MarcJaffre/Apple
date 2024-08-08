@@ -19,9 +19,9 @@ https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers
 Le fichier EFI doivent être déposer dans le répertoire Drivers d'OpenCorePKG.
 
 #### 1. OpenRuntime (Requis)
-Extension pour OpenCore pour aider à patcher boot.efi pour des corrections NVRAM et une meilleure gestion de la mémoire.
+> Extension pour OpenCore pour aider à patcher boot.efi pour des corrections NVRAM et une meilleure gestion de la mémoire.
 
 #### 2. HfsPlus (Requis)
-Nécessaire pour visualiser les volumes HFS (c'est-à-dire les installateurs macOS et les partitions/images de récupération).
+> Nécessaire pour visualiser les volumes HFS (c'est-à-dire les installateurs macOS et les partitions/images de récupération).
 
 
