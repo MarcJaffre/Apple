@@ -110,12 +110,12 @@ Le fichier doit être ouvert avec `ProperTree`.
 ### C. Définir le nombre de coeur
 
 
-| Ordre | Version supporté | Variable | VALEUR Defaut  | 8 Core(s)          |
-| ----- | ---------------- | -------- |--------------- | ------------------ |
-| 0     | 10.13 - 10.14    | Replace  |
-| 1     | 10.15 - 11       | Replace  |
-| 2     | 12    - 13.2.1   | Replace  |
-| 3     | 13.3 +	
+| Ordre | Version supporté | Variable | Valeur (Defaut) | 8 Core(s)          |
+| ----- | ---------------- | -------- |---------------- | ------------------ |
+| 0     | 10.13 - 10.14    | Replace  | B8000000 0000   | B80**8**0000 0000  |
+| 1     | 10.15 - 11.0     | Replace  | BA000000 0000   | BA0**8**0000 0000  | 
+| 2     | 12.0  - 13.2     | Replace  | BA000000 0090   | BA0**8**0000 0090  |
+| 3     | 13.3 +	         | Replace  | BA000000 00     | BA0**8**0000 00    |
 
 
 
