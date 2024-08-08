@@ -12,17 +12,13 @@ La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 
 ![image](https://github.com/user-attachments/assets/7b1503dc-9b06-46fe-b8ef-cbbf55212099)
 
-![image](https://github.com/user-attachments/assets/7d189d10-e5d2-4895-8881-194b8017a191)
-
 
 
 <br />
 
 #### 2. Partie 2 ([Fix EC](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-methods/ssdttime.html))
 
-
-
-
+![image](https://github.com/user-attachments/assets/7d189d10-e5d2-4895-8881-194b8017a191)
 
 ![image](https://github.com/user-attachments/assets/17b539d7-3130-4b97-9b6d-b0bb7e2c6beb)
 
