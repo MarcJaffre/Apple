@@ -11,6 +11,8 @@
 
 [OpenCore-1.0.1-DEBUG](https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-DEBUG.zip)
 
+<br />
+
 ### C. Dossier de travail
 Sortir le dossier `OpenCore-1.0.1-DEBUG\X64\EFI` de `OpenCore-1.0.1-DEBUG`. 
 
