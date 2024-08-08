@@ -42,7 +42,7 @@ OC:
 
 Drivers:
 
-![Drivers](https://github.com/user-attachments/assets/86ad5806-8a56-4528-9710-efce67c95617)
+![Drivers](https://github.com/user-attachments/assets/ff36b091-6ed5-4e95-9438-90029434cb1d)
 
 Tools:
 
