@@ -50,7 +50,8 @@ https://github.com/acidanthera/Lilu/releases
 ### C. VirtualSMC (Requis)
 > Emule la puce SMC que l'on trouve que sur les vrais macs, sans laquelle macOS ne démarre pas. (Supporté à partir de MacOS 10.4 ou plus récent)
 >
-> Extraire le dossier Tools dans Kexts !!!
+> 
+> Extraire les dossiers Tools et VirtualSMC.kext dans Kexts uniquement !!!
 ```
 https://github.com/acidanthera/VirtualSMC/releases
 ```
