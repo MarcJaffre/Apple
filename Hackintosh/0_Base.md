@@ -66,3 +66,30 @@ ProperTree permet l'édition des fichiers `.plist`.
 https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
 ```
 
+
+### G. Tree
+La commande `tree /F` permet de vérifier.
+```
+#
+└───EFI
+    ├───BOOT
+    │       BOOTx64.efi
+    │
+    └───OC
+        │   OpenCore.efi
+        │
+        ├───ACPI
+        ├───Drivers
+        │       HfsPlus.efi
+        │       OpenCanopy.efi
+        │       OpenRuntime.efi
+        ├───Kexts
+        ├───Resources
+        │   ├───Audio
+        │   ├───Font
+        │   ├───Image
+        │   └───Label
+        └───Tools
+                OpenShell.efi
+```
+
