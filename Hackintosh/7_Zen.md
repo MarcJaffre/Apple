@@ -138,9 +138,9 @@ Le fichier doit être ouvert avec `ProperTree`.
 ### C. config.plist
 Supprimer l'objet `Patch` dans `Kernel`.
 
-<img width="890" height="280" src=https://github.com/user-attachments/assets/42759e1d-2a32-4933-af6b-f5684d5b21e8 />
+<img width="890" height="300" src=https://github.com/user-attachments/assets/42759e1d-2a32-4933-af6b-f5684d5b21e8 />
 
-<img width="890" height="280" src=https://github.com/user-attachments/assets/c5294283-1546-4e64-a617-1fc340ab6576 />
+<img width="890" height="300" src=https://github.com/user-attachments/assets/c5294283-1546-4e64-a617-1fc340ab6576 />
 
 
 <br />
