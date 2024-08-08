@@ -14,8 +14,10 @@ Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer
 --------------------------------------------------------------------------------------------------------------------------
 ## II. Edition de la configuration MacOS
 ### A. [ACPI](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#acpi)
+![image](https://github.com/user-attachments/assets/167e889d-9cc8-47a2-acc9-d352961df4ad)
 
 ### B. Booter
+
 ### C. 
 ### D.
 Kernel
