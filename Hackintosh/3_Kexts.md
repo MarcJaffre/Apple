@@ -41,12 +41,13 @@ https://github.com/acidanthera/VirtualSMC/releases
 
 <br />
 
-### C. SMCAMDProcessor
-> Utilisé pour surveiller la température du processeur sur les systèmes AMD Zen. (Nécessite macOS 10.13 ou plus récent)
+### C. SMCAMDProcessor (Requis)
+> Utilisé pour surveiller la température du processeur sur les systèmes AMD Zen. (Requiert AMDRyzenCPUPowerManagement et nécessite macOS 10.13 ou plus récent)
 >
-> Requiert AMDRyzenCPUPowerManagement
 ```
 https://github.com/trulyspinach/SMCAMDProcessor/releases
+> SMCAMDProcessor.kext.zip
+> AMDRyzenCPUPowerManagement.kext.zip
 ```
 
 
