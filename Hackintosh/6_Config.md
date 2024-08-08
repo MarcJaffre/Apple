@@ -17,6 +17,7 @@ Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer
 Ouvrir un fichier `.plist` et ouvrir avec le programme `ProperTree.bat`.
 
 ### B. Actualiser la configuration
+Cette opération supprime toutes les entrées du fichier config.plist et ajoute tous les SSDT, Kexts et pilotes de microprogrammes à la configuration. (Laissera les entrées désactivées si elles étaient configurées ainsi auparavant)
 
 > File
 >
