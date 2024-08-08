@@ -14,9 +14,17 @@ Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer
 --------------------------------------------------------------------------------------------------------------------------
 ## II. Edition de la configuration MacOS
 ### A. [ACPI](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#acpi)
+#### 1. ADD
 ![image](https://github.com/user-attachments/assets/167e889d-9cc8-47a2-acc9-d352961df4ad)
 
 ### B. Booter
+#### 1. Quirks
+La valeur `ResizeAppleGpuBars` a été mise sur `0` car l'option `Resizable BAR Support` dans le bios a été activé. 
+
+#### 2.
+#### 3.
+#### 4.
+
 
 ### C. 
 ### D.
