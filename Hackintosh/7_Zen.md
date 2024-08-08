@@ -82,6 +82,10 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 
 <br />
 
+#### 4. Quirks
+
+<br />
+
 ### E. Misc
 ### F.
 ### G.
