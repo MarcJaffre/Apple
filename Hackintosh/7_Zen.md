@@ -69,8 +69,11 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 | 15                 | XXXXXXXXXX.kext                      |
 
 
+#### 2. Emulate
 
-#### 2. 
+![image](https://github.com/user-attachments/assets/ff4f7cab-defd-4521-aec7-68786e8e9a86)
+
+
 #### 3. 
 #### 4. 
 
