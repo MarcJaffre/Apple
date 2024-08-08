@@ -145,17 +145,10 @@ Permer l'activation des différents Debug
  » à la variable «
 
 
-### G.
-
-#### 2. 
-#### 3. 
-#### 4. 
-
-
-| Paramètres              | Valeur     |
-| ----------------------- | ---------- |
-| XXXXXXXXXXXXXXXX	      | False      |
-| XXXXXXXXXXXXXXXX	      | True       |
+### G. UEFI
+#### 1. OpenRuntime.efi
+#### 2. HfsPlus.efi 
+#### 3. OpenCanopy.efi
 
 
 <br />
