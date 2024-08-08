@@ -24,7 +24,17 @@ La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 
 ![image](https://github.com/user-attachments/assets/2eab20db-ed41-4ff6-8b6b-7dff73d22f20)
 
-#### 3. OpenCorePKG
+
+#### 2. Génération du correctif [USB-X
+![image](https://github.com/user-attachments/assets/d4e3c8bf-5690-4eff-8d11-5f2f4d38852a)
+
+![image](https://github.com/user-attachments/assets/432043a7-47aa-4226-83f6-69f521086b7d)
+
+![image](https://github.com/user-attachments/assets/97a9c2a0-3e2e-4043-a4c8-5082a5c1ba4a)
+
+
+
+#### 4. OpenCorePKG
 > Les fichiers `aml` doivent être placé dans `ACPI`.
 
 ACPI:
