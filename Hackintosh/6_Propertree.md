@@ -1,11 +1,10 @@
 --------------------------------------------------------------------------------------------------------------------------
-## <p align='center'> [Création d'une Clé d'installation HackinTosh (Partie 5)](https://dortania.github.io/OpenCore-Install-Guide/config.plist/) </p>
+## <p align='center'> [Création d'une Clé d'installation HackinTosh (Partie 6)](https://dortania.github.io/OpenCore-Install-Guide/config.plist/) </p>
 
 --------------------------------------------------------------------------------------------------------------------------
 ## I. Information
 ### A. Présentation
 Le fichier de configuration contient les instructions servant au démarrage du système.
-
 
 <br />
 
