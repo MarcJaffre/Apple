@@ -3,16 +3,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------
 ## I. Installation d'une clé Hackintosh
-### A. Présentation
-> GenSMBIOS
-> 
-> OpenCorePKG est l'outil de base pour la création d'une clé USB Hackintosh
->
-> ProperTree
->
-> SSDTTime
-
-### B. OpenCorePKG
+### A. OpenCorePKG
 > L'archive Debug permet lors de l'installation de voir les événements au démarrage.
 
 [OpenCore-1.0.1-DEBUG](https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-DEBUG.zip)
@@ -31,3 +22,15 @@
 
 #### 4. Tools
 ![Tools](https://github.com/user-attachments/assets/6d37d831-77cf-4792-a535-945276e38a3a)
+
+
+
+```
+> GenSMBIOS
+> 
+> OpenCorePKG
+>
+> ProperTree
+>
+> SSDTTime
+```
