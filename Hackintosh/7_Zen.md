@@ -120,7 +120,7 @@ Le fichier doit être ouvert avec `ProperTree`.
 
 <br />
 
-![image](https://github.com/user-attachments/assets/49db8a9d-0489-4cb7-828f-7adfd70f602c)
+![image](https://github.com/user-attachments/assets/eecbdd6b-dff4-4d05-b67e-29c23b4a7575)
 
 <br />
 
