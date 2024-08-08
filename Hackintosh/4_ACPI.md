@@ -10,7 +10,6 @@ La page [Kext](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#desk
 #### 1. Génération de l'ACPI ([Guide](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html))
 La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 
-![image](https://github.com/user-attachments/assets/d2f7997c-95bb-480e-855d-917c8a710e2e)
 
 ![image](https://github.com/user-attachments/assets/7b1503dc-9b06-46fe-b8ef-cbbf55212099)
 
@@ -22,6 +21,7 @@ La génération de l'ACPI est dans le dossier `SSDTTime\Results`.
 
 ![image](https://github.com/user-attachments/assets/17b539d7-3130-4b97-9b6d-b0bb7e2c6beb)
 
+![image](https://github.com/user-attachments/assets/d2f7997c-95bb-480e-855d-917c8a710e2e)
 
 ![image](https://github.com/user-attachments/assets/2eab20db-ed41-4ff6-8b6b-7dff73d22f20)
 
