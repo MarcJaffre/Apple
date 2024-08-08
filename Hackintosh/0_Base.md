@@ -27,7 +27,13 @@
 
 
 ### X. SSDTTime
+SSDTTime propose de faire des correctifs pour MacOS.
 
 ### X. ProperTree
+ProperTree permet l'édition des fichiers `.plist`.
 
 ### X. GenSMBIOS
+GenSMBIOS permet de simuler une référence matériel et de générer un numéro de série.
+```
+https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip
+```
