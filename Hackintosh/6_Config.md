@@ -16,7 +16,12 @@ Pour permettre le démarrage, un patch nommer `AMD_Vanilla` doit être appliquer
 ### A. Ouvrir par défaut les `.plist`
 Ouvrir un fichier `.plist` et ouvrir avec le programme `ProperTree.bat`.
 
-### B. Purger les entrées inutiles
-> File > Clean Snapshot > Sélectionner un dossier (....\EFI\OC)
-> 
+### B. Actualiser la configuration
+
+> File
+>
+> Clean Snapshot
+>
+> Sélectionner un dossier (....\EFI\OC)
+
 
