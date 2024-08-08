@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------------------------------------------------
-## <p align='center'> [Création d'une Clé d'installation HackinTosh (Partie 4)](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers) </p>
+## <p align='center'> [Création d'une Clé d'installation HackinTosh (Partie 3)](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers) </p>
 
 --------------------------------------------------------------------------------------------------------------------------
 ## I. Présentation
