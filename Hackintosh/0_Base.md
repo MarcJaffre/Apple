@@ -7,6 +7,7 @@
 
 -------------------------------------------------------------------------------------------------------------------
 ## II. Utilitaires
+![Explorateur_de_fichier](https://github.com/user-attachments/assets/1a9a4d7c-e9c3-49ed-928d-cf013fddd787)
 
 ### A. GenSMBIOS
 GenSMBIOS permet de simuler une référence matériel et de générer un numéro de série.
