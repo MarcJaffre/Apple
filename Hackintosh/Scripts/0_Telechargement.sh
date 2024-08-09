@@ -3,12 +3,12 @@
 ########################################################################################################################################
 # Script qui telecharge et extrait dans le dossier temporaire
 ########################################################################################################################################
-
+#
 ########################################################################################################################################
 # Nettoyage de la console #
 ###########################
 clear;
-
+#
 ########################################################################################################################################
 # Utilitaires de base #
 #######################
@@ -20,6 +20,11 @@ OPENCOREPKG="https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/
 GENSMBIOS="https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip"
 PROPERTREE="https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip"
 SSDTIME="https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip"
+#
+########################################################################################################################################
+# ACPI #
+########
+SSDTECUSBX="https://github.com/christiancuri/Hackintosh-Ryzen-7-3700X-B550M-Plus/raw/main/EFI/OC/ACPI/SSDT-EC-USBX-DESKTOP.aml"
 #
 ########################################################################################################################################
 # Drivers (EFI) #
@@ -46,7 +51,7 @@ INTELMAUSI="https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/In
 #
 #
 ########################################################################################################################################
-# PAtch Kernel #
+# Patch Kernel #
 ################
 AMD_VANILLA="https://github.com/AMD-OSX/AMD_Vanilla/archive/refs/heads/master.zip"
 #
@@ -61,9 +66,12 @@ wget $GENSMBIOS      -O /tmp/gensmbios.zip      2>/dev/null;
 wget $PROPERTREE     -O /tmp/propertree.zip     2>/dev/null;
 wget $SSDTIME        -O /tmp/ssdtime.zip        2>/dev/null;
 
+echo "Telechargement ACPI";
+wget $SSDTECUSBX     -O /tmp/SSDT-EC-USBX-DESKTOP.aml 2>/dev/null;
+#
 echo "Telechargement du Drivers HFSPLUS";
 wget $HFSPLUS        -O /tmp/hfsplus.efi        2>/dev/null;
-
+#
 echo "Telechargement des Kexts";
 wget $LILU           -O /tmp/lilu.zip           2>/dev/null;
 wget $VIRTUALSMC     -O /tmp/virtualsmc.zip     2>/dev/null;
