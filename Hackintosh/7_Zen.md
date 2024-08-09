@@ -3,9 +3,6 @@
 
 --------------------------------------------------------------------------------------------------------------------------
 
-### Paramètre HideAuxiliary sur FALSE !!!!
-
-
 ## I. Information
 ### A. Présentation
 La configuration suivante est pour les ordinateurs ayant un processeur `AMD`.
@@ -108,7 +105,7 @@ Par défaut, nous recommandons de laisser ce que ProperTree
 #### 1. Boot
 | Paramètres     | Valeur  | Commentaire                     |
 | -------------- | ------- | ------------------------------- |
-| HideAuxiliary  | True    |                                 |
+| HideAuxiliary  | False   | Conseiller: True                |
 
 #### 2. Debug
 Permer l'activation des différents Debug
