@@ -1688,7 +1688,7 @@
 				<key>boot-args</key>
 				<string>-v keepsyms=1 npci=0x3000</string>
 				<key>csr-active-config</key>
-				<string>en-US:0</string>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>cnUtUlU6MjUy</data>
 				<key>run-efi-updater</key>
