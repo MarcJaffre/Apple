@@ -1,7 +1,7 @@
 Le fichier de config suivant permet un semblant de démarrage
 
 ```
--v debug=0x100 npci=0x3000 agdpmod=pikera -radcodec unfairgva=1
+-v keepsyms=1 debug=0x100 npci=0x3000 agdpmod=pikera -radcodec unfairgva=1
 ```
 
 
