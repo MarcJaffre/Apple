@@ -1,8 +1,12 @@
 Le fichier de config suivant permet un semblant de démarrage
 
+
+https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#securebootmodel
+
 ```
 -v keepsyms=1 debug=0x100 npci=0x3000 agdpmod=pikera -radcodec unfairgva=1
 ```
+
 
 
 
