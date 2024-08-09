@@ -3,13 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>#La configuration suivante inclus le patch AMD Vanilla</key>
-	<string>#WARNING - 2</string>
-	<key>#By Drthrax74</key>
-	<string>Ensure you understand EVERY field before booting.</string>
-	<key>#WARNING - 3</key>
-	<string>In most cases recommended to use Sample.plist</string>
-	<key>#WARNING - 4</key>
-	<string>Use SampleCustom.plist only for special cases.</string>
+	<string>#By Drthrax74</string>
+
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
