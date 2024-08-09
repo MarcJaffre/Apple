@@ -14,6 +14,7 @@ Le fichier de config suivant permet un semblant de démarrage
     │   ├── HfsPlus.efi
     │   └── OpenRuntime.efi 
     │
+    │
     ├── Kexts
     │   ├── AMDRyzenCPUPowerManagement.kext
     │   │   └── Contents
@@ -23,11 +24,14 @@ Le fichier de config suivant permet un semblant de démarrage
     │   │       └── MacOS
     │   │           └── AMDRyzenCPUPowerManagement 
     │   |
+    │   |
+    │   |
     │   ├── AppleALC.kext
     │   │   └── Contents
     │   │       ├── Info.plist
     │   │       └── MacOS
     │   │           └── AppleALC
+    │   |
     │   |
     │   ├── AppleMCEReporterDisabler.kext
     │   │   └── Contents
@@ -95,6 +99,8 @@ Le fichier de config suivant permet un semblant de démarrage
     │   │       └── MacOS
     │   │           └── NVMeFix
     │   |
+    │   |
+    │   |
     │   ├── RadeonSensor.kext
     │   │   └── Contents
     │   │       ├── _CodeSignature
@@ -102,6 +108,7 @@ Le fichier de config suivant permet un semblant de démarrage
     │   │       ├── Info.plist
     │   │       └── MacOS
     │   │           └── RadeonSensor
+    │   |
     │   |
     │   |
     │   ├── RestrictEvents.kext
@@ -116,6 +123,9 @@ Le fichier de config suivant permet un semblant de démarrage
     │   │       ├── Info.plist
     │   │       └── MacOS
     │   │           └── SMCAMDProcessor
+    │   |
+    │   |
+    │   |
     │   ├── SMCRadeonGPU.kext
     │   │   └── Contents
     │   │       ├── _CodeSignature
@@ -123,6 +133,9 @@ Le fichier de config suivant permet un semblant de démarrage
     │   │       ├── Info.plist
     │   │       └── MacOS
     │   │           └── SMCRadeonGPU
+    │   |
+    │   |
+    │   |
     │   ├── VirtualSMC.kext
     │   │   └── Contents
     │   │       ├── Info.plist
@@ -136,12 +149,18 @@ Le fichier de config suivant permet un semblant de démarrage
     │   │               ├── kern_smcinfo.hpp
     │   │               ├── kern_value.hpp
     │   │               └── kern_vsmcapi.hpp
+    │   |
+    │   |
     │   └── WhateverGreen.kext
     │       └── Contents
     │           ├── Info.plist
     │           └── MacOS
     │               └── WhateverGreen
+    │
+    │
     ├── OpenCore.efi
+    │
+    │
     ├── Resources
     │   ├── Audio
     │   ├── Font
@@ -149,6 +168,4 @@ Le fichier de config suivant permet un semblant de démarrage
     │   └── Label
     └── Tools
         └── OpenShell.efi
-
-59 directories, 81 files
 ```
