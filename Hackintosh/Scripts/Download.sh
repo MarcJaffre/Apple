@@ -6,6 +6,11 @@
 clear;
 
 ########################################################################################################################################
+# Dossier de Travail #
+######################
+WORK="$HOME/Bureau/Hackintosh"
+
+########################################################################################################################################
 # Utilitaires de base #
 #######################
 #
@@ -45,9 +50,9 @@ INTELMAUSI="https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/In
 ########################################################################################################################################
 # Nettoyage #
 #############
-rm -rf /tmp/*.zip 2>/dev/null;
-#
-#
+rm -rf /tmp/* 2>/dev/null;
+rm -r $WORK 2>/dev/null;
+
 ########################################################################################################################################
 # Telechargement #
 ##################
@@ -70,18 +75,62 @@ wget $APPLEMCER      -O /tmp/applemcer.zip      2>/dev/null;
 wget $APPLEALC       -O /tmp/applealc.zip       2>/dev/null;
 wget $INTELMAUSI     -O /tmp/intelmausi.zip     2>/dev/null;
 #
+########################################################################################################################################
+# Decompression #
+#################
+echo "Decompression des archives";
+
+# Core
+unzip -o /tmp/opencore.zip       -d /tmp/opencore       1>/dev/null;
+#
+# Outîls
+unzip -o /tmp/gensmbios.zip      -d /tmp/gensmbios      1>/dev/null;
+unzip -o /tmp/propertree.zip     -d /tmp/propertree     1>/dev/null;
+unzip -o /tmp/ssdtime.zip        -d /tmp/ssdtime        1>/dev/null;
+#
+# Indispensables
+unzip -o /tmp/lilu.zip           -d /tmp/lilu           1>/dev/null;
+unzip -o /tmp/virtualsmc.zip     -d /tmp/virtualsmc     1>/dev/null;
+unzip -o /tmp/whatevergreen.zip  -d /tmp/whatevergreen  1>/dev/null;
+#
+# AMD
+unzip -o /tmp/applemcer.zip      -d /tmp/applemcer      1>/dev/null;
+#
+# Audio
+unzip -o /tmp/applealc.zip       -d /tmp/applealc       1>/dev/null;
+#
+# Carte-Reseau
+unzip -o /tmp/intelmausi.zip     -d /tmp/intelmausi     1>/dev/null;
+#
+#
+
+########################################################################################################################################
+# Creation du dossier de travail #
+##################################
+#
+mkdir -p $WORK         1>/dev/null;
+mkdir -p $WORK/Drivers 1>/dev/null;
+mkdir -p $WORK/Kexts   1>/dev/null;
+mkdir -p $WORK/Tools   1>/dev/null;
+mkdir -p $WORK/Patch   1>/dev/null;
 #
 ########################################################################################################################################
 # Deplacement Dossier #
 #######################
-unzip -f /tmp/opencore.zip       -d /tmp/opencore
-unzip -f /tmp/gensmbios.zip      -d /tmp/gensmbios
-unzip -f /tmp/propertree.zip     -d /tmp/propertree
-unzip -f /tmp/ssdtime.zip        -d /tmp/ssdtime
+mv /tmp/*/*.kext      $WORK/Kexts 2>/dev/null;
+mv /tmp/*/*/*.kext    $WORK/Kexts 2>/dev/null;
+mv /tmp/opencore      $WORK       2>/dev/null;
+mv /tmp/gensmbios     $WORK       2>/dev/null;
+mv /tmp/propertree    $WORK       2>/dev/null;
+mv /tmp/ssdtime       $WORK       2>/dev/null;
+mv /tmp/gensmbios     $WORK       2>/dev/null;
 
-unzip -f /tmp/lilu.zip           -d /tmp/lilu
-unzip -f /tmp/virtualsmc.zip     -d /tmp/virtualsmc
-unzip -f /tmp/whatevergreen.zip  -d /tmp/whatevergreen
-unzip -f /tmp/applemcer.zip      -d /tmp/applemcer
-unzip -f /tmp/applealc.zip       -d /tmp/applealc
-unzip -f /tmp/intelmausi.zip     -d /tmp/intelmausi
+########################################################################################################################################
+# Nettoyage TEMP #
+##################
+rm -rf /tmp/ 2>/dev/null;
+#
+
+########################################################################################################################################
+# Nettoyage Opencore #
+######################
