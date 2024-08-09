@@ -9,7 +9,7 @@ PROG="$WORK/Ressources/opencore/Utilities/macrecovery/macrecovery.py"
 ########################################################################################################################################
 # Selection OS : bigsur | monterey | ventura | sonoma #
 #######################################################
-OS="sonoma"
+OS="aaaâ"
 
 ########################################################################################################################################
 # Version #
@@ -43,8 +43,8 @@ fi
 # Telechargement OS #
 #####################
 if [ ! -z $OS ];then
-   if [ $OS = "bigsur"   ];then python3 $PROG $BIGSUR   -o $WORK/com.apple.recovery.boot;  fi
-   if [ $OS = "monterey" ];then python3 $PROG $MONTEREY -o $WORK/com.apple.recovery.boot;  fi
-   if [ $OS = "ventura"  ];then python3 $PROG $VENTURA  -o $WORK/com.apple.recovery.boot;  fi
-   if [ $OS = "sonoma"   ];then python3 $PROG $SONOMA   -o $WORK/com.apple.recovery.boot;  fi
+   if [ $OS = "bigsur"   ];then python3 $PROG $BIGSUR   -o $WORK/com.apple.recovery.boot; fi
+   if [ $OS = "monterey" ];then python3 $PROG $MONTEREY -o $WORK/com.apple.recovery.boot; fi
+   if [ $OS = "ventura"  ];then python3 $PROG $VENTURA  -o $WORK/com.apple.recovery.boot; fi
+   if [ $OS = "sonoma"   ];then python3 $PROG $SONOMA   -o $WORK/com.apple.recovery.boot; fi
 fi
