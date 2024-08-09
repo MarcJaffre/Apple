@@ -25,7 +25,7 @@ SSDTIME="https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip"
 ########################################################################################################################################
 # Drivers (EFI) #
 #################
-HFSPLUS="https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.efi"
+HFSPLUS="https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.c"
 #
 ########################################################################################################################################
 # Kexts #
@@ -46,6 +46,11 @@ APPLEALC="https://github.com/acidanthera/AppleALC/releases/download/1.7.5/AppleA
 INTELMAUSI="https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/IntelMausi-1.0.7-DEBUG.zip"
 #
 #
+########################################################################################################################################
+# PAtch Kernel #
+################
+AMD_VANILLA="https://github.com/AMD-OSX/AMD_Vanilla/archive/refs/heads/master.zip"
+#
 #
 ########################################################################################################################################
 # Nettoyage #
@@ -65,7 +70,7 @@ wget $PROPERTREE     -O /tmp/propertree.zip     2>/dev/null;
 wget $SSDTIME        -O /tmp/ssdtime.zip        2>/dev/null;
 
 echo "Telechargement du Drivers HFSPLUS";
-wget $HFSPLUS        -O /tmp/hfsplus.zip        2>/dev/null;
+wget $HFSPLUS        -O /tmp/hfsplus.efi        2>/dev/null;
 
 echo "Telechargement des Kexts";
 wget $LILU           -O /tmp/lilu.zip           2>/dev/null;
@@ -75,6 +80,8 @@ wget $APPLEMCER      -O /tmp/applemcer.zip      2>/dev/null;
 wget $APPLEALC       -O /tmp/applealc.zip       2>/dev/null;
 wget $INTELMAUSI     -O /tmp/intelmausi.zip     2>/dev/null;
 #
+echo "Telechargement du patch CPU AMD";
+wget $AMD_VANILLA    -O /tmp/amdvanilla.zip     2>/dev/null;
 ########################################################################################################################################
 # Decompression #
 #################
@@ -102,35 +109,71 @@ unzip -o /tmp/applealc.zip       -d /tmp/applealc       1>/dev/null;
 # Carte-Reseau
 unzip -o /tmp/intelmausi.zip     -d /tmp/intelmausi     1>/dev/null;
 #
-#
+# Patch AMD CPU
+unzip -o /tmp/amdvanilla.zip     -d /tmp/amdvanilla     1>/dev/null;
 
 ########################################################################################################################################
 # Creation du dossier de travail #
 ##################################
 #
-mkdir -p $WORK         1>/dev/null;
-mkdir -p $WORK/Drivers 1>/dev/null;
-mkdir -p $WORK/Kexts   1>/dev/null;
-mkdir -p $WORK/Tools   1>/dev/null;
-mkdir -p $WORK/Patch   1>/dev/null;
+mkdir -p $WORK/                   1>/dev/null;
+mkdir -p $WORK/Ressources/        1>/dev/null;
+mkdir -p $WORK/Ressources/Drivers 1>/dev/null;
+mkdir -p $WORK/Ressources/Kexts   1>/dev/null;
+mkdir -p $WORK/Ressources/Tools   1>/dev/null;
+mkdir -p $WORK/Ressources/Patch   1>/dev/null;
 #
 ########################################################################################################################################
 # Deplacement Dossier #
 #######################
-mv /tmp/*/*.kext      $WORK/Kexts 2>/dev/null;
-mv /tmp/*/*/*.kext    $WORK/Kexts 2>/dev/null;
-mv /tmp/opencore      $WORK       2>/dev/null;
-mv /tmp/gensmbios     $WORK       2>/dev/null;
-mv /tmp/propertree    $WORK       2>/dev/null;
-mv /tmp/ssdtime       $WORK       2>/dev/null;
-mv /tmp/gensmbios     $WORK       2>/dev/null;
+# Core
+mv /tmp/opencore                                     $WORK/Ressources/     2>/dev/null;
+#
+# Utilitaires
+mv /tmp/gensmbios                                    $WORK/Ressources/Tools 2>/dev/null;
+mv /tmp/propertree                                   $WORK/Ressources/Tools 2>/dev/null;
+mv /tmp/ssdtime                                      $WORK/Ressources/Tools 2>/dev/null;
+#
+# Drivers (EFI)
+mv $WORK/Ressources/opencore/X64/EFI                 $WORK                  2>/dev/null;
+#
+# Kexts
+mv /tmp/*/*.kext                                     $WORK/Ressources/Kexts 2>/dev/null;
+mv /tmp/*/*/*.kext                                   $WORK/Ressources/Kexts 2>/dev/null;
+#
+# Patch AMD CPU
+mv /tmp/amdvanilla/AMD_Vanilla-master/patches.plist  $WORK/Ressources/Patch 2>/dev/null;
+#
+########################################################################################################################################
+# Deplacement de fichier #
+##########################
+mv /tmp/hfsplus.efi $WORK/Ressources/Drivers;
 
+########################################################################################################################################
+# Copie de fichier #
+####################
+cp $WORK/Ressources/opencore/Docs/Sample.plist  $WORK/EFI/OC/config.plist;
+cp $WORK/Ressources/Drivers/hfsplus.efi         $WORK/EFI/OC/Drivers
+#
 ########################################################################################################################################
 # Nettoyage TEMP #
 ##################
 rm -rf /tmp/ 2>/dev/null;
 #
-
+#
 ########################################################################################################################################
 # Nettoyage Opencore #
 ######################
+#
+# Drîvers
+for FILE in $(ls   $WORK/EFI/OC/Drivers | grep -v "OpenCanopy.efi\|OpenRuntime.efi" | xargs -n1);do rm $WORK/EFI/OC/Drivers/$FILE; done
+#
+# Tools
+for FILE in $(ls   $WORK/EFI/OC/Tools   | grep -v "OpenShell.efi"                   | xargs -n1);do rm $WORK/EFI/OC/Tools/$FILE;   done
+#
+# Fichier cache
+for FILE in $(find $WORK/EFI -type f -name ".*");do rm $FILE; done
+#
+
+
+
