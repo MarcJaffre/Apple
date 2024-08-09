@@ -20,14 +20,12 @@ cp $WORK/Ressources/ACPI/SSDT-EC-USBX-DESKTOP.aml $WORK/EFI/OC/ACPI/SSDT-EC-USBX
 #
 #
 # Kexts
-
-
-cp $WORK/Ressources/Kexts/AppleALC.kext                  $WORK/EFI/OC/Kexts/
-cp $WORK/Ressources/Kexts/AppleMCEReporterDisabler.kext  $WORK/EFI/OC/Kexts/
-cp $WORK/Ressources/Kexts/IntelMausi.kext                $WORK/EFI/OC/Kexts/
-cp $WORK/Ressources/Kexts/Lilu.kext                      $WORK/EFI/OC/Kexts/
-cp $WORK/Ressources/Kexts/VirtualSMC.kext                $WORK/EFI/OC/Kexts/
-cp $WORK/Ressources/Kexts/WhateverGreen.kext             $WORK/EFI/OC/Kexts/
+cp -r $WORK/Ressources/Kexts/AppleALC.kext                  $WORK/EFI/OC/Kexts/
+cp -r $WORK/Ressources/Kexts/AppleMCEReporterDisabler.kext  $WORK/EFI/OC/Kexts/
+cp -r $WORK/Ressources/Kexts/IntelMausi.kext                $WORK/EFI/OC/Kexts/
+cp -r $WORK/Ressources/Kexts/Lilu.kext                      $WORK/EFI/OC/Kexts/
+cp -r $WORK/Ressources/Kexts/VirtualSMC.kext                $WORK/EFI/OC/Kexts/
+cp -r $WORK/Ressources/Kexts/WhateverGreen.kext             $WORK/EFI/OC/Kexts/
 
 
 
