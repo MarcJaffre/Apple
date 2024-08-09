@@ -31,22 +31,22 @@ mkdir -p $WORK/Ressources/Patch   1>/dev/null;
 # Deplacement Dossier #
 #######################
 # Core
-mv /tmp/opencore                                     $WORK/Ressources/     2>/dev/null;
+mv /tmp/opencore                                     $WORK/Ressources/                2>/dev/null;
 #
 # Utilitaires
-mv /tmp/gensmbios                                    $WORK/Ressources/Tools 2>/dev/null;
-mv /tmp/propertree                                   $WORK/Ressources/Tools 2>/dev/null;
-mv /tmp/ssdtime                                      $WORK/Ressources/Tools 2>/dev/null;
+mv /tmp/gensmbios/GenSMBIOS-master                   $WORK/Ressources/Tools/GenSMBIOS  2>/dev/null;
+mv /tmp/propertree                                   $WORK/Ressources/Tools            2>/dev/null;
+mv /tmp/ssdtime                                      $WORK/Ressources/Tools            2>/dev/null;
 #
 # Drivers (EFI)
-mv $WORK/Ressources/opencore/X64/EFI                 $WORK                  2>/dev/null;
+mv $WORK/Ressources/opencore/X64/EFI                 $WORK                             2>/dev/null;
 #
 # Kexts
-mv /tmp/*/*.kext                                     $WORK/Ressources/Kexts 2>/dev/null;
-mv /tmp/*/*/*.kext                                   $WORK/Ressources/Kexts 2>/dev/null;
+mv /tmp/*/*.kext                                     $WORK/Ressources/Kexts            2>/dev/null;
+mv /tmp/*/*/*.kext                                   $WORK/Ressources/Kexts            2>/dev/null;
 #
 # Patch AMD CPU
-mv /tmp/amdvanilla/AMD_Vanilla-master/patches.plist  $WORK/Ressources/Patch 2>/dev/null;
+mv /tmp/amdvanilla/AMD_Vanilla-master/patches.plist  $WORK/Ressources/Patch            2>/dev/null;
 #
 ########################################################################################################################################
 # Deplacement de fichier #
