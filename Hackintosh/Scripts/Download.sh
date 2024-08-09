@@ -38,7 +38,7 @@ APPLEMCER="https://github.com/acidanthera/bugtracker/files/3703498/AppleMCERepor
 APPLEALC="https://github.com/acidanthera/AppleALC/releases/download/1.7.5/AppleALC-1.7.5-DEBUG.zip"
 #
 # Carte-Reseau
-INTELMAUSI="https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/IntelMausi-1.0.7-DEBUG.zip"c
+INTELMAUSI="https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/IntelMausi-1.0.7-DEBUG.zip"
 #
 #
 #
@@ -74,14 +74,14 @@ wget $INTELMAUSI     -O /tmp/intelmausi.zip     2>/dev/null;
 ########################################################################################################################################
 # Deplacement Dossier #
 #######################
-unzip /tmp/opencore.zip       -d /tmp/opencore
-unzip /tmp/gensmbios.zip      -d /tmp/gensmbios
-unzip /tmp/propertree.zip     -d /tmp/propertree
-unzip /tmp/ssdtime.zip        -d /tmp/ssdtime
-unzip /tmp/hfsplus.zip        -d /tmp/hfsplus
-unzip /tmp/lilu.zip           -d /tmp/lilu
-unzip /tmp/virtualsmc.zip     -d /tmp/virtualsmc
-unzip /tmp/whatevergreen.zip  -d /tmp/whatevergreen
-unzip /tmp/applemcer.zip      -d /tmp/applemcer
-unzip /tmp/applealc.zip       -d /tmp/applealc
-unzip /tmp/intelmausi.zip     -d /tmp/intelmausi
+unzip -f /tmp/opencore.zip       -d /tmp/opencore
+unzip -f /tmp/gensmbios.zip      -d /tmp/gensmbios
+unzip -f /tmp/propertree.zip     -d /tmp/propertree
+unzip -f /tmp/ssdtime.zip        -d /tmp/ssdtime
+
+unzip -f /tmp/lilu.zip           -d /tmp/lilu
+unzip -f /tmp/virtualsmc.zip     -d /tmp/virtualsmc
+unzip -f /tmp/whatevergreen.zip  -d /tmp/whatevergreen
+unzip -f /tmp/applemcer.zip      -d /tmp/applemcer
+unzip -f /tmp/applealc.zip       -d /tmp/applealc
+unzip -f /tmp/intelmausi.zip     -d /tmp/intelmausi
