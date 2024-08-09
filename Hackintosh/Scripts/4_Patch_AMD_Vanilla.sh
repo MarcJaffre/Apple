@@ -28,6 +28,11 @@ sed -i -e "s/ugAAAAA/uggAAAA/g"   $WORK/Ressources/Patch/patches.plist;
 #
 #
 ########################################################################################################################################
+# Copie de fichier #
+####################
+cat $WORK/Ressources/Patch/patches.plist > $WORK/EFI/OC 2>/dev/null
+
+########################################################################################################################################
 # Analyse #
 ###########
 # cat $WORK/Ressources/Patch/patches.plist | grep cpuid_cores_per_package -A25 | grep "Replace" -A1
