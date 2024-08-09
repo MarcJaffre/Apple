@@ -1,6 +1,12 @@
 #!/usr/bin/bash
 
 ########################################################################################################################################
+# Nettoyage de la console #
+###########################
+clear;
+#
+#
+########################################################################################################################################
 # Script qui définit sur 8 Cores le patch AMD #
 ###############################################
 #
@@ -13,27 +19,19 @@ MONPATCH="https://raw.githubusercontent.com/MarcJaffre/Apple/main/Hackintosh/Res
 #
 #
 ########################################################################################################################################
-# Nettoyage de la console #
-###########################
-clear;
-#
-echo "Configuration du Patch AMD_Vanilla sur 8 Core";
-#
-sed -i -e "s/uAAAAAAA/uAgAAAAA/g" $WORK/Ressources/Patch/patches.plist;
-#
-sed -i -e "s/ugAAAAAA/uggAAAAA/g" $WORK/Ressources/Patch/patches.plist;
-#
-sed -i -e "s/ugAAAACQ/uggAAACQ/g" $WORK/Ressources/Patch/patches.plist;
-#
-sed -i -e "s/ugAAAAA/uggAAAA/g"   $WORK/Ressources/Patch/patches.plist;
-#
-#
-########################################################################################################################################
 # Telechargement de mon patch #
 ###############################
 curl $MONPATCH > $WORK/EFI/OC/config.plist;
-
-
+#
+#
+########################################################################################################################################
+# Edition du Patchage (outdate) #
+#################################
+#echo "Configuration du Patch AMD_Vanilla sur 8 Core";
+sed -i -e "s/uAAAAAAA/uAgAAAAA/g" $WORK/Ressources/Patch/patches.plist;
+sed -i -e "s/ugAAAAAA/uggAAAAA/g" $WORK/Ressources/Patch/patches.plist;
+sed -i -e "s/ugAAAACQ/uggAAACQ/g" $WORK/Ressources/Patch/patches.plist;
+sed -i -e "s/ugAAAAA/uggAAAA/g"   $WORK/Ressources/Patch/patches.plist;
 
 ########################################################################################################################################
 # Analyse #
