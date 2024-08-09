@@ -1,14 +1,16 @@
+## Avancement
 Le fichier de config suivant permet un semblant de démarrage
 
-
-https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#securebootmodel
-
+## Ligne de boot
 ```
 -v keepsyms=1 debug=0x100 npci=0x3000 agdpmod=pikera -radcodec unfairgva=1
 ```
 
-
-
+## Lien Utiles
+```
+- SecureBoot      : https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#securebootmodel
+- Troubleshoot    : https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/opencore-issues.html#stuck-on-a-black-screen-before-picker
+```
 
 ```
 ├── BOOT
