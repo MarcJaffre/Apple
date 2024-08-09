@@ -6,6 +6,8 @@
 	<string># Actif</string>
 	<key># Configuration Zen</key>
 	<string># En COURS</string>
+	<key># Action a FAIRE</key>
+	<string># OC Snapshot</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
