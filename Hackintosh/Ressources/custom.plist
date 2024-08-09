@@ -6,7 +6,6 @@
 	<string># Actif</string>
 	<key># Configuration Zen</key>
 	<string># En COURS</string>
-
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -250,9 +249,6 @@
 			<false/>
 		</dict>
 	</dict>
-
-
-
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
@@ -301,8 +297,6 @@
 				<integer>0</integer>
 			</dict>
 		</array>
-
-
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>
@@ -362,8 +356,6 @@
 		<key>Delete</key>
 		<dict/>
 	</dict>
-
-
 	<key>Kernel</key>
 	<dict>
 		<key>Patch</key>
@@ -392,7 +384,7 @@
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>uAAAAAAA</data>
+				<data>uAgAAAAA</data>
 				<key>ReplaceMask</key>
 				<data>//////8A</data>
 				<key>Skip</key>
@@ -422,7 +414,7 @@
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>ugAAAAAA</data>
+				<data>uggAAAAA</data>
 				<key>ReplaceMask</key>
 				<data>//////8A</data>
 				<key>Skip</key>
@@ -452,7 +444,7 @@
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>ugAAAACQ</data>
+				<data>uggAAACQ</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -482,7 +474,7 @@
 				<key>MinKernel</key>
 				<string>22.4.0</string>
 				<key>Replace</key>
-				<data>ugAAAAA=</data>
+				<data>uggAAAA=</data>
 				<key>ReplaceMask</key>
 				<data>//////8=</data>
 				<key>Skip</key>
@@ -1488,9 +1480,6 @@
 			<string>Auto</string>
 		</dict>
 	</dict>
-
-
-
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
@@ -1604,9 +1593,6 @@
 			<key>Override</key>
 			<false/>
 		</dict>
-
-
-
 		<key>Tools</key>
 		<array>
 			<dict>
@@ -1677,8 +1663,6 @@
 			</dict>
 		</array>
 	</dict>
-
-
 	<key>NVRAM</key>
 	<dict>
 		<key>Add</key>
@@ -1762,9 +1746,6 @@
 		<key>WriteFlash</key>
 		<true/>
 	</dict>
-
-
-
 	<key>PlatformInfo</key>
 	<dict>
 		<key>Automatic</key>
@@ -1805,9 +1786,6 @@
 		<key>UseRawUuidEncoding</key>
 		<false/>
 	</dict>
-
-
-
 	<key>UEFI</key>
 	<dict>
 		<key>APFS</key>
