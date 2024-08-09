@@ -2,8 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#WARNING - 1</key>
-	<string>#La configuration suivante inclus le patch AMD Vanilla</string>
+	<key>#La configuration suivante inclus le patch AMD Vanilla</key>
+	<string>#WARNING - 2</string>
 	<key>#By Drthrax74</key>
 	<string>Ensure you understand EVERY field before booting.</string>
 	<key>#WARNING - 3</key>
