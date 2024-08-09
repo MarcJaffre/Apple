@@ -27,37 +27,37 @@ L'utilitaire génère le dossier `com.apple.recovery.boot` qui contient l'image 
 
 High Sierra: (10.13)
 ```
-macrecovery.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300  download
-macrecovery.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300  download
+python3 macrecovery.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download
+python3 macrecovery.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download
 ```
 
 Mojave: (10.14)
 ```
-macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00  download
+python3 macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
 ```
 
 Catalina: (10.15)
 ```
-macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000  download
+python3 macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
 ```
 Big Sur: (11)
 ```
-macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000  download
+python3 macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
 ```
 
 Monterey: (12)
 ```
-macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000000000  download
+python3 macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000000000 download
 ```
 
 Ventura: (13)
 ```
-macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000  download
+python3 macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download
 ```
 
 Sonoma: (14)
 ```
-py macrecovery.py -b Mac-937A206F2EE63C01 -m 00000000000000000 download
+python3 macrecovery.py -b Mac-937A206F2EE63C01 -m 00000000000000000 download
 ```
 
 
