@@ -8,6 +8,7 @@ Le fichier de config suivant permet un semblant de démarrage
 
 ## Lien Utiles
 ```
+- GPU 6700XT      : https://www.tonymacx86.com/threads/nootrx.327414/#post-2384355
 - SecureBoot      : https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#securebootmodel
 - Troubleshoot    : https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/opencore-issues.html#stuck-on-a-black-screen-before-picker
 ```
