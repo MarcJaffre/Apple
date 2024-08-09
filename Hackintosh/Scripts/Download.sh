@@ -80,7 +80,7 @@ wget $AMD_VANILLA    -O /tmp/amdvanilla.zip     2>/dev/null;
 # Decompression #
 #################
 echo "Decompression des archives";
-
+#
 # Core
 unzip -o /tmp/opencore.zip       -d /tmp/opencore       1>/dev/null;
 #
@@ -105,3 +105,9 @@ unzip -o /tmp/intelmausi.zip     -d /tmp/intelmausi     1>/dev/null;
 #
 # Patch AMD CPU
 unzip -o /tmp/amdvanilla.zip     -d /tmp/amdvanilla     1>/dev/null;
+#
+#
+########################################################################################################################################
+# Nettoyage Temp #
+##################
+rm -rf /tmp/*.zip 2>/dev/null;
