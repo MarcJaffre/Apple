@@ -2,9 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#La configuration suivante inclus le patch AMD Vanilla</key>
-	<string>#By Drthrax74</string>
-
+	<key># La configuration suivante inclus le patch AMD Vanilla</key>
+	<string># 10-08-2024</string>
+	<key># Configuration Zen</key>
+	<string># 10-08-2024</string>
 
 	<key>ACPI</key>
 	<dict>
