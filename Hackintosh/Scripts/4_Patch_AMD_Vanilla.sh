@@ -9,7 +9,7 @@
 # Dossier de Travail #
 ######################
 WORK="$HOME/Bureau/Hackintosh"
-MONPATCH="https://raw.githubusercontent.com/MarcJaffre/Apple/main/Hackintosh/Ressources/config_8core.plist"
+MONPATCH="https://raw.githubusercontent.com/MarcJaffre/Apple/main/Hackintosh/Ressources/config.plist"
 #
 #
 ########################################################################################################################################
