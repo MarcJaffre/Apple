@@ -9,6 +9,7 @@
 # Dossier de Travail #
 ######################
 WORK="$HOME/Bureau/Hackintosh"
+MONPATCH="https://raw.githubusercontent.com/MarcJaffre/Apple/main/Hackintosh/Ressources/config_8core.plist"
 #
 #
 ########################################################################################################################################
@@ -31,6 +32,9 @@ sed -i -e "s/ugAAAAA/uggAAAA/g"   $WORK/Ressources/Patch/patches.plist;
 # Copie de fichier #
 ####################
 cat $WORK/Ressources/Patch/patches.plist > $WORK/EFI/OC/patches.plist 2>/dev/null
+curl $MONPATCH > $WORK/EFI/OC/config_amd_8_Core.plist
+
+
 
 ########################################################################################################################################
 # Analyse #
