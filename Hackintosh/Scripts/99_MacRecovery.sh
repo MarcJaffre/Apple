@@ -5,6 +5,7 @@
 #####################
 WORK="$HOME/Bureau/Hackintosh"
 PROG="$WORK/Ressources/opencore/Utilities/macrecovery/macrecovery.py"
+USB="/media/marc/MACOS"
 
 ##############################################################################################################################################
 # Selection OS : bigsur | monterey | ventura | sonoma #
@@ -35,18 +36,18 @@ fi
 ##############################################################################################################################################
 # Purge OS #
 ############
-if [   -d $WORK/com.apple.recovery.boot ];then
-   rm -rf $WORK/com.apple.recovery.boot 2>/dev/null;
+if [   -d $USB/com.apple.recovery.boot ];then
+   rm -rf $USB/com.apple.recovery.boot 2>/dev/null;
 fi
 
 ##############################################################################################################################################
 # Telechargement OS #
 #####################
 if [ ! -z $OS ];then
-   if [ $OS = "bigsur"   ];then python3 $PROG $BIGSUR   -o $WORK/com.apple.recovery.boot; touch $WORK/com.apple.recovery.boot/Big_Sur.txt;  fi
-   if [ $OS = "monterey" ];then python3 $PROG $MONTEREY -o $WORK/com.apple.recovery.boot; touch $WORK/com.apple.recovery.boot/Monterey.txt; fi
-   if [ $OS = "ventura"  ];then python3 $PROG $VENTURA  -o $WORK/com.apple.recovery.boot; touch $WORK/com.apple.recovery.boot/Ventura.txt;  fi
-   if [ $OS = "sonoma"   ];then python3 $PROG $SONOMA   -o $WORK/com.apple.recovery.boot; touch $WORK/com.apple.recovery.boot/Sonoma.txt;   fi
+   if [ $OS = "bigsur"   ];then touch $USB/com.apple.recovery.boot/Big_Sur.txt;  python3 $PROG $BIGSUR   -o $USB/com.apple.recovery.boot; fi
+   if [ $OS = "monterey" ];then touch $USB/com.apple.recovery.boot/Monterey.txt; python3 $PROG $MONTEREY -o $USB/com.apple.recovery.boot; fi
+   if [ $OS = "ventura"  ];then touch $USB/com.apple.recovery.boot/Ventura.txt;  python3 $PROG $VENTURA  -o $USB/com.apple.recovery.boot; fi
+   if [ $OS = "sonoma"   ];then touch $USB/com.apple.recovery.boot/Sonoma.txt;   python3 $PROG $SONOMA   -o $USB/com.apple.recovery.boot; fi
 fi
 
 ##############################################################################################################################################
