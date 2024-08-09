@@ -25,7 +25,7 @@ SSDTIME="https://github.com/corpnewt/SSDTTime/archive/refs/heads/master.zip"
 ########################################################################################################################################
 # Drivers (EFI) #
 #################
-HFSPLUS="https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.c"
+HFSPLUS="https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.efi"
 #
 ########################################################################################################################################
 # Kexts #
