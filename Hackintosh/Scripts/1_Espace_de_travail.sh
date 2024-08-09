@@ -21,6 +21,7 @@ rm -r $WORK 2>/dev/null;
 #
 mkdir -p $WORK/                   1>/dev/null;
 mkdir -p $WORK/Ressources/        1>/dev/null;
+mkdir -p $WORK/Ressources/ACPI    1>/dev/null;
 mkdir -p $WORK/Ressources/Drivers 1>/dev/null;
 mkdir -p $WORK/Ressources/Kexts   1>/dev/null;
 mkdir -p $WORK/Ressources/Tools   1>/dev/null;
@@ -48,6 +49,18 @@ mv /tmp/*/*/*.kext                                   $WORK/Ressources/Kexts 2>/d
 mv /tmp/amdvanilla/AMD_Vanilla-master/patches.plist  $WORK/Ressources/Patch 2>/dev/null;
 #
 ########################################################################################################################################
+# Deplacement de fichier #
+##########################
+mv /tmp/SSDT-EC-USBX-DESKTOP.aml $WORK/Ressources/ACPI;
+mv /tmp/hfsplus.efi              $WORK/Ressources/Drivers;
+#
+########################################################################################################################################
+# Copie de fichier #
+####################
+cp $WORK/Ressources/opencore/Docs/Sample.plist  $WORK/EFI/OC/config.plist;
+cp $WORK/Ressources/Drivers/hfsplus.efi         $WORK/EFI/OC/Drivers
+#
+########################################################################################################################################
 # Nettoyage Opencore #
 ######################
 #
@@ -55,21 +68,10 @@ mv /tmp/amdvanilla/AMD_Vanilla-master/patches.plist  $WORK/Ressources/Patch 2>/d
 for FILE in $(ls   $WORK/EFI/OC/Drivers | grep -v "OpenCanopy.efi\|OpenRuntime.efi" | xargs -n1);do rm $WORK/EFI/OC/Drivers/$FILE; done
 #
 # Tools
-for FILE in $(ls   $WORK/EFI/OC/Tools   | grep -v "OpenShell.efi"                   | xargs -n1);do rm $WORK/EFI/OC/Tools/$FILE;   done
+for FILE in $(ls   $WORK/EFI/OC/Tools   | grep -v "OpenShell.efi\|hfsplus.efi"      | xargs -n1);do rm $WORK/EFI/OC/Tools/$FILE;   done
 #
 # Fichier cache
 for FILE in $(find $WORK/EFI -type f -name ".*");do rm $FILE; done
-#
-########################################################################################################################################
-# Deplacement de fichier #
-##########################
-mv /tmp/hfsplus.efi $WORK/Ressources/Drivers;
-
-########################################################################################################################################
-# Copie de fichier #
-####################
-cp $WORK/Ressources/opencore/Docs/Sample.plist  $WORK/EFI/OC/config.plist;
-cp $WORK/Ressources/Drivers/hfsplus.efi         $WORK/EFI/OC/Drivers
 #
 ########################################################################################################################################
 # Nettoyage TEMP #
