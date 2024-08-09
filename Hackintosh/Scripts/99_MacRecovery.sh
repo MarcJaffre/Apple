@@ -44,6 +44,7 @@ fi
 # Telechargement OS #
 #####################
 if [ ! -z $OS ];then
+   mkdir $USB/com.apple.recovery.boot;
    if [ $OS = "bigsur"   ];then touch $USB/com.apple.recovery.boot/Big_Sur.txt;  python3 $PROG $BIGSUR   -o $USB/com.apple.recovery.boot; fi
    if [ $OS = "monterey" ];then touch $USB/com.apple.recovery.boot/Monterey.txt; python3 $PROG $MONTEREY -o $USB/com.apple.recovery.boot; fi
    if [ $OS = "ventura"  ];then touch $USB/com.apple.recovery.boot/Ventura.txt;  python3 $PROG $VENTURA  -o $USB/com.apple.recovery.boot; fi
