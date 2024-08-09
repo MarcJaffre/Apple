@@ -20,4 +20,3 @@ rm -rf $USB/EFI 2>/dev/null;
 # Synchronisation #
 ###################
 rsync -avz $HOME/Bureau/Hackintosh/EFI                     $USB;
-rsync -avz $HOME/Bureau/Hackintosh/com.apple.recovery.boot $USB;
