@@ -24,4 +24,6 @@ echo "# Copier le chemin suivant : $WORK/EFI/OC/config.plist       #";
 echo "#####################################################################################"
 sleep 10;
 
-python3 $WORK/Ressources/Tools/GenSMBIOS/GenSMBIOS.py $FILE
+python3 $WORK/Ressources/Tools/GenSMBIOS/GenSMBIOS.py $FILE;
+
+exit
