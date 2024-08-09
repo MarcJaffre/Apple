@@ -3,7 +3,8 @@
 
 --------------------------------------------------------------------------------------------------------------------------
 
-# NON FONCTIONNELLE !!!
+### Paramètre HideAuxiliary sur FALSE !!!!
+
 
 ## I. Information
 ### A. Présentation
