@@ -145,6 +145,19 @@ mv /tmp/*/*/*.kext                                   $WORK/Ressources/Kexts 2>/d
 mv /tmp/amdvanilla/AMD_Vanilla-master/patches.plist  $WORK/Ressources/Patch 2>/dev/null;
 #
 ########################################################################################################################################
+# Nettoyage Opencore #
+######################
+#
+# Drîvers
+for FILE in $(ls   $WORK/EFI/OC/Drivers | grep -v "OpenCanopy.efi\|OpenRuntime.efi" | xargs -n1);do rm $WORK/EFI/OC/Drivers/$FILE; done
+#
+# Tools
+for FILE in $(ls   $WORK/EFI/OC/Tools   | grep -v "OpenShell.efi"                   | xargs -n1);do rm $WORK/EFI/OC/Tools/$FILE;   done
+#
+# Fichier cache
+for FILE in $(find $WORK/EFI -type f -name ".*");do rm $FILE; done
+#
+########################################################################################################################################
 # Deplacement de fichier #
 ##########################
 mv /tmp/hfsplus.efi $WORK/Ressources/Drivers;
@@ -159,21 +172,5 @@ cp $WORK/Ressources/Drivers/hfsplus.efi         $WORK/EFI/OC/Drivers
 # Nettoyage TEMP #
 ##################
 rm -rf /tmp/ 2>/dev/null;
-#
-#
-########################################################################################################################################
-# Nettoyage Opencore #
-######################
-#
-# Drîvers
-for FILE in $(ls   $WORK/EFI/OC/Drivers | grep -v "OpenCanopy.efi\|OpenRuntime.efi" | xargs -n1);do rm $WORK/EFI/OC/Drivers/$FILE; done
-#
-# Tools
-for FILE in $(ls   $WORK/EFI/OC/Tools   | grep -v "OpenShell.efi"                   | xargs -n1);do rm $WORK/EFI/OC/Tools/$FILE;   done
-#
-# Fichier cache
-for FILE in $(find $WORK/EFI -type f -name ".*");do rm $FILE; done
-#
-
 
 
