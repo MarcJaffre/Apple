@@ -58,7 +58,7 @@ mv /tmp/hfsplus.efi              $WORK/Ressources/Drivers;
 # Copie de fichier #
 ####################
 cp $WORK/Ressources/opencore/Docs/Sample.plist  $WORK/EFI/OC/config.plist;
-cp $WORK/Ressources/Drivers/hfsplus.efi         $WORK/EFI/OC/Drivers
+cp $WORK/Ressources/Drivers/hfsplus.efi         $WORK/EFI/OC/Drivers;
 #
 ########################################################################################################################################################
 # Nettoyage Opencore #
