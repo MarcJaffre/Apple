@@ -319,7 +319,7 @@
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
-			<true/>
+			<false/>
 			<key>FixupAppleEfiImages</key>
 			<false/>
 			<key>ForceBooterSignature</key>
@@ -337,15 +337,15 @@
 			<key>ProvideMaxSlide</key>
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
-			<false/>
-			<key>ResizeAppleGpuBars</key>
-			<integer>-1</integer>
-			<key>SetupVirtualMap</key>
 			<true/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>0</integer>
+			<key>SetupVirtualMap</key>
+			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -1397,7 +1397,7 @@
 			<key>Cpuid1Mask</key>
 			<data></data>
 			<key>DummyPowerManagement</key>
-			<false/>
+			<true/>
 			<key>MaxKernel</key>
 			<string></string>
 			<key>MinKernel</key>
@@ -1463,11 +1463,11 @@
 			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
-			<false/>
+			<true/>
 			<key>PowerTimeoutKernelPanic</key>
-			<false/>
+			<true/>
 			<key>ProvideCurrentCpuInfo</key>
-			<false/>
+			<true/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
@@ -1530,11 +1530,11 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
-			<false/>
+			<true/>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
@@ -1544,7 +1544,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1570,7 +1570,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowSetDefault</key>
-			<false/>
+			<true/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
