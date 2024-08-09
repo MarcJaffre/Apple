@@ -55,6 +55,11 @@ Ventura: (13)
 macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000  download
 ```
 
+Sonoma: (14)
+```
+py macrecovery.py -b Mac-937A206F2EE63C01 -m 00000000000000000 download
+```
+
 
 #### 3. Déplacement du dossier
 Déplacer le dossier `com.apple.recovery.boot` à côté du dossier `EFI`.
