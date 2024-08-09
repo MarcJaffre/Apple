@@ -30,7 +30,7 @@ sed -i -e "s/ugAAAAA/uggAAAA/g"   $WORK/Ressources/Patch/patches.plist;
 ########################################################################################################################################
 # Copie de fichier #
 ####################
-cat $WORK/Ressources/Patch/patches.plist > $WORK/EFI/OC 2>/dev/null
+cat $WORK/Ressources/Patch/patches.plist > $WORK/EFI/OC/patches.plist 2>/dev/null
 
 ########################################################################################################################################
 # Analyse #
