@@ -29,9 +29,8 @@ sed -i -e "s/ugAAAAA/uggAAAA/g"   $WORK/Ressources/Patch/patches.plist;
 #
 #
 ########################################################################################################################################
-# Copie de fichier #
-####################
-cat $WORK/Ressources/Patch/patches.plist > $WORK/EFI/OC/patches.plist 2>/dev/null
+# Telechargement de mon patch #
+###############################
 curl $MONPATCH > $WORK/EFI/OC/config_amd_8_Core.plist
 
 
