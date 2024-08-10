@@ -26,13 +26,24 @@
 ### C. DeviceProperties
 
 ### D. Kernel
-#### 1. Emulate
+#### 1. ADD
+```
+1) LILU
+2) VirtualSMC
+3) SMCAMDProcessor 
+4) AMDRyzenCPUPowerManagement
+```
+
+
+#### 2. Emulate
 | Clé                     | Valeur |
 | ----------------------- | ------ |
 | DummyPowerManagement    | True   |
 
 
-#### 2. Patch
+
+
+#### 3. Patch
 > Ouvrir le fichier patch.plist (AMD) et config.list.
 >
 > Supprimer la section "Patch" de config.list
