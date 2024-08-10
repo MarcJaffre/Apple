@@ -47,9 +47,11 @@ echo "##########################################################################
 ############################################################################################################################
 # Lancement de SSDTime #
 ########################
-python3 $WORK/Ressources/Tools/ssdtime/PatchMerge.py
-
-
+python3 $WORK/Ressources/Tools/ssdtime/PatchMerge.py;
+# Backup OLD Release
+mv $WORK/EFI/OC/config.plist                            $WORK/EFI/OC/config.plist.old;
+mv $WORK/Ressources/Tools/ssdtime/Results/config.plist  $WORK/EFI/OC/;
+mv $WORK/Ressources/Tools/ssdtime/Results/*.aml         $WORK/EFI/OC/ACPI;
 
 exit
 
