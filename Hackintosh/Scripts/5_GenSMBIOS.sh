@@ -23,7 +23,7 @@ clear;
 ############################################################################################################################
 # Copie de fichier #
 ####################
-cp $WORK/EFI/OC/config.plist mv $WORK/EFI/OC/config.plist.bak;
+cp $WORK/EFI/OC/config.plist $WORK/EFI/OC/config.plist.bak;
 
 echo "#####################################################################################"
 echo "# Copier le chemin suivant : $WORK/EFI/OC/config.plist       #";
