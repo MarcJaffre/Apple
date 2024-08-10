@@ -36,26 +36,40 @@
 
 #### 2. Patch
 > Ouvrir le fichier patch.plist (AMD) et config.list.
-
+>
 > Supprimer la section "Patch" de config.list
 >
 > Copier la section "Patch" du fichier patch.plist
 >
 > Coller dans Kernel
 
-#### 2. Quirks
-
-
+#### 3. Quirks
+| Clé                     | Valeur |
+| ----------------------- | ------ |
+| PanicNoKextDump         | True   |
+| PowerTimeoutKernelPanic | True   |
+| ProvideCurrentCpuInfo   | True   |
+| XhciPortLimit           | False  |
 
 
 <br />
 
 ### E. Msic
 #### 1. Boot
+| Clé                     | Valeur | Commentaires                                                   |
+| ----------------------- | ------ | -------------------------------------------------------------- |
+| HideAuxiliary           | True   | Press space to show macOS recovery and other auxiliary entries |
 
-#### 2. Debug
+#### 3. Debug
+| Clé                     | Valeur |
+| ----------------------- | ------ |
+| HideAuxiliary           | True   |
+| PowerTimeoutKernelPanic | True   |
+| ProvideCurrentCpuInfo   | True   |
+| XhciPortLimit           | False  |
 
-#### 3. Security
+
+#### 4. Security
 Pour permettre le démarrage, il est nécessaire de configurer le paramètre `SecureBootModel` et`Vault`.
 
 <p align='center'> <img width="855" height="350" src=https://github.com/user-attachments/assets/544bab40-c42c-4ee6-9878-cb91d7acd290 /> </p>
