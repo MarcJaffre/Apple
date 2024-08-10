@@ -19,6 +19,7 @@ clear;
 #############
 WORK="$HOME/Bureau/Hackintosh"
 FILE=$($WORK/EFI/OC/config.plist)
+USB="/media/marc/MACOS/EFI/OC/config.plist"
 
 ############################################################################################################################
 # Copie de fichier #
