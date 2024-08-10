@@ -5,7 +5,6 @@
 # En cas de problème relancer rsync pour restaurer
 ########################################################################################################################################################
 
-
 ########################################################################################################################################################
 # Nettoyage de la console #
 ###########################
@@ -22,3 +21,6 @@ CONFIG="/media/marc/MACOS/EFI/OC/config.plist"
 # Demarrage de l'édition #
 ##################e#######
 python3 $TOOL $CONFIG;
+
+
+# python3 $HOME/Bureau/Hackintosh/Ressources/Tools/propertree/ProperTree.py /media/marc/MACOS/EFI/OC/config.plist
