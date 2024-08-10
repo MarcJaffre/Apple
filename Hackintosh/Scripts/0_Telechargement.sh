@@ -44,7 +44,7 @@ WHATEVERGREEN="https://github.com/acidanthera/WhateverGreen/releases/download/1.
 APPLEMCER="https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip"
 #
 # Audio
-APPLEALC="https://github.com/acidanthera/AppleALC/releases/download/1.7.5/AppleALC-1.7.5-DEBUG.zip"
+APPLEALC="https://github.com/acidanthera/AppleALC/releases/download/1.8.4/AppleALC-1.8.4-RELEASE.zip"
 #
 # Carte-Reseau
 INTELMAUSI="https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/IntelMausi-1.0.7-DEBUG.zip"
