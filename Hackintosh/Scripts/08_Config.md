@@ -12,6 +12,8 @@
 ### B. Booter
 
 #### 1. Quirks
+La clé `SetupVirtualMap` doit etre mis sur `false` car je possède une Carte-mère X470.
+
 <p align='center'> <img width="855" height="350" src=https://github.com/user-attachments/assets/4ca52423-7432-478b-84cd-0398e7277a2d /> </p>
 
 
