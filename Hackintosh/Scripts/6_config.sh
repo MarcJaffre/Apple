@@ -14,9 +14,12 @@ TOOL="$WORK/Ressources/Tools/propertree/ProperTree.py"
 
 ########################################################################################################################################################
 # Demarrage de l'édition #
-##########################
-python3 $TOOL $WORK/Patch/patches.plist &
-python3 $TOOL $WORK/EFI/OC/config.plist
+##################e#######
+
+# Patch AMD:
+python3 $TOOL $WORK/Ressources/Patch/patches.plist &
+python3 $TOOL $WORK/EFI/OC/config.plist;
+
 
 
 
