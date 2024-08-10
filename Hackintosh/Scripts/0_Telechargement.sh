@@ -14,7 +14,7 @@ clear;
 #######################
 #
 # Core
-OPENCOREPKG="https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.0/OpenCore-1.0.0-DEBUG.zip"
+OPENCOREPKG="https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.4/OpenCore-0.9.4-RELEASE.zip"
 #
 # Outils
 GENSMBIOS="https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip"
@@ -37,7 +37,7 @@ HFSPLUS="https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.
 #
 # Indispensables
 LILU="https://github.com/acidanthera/Lilu/releases/download/1.6.2/Lilu-1.6.2-DEBUG.zip"
-VIRTUALSMC="https://github.com/acidanthera/VirtualSMC/releases/download/1.3.0/VirtualSMC-1.3.0-DEBUG.zip"
+VIRTUALSMC="https://github.com/acidanthera/VirtualSMC/releases/download/1.3.2/VirtualSMC-1.3.2-RELEASE.zip"
 WHATEVERGREEN="https://github.com/acidanthera/WhateverGreen/releases/download/1.6.1/WhateverGreen-1.6.1-DEBUG.zip"
 #
 # AMD
