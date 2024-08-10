@@ -16,7 +16,7 @@ WORK="$HOME/Bureau/Hackintosh"
 ####################
 #
 # ACPI
-cp $WORK/Ressources/ACPI/SSDT-EC-USBX-DESKTOP.aml $WORK/EFI/OC/ACPI/SSDT-EC-USBX-DESKTOP.aml
+mv $WORK/Ressources/ACPI/SSDT-EC-USBX-DESKTOP.aml $WORK/EFI/OC/ACPI/SSDT-EC-USBX-DESKTOP.aml
 #
 #
 # Kexts
@@ -35,4 +35,5 @@ mv $WORK/Ressources/Kexts/WhateverGreen.kext               $WORK/EFI/OC/Kexts/;
 ########################################################################################################################################
 # Purge #
 #########
+rm -rf $WORK/Ressources/ACPI/;
 rm -rf $WORK/Ressources/Kexts;
