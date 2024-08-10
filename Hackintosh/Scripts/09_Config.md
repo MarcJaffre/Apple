@@ -11,6 +11,8 @@
 
 ### B. Booter
 #### 1. Quirks
+La Clé `SetupVirtualMap` peut être configuré en True ou False selon le besoin. 
+
 
 | Clé                     | Valeur | Commentaires    |
 | ----------------------- | ------ | --------------- |
@@ -18,7 +20,7 @@
 | EnableWriteUnprotector  | False  |                 |
 | RebuildAppleMemoryMap   | True   |                 |
 | ResizeAppleGpuBars      | -1     |                 |
-| SetupVirtualMap         | False  | Carte-mère [X570](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#booter) |                 |
+| SetupVirtualMap         | -----  | Carte-mère [X570](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#booter) |                 |
 | SyncRuntimePermissions  | True   |                 |
 
 <br />
