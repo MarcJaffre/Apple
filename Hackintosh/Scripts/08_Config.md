@@ -25,8 +25,6 @@
 
 ### C. DeviceProperties
 
-<br />
-
 ### D. Kernel
 #### 1. Emulate
 | Clé                     | Valeur |
