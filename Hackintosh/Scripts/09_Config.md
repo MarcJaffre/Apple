@@ -51,6 +51,9 @@
 > Copier la section "Patch" du fichier patch.plist
 >
 > Coller dans Kernel
+>
+> Kernel > Patch > 21 > Enable (Voir GitHub du patch : Information on the fix PAT patch)
+
 
 #### 3. Quirks
 | Clé                     | Valeur |
@@ -103,8 +106,6 @@
 ### G. PlatformInfo
 
 ### I. UEFI
-
-
 
 
 # <p align='center'> Réaliser une validation du fichîer car erreur !!!!! </p>
