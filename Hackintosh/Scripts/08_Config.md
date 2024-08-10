@@ -34,6 +34,19 @@
 | DummyPowerManagement    | True   |
 
 
+#### 2. Patch
+> Ouvrir le fichier patch.plist (AMD) et config.list.
+
+> Supprimer la section "Patch" de config.list
+>
+> Copier la section "Patch" du fichier patch.plist
+>
+> Coller dans Kernel
+
+#### 2. Quirks
+
+
+
 
 <br />
 
