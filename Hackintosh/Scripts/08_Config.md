@@ -70,7 +70,6 @@
 
 
 #### 4. Security
-Pour permettre le démarrage, il est nécessaire de configurer le paramètre `SecureBootModel` et`Vault`.
 
 | Clé                     | Valeur   |
 | ----------------------- | -------- |
@@ -80,10 +79,6 @@ Pour permettre le démarrage, il est nécessaire de configurer le paramètre `Se
 | ScanPolicy              | 0        |
 | SecureBootModel         | Default  |
 | Vault                   | Optional |
-
-
-
-<p align='center'> <img width="855" height="350" src=https://github.com/user-attachments/assets/544bab40-c42c-4ee6-9878-cb91d7acd290 /> </p>
 
 <br />
 
