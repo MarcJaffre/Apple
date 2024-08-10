@@ -35,5 +35,5 @@ mv $WORK/Ressources/Kexts/WhateverGreen.kext               $WORK/EFI/OC/Kexts/ 2
 ########################################################################################################################################
 # Purge #
 #########
-rm -rf $WORK/Ressources/ACPI/;
-rm -rf $WORK/Ressources/Kexts;
+rm -rf $WORK/Ressources/ACPI  2>/dev/null;
+rm -rf $WORK/Ressources/Kexts 2>/dev/null;
