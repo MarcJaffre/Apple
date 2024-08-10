@@ -56,7 +56,7 @@
 #### 1. Boot
 | Clé                     | Valeur | Commentaires                                                   |
 | ----------------------- | ------ | -------------------------------------------------------------- |
-| HideAuxiliary           | True   | Press space to show macOS recovery and other auxiliary entries |
+| HideAuxiliary           | False  | Press space to show macOS recovery and other auxiliary entries |
 
 #### 3. Debug
 | Clé                     | Valeur |
