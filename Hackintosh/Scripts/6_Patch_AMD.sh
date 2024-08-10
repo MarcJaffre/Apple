@@ -11,15 +11,8 @@ clear;
 WORK="$HOME/Bureau/Hackintosh"
 TOOL="$WORK/Ressources/Tools/propertree/ProperTree.py"
 
-
 ########################################################################################################################################################
 # Demarrage de l'édition #
 ##################e#######
-
-# Patch AMD:
 python3 $TOOL $WORK/Ressources/Patch/patches.plist &
 python3 $TOOL $WORK/EFI/OC/config.plist;
-
-
-
-
