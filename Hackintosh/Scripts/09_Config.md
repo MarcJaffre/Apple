@@ -96,7 +96,7 @@
 #### 1. ADD 
 | Clé                     | Valeur                                        |
 | ----------------------- | --------------------------------------------- |
-| boot-args       	      | -v debug=0x100 keepsyms=1 agdpmod=pikera		  |
+| boot-args       	      | -v keepsyms=1 debug=0x100 agdpmod=pikera		  |
 | WriteFlash       	      |                                               |
 
 
