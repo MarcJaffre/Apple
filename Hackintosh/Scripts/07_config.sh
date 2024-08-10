@@ -16,9 +16,9 @@ clear;
 ######################
 WORK="$HOME/Bureau/Hackintosh"
 TOOL="$WORK/Ressources/Tools/propertree/ProperTree.py"
-USB="/media/marc/MACOS/EFI/OC/config.plist"
+CONFIG="/media/marc/MACOS/EFI/OC/config.plist"
 
 ########################################################################################################################################################
 # Demarrage de l'édition #
 ##################e#######
-python3 $TOOL $USB;
+python3 $TOOL $CONFIG;
