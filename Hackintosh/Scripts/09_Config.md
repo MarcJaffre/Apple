@@ -91,11 +91,13 @@ Mettre la Target à 75 (CF. GitHub de OpenCore)
 <br />
 
 
-### F. NVRAM
+### F. NVRAM ([Doc](https://github.com/dortania/OpenCore-Install-Guide/blob/master/troubleshooting/kernel-debugging.md))
 #### 1. ADD 
-| Clé                     | Valeur                                                                                    |
-| ----------------------- | ----------------------------------------------------------------------------------------- |
-| boot-args       	      | -v keepsyms=1 -liludbgall liludelay=5000 -vsmcdbg -wegnoigpu -wegswitchgpu agdpmod=pikera |
+| Clé                     | Valeur                                          |
+| ----------------------- | ----------------------------------------------- |
+| boot-args       	      |  -v keepsyms=1 debug=0x100 npci=0x3000 alcid=1  |
+
+
 
 #### 2. Lilu
 ```
