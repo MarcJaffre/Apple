@@ -35,7 +35,7 @@ mv /tmp/opencore                                     $WORK/Ressources/          
 #
 # Utilitaires
 mv /tmp/gensmbios/GenSMBIOS-master                   $WORK/Ressources/Tools/GenSMBIOS  2>/dev/null;
-mv /tmp/propertree                                   $WORK/Ressources/Tools            2>/dev/null;
+mv /tmp/propertree/ProperTree-master                 $WORK/Ressources/Tools/propertree 2>/dev/null;
 mv /tmp/ssdtime/SSDTTime-master                      $WORK/Ressources/Tools/ssdtime    2>/dev/null;
 #
 # Drivers (EFI)
