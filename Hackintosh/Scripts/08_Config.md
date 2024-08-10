@@ -95,5 +95,4 @@
 
 ### I. UEFI
 
-
-# Réaliser une validation du fichîer car erreur !!!!!
+# <p align='center'> Réaliser une validation du fichîer car erreur !!!!! </p>
