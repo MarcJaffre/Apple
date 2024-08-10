@@ -4,9 +4,8 @@
 # Script qui telecharge et extrait dans le dossier temporaire
 ########################################################################################################################################
 #
-
 # Editeur Configuration:  https://github.com/ic005k/OCAuxiliaryTools
-
+#
 ########################################################################################################################################
 # Nettoyage de la console #
 ###########################
@@ -43,12 +42,8 @@ LILU="https://github.com/acidanthera/Lilu/releases/download/1.6.2/Lilu-1.6.2-DEB
 NVMEFIX="https://github.com/acidanthera/NVMeFix/releases/download/1.1.0/NVMeFix-1.1.0-DEBUG.zip"
 RESTRICTEVENT="https://github.com/acidanthera/RestrictEvents/releases/download/1.0.9/RestrictEvents-1.0.9-DEBUG.zip"
 USBINJECT="https://github.com/Sniki/OS-X-USB-Inject-All/releases/download/v0.7.6/USBInjectAll-0.7.6-DEBUG.zip"
-
-
-
 VIRTUALSMC="https://github.com/acidanthera/VirtualSMC/releases/download/1.3.2/VirtualSMC-1.3.2-RELEASE.zip"
 WHATEVERGREEN="https://github.com/acidanthera/WhateverGreen/releases/download/1.6.1/WhateverGreen-1.6.1-DEBUG.zip"
-
 #
 # AMD
 APPLEMCER="https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip"
@@ -67,6 +62,11 @@ INTELMAUSI="https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/In
 ################
 AMD_VANILLA="https://github.com/AMD-OSX/AMD_Vanilla/archive/refs/heads/master.zip"
 #
+########################################################################################################################################
+# Nettoyage #
+#############
+rm -rf /tmp/* 2>/dev/null;
+
 ########################################################################################################################################
 # Telechargement #
 ##################
@@ -108,32 +108,34 @@ wget $AMD_VANILLA    -O /tmp/amdvanilla.zip     2>/dev/null;
 echo "Decompression des archives";
 #
 # Core
-unzip -o /tmp/opencore.zip       -d /tmp/opencore       1>/dev/null;
+unzip -o /tmp/opencore.zip        -d /tmp/opencore        1>/dev/null;
 #
 # Outîls
-unzip -o /tmp/gensmbios.zip      -d /tmp/gensmbios      1>/dev/null;
-unzip -o /tmp/propertree.zip     -d /tmp/propertree     1>/dev/null;
-unzip -o /tmp/ssdtime.zip        -d /tmp/ssdtime        1>/dev/null;
+unzip -o /tmp/gensmbios.zip       -d /tmp/gensmbios       1>/dev/null;
+unzip -o /tmp/propertree.zip      -d /tmp/propertree      1>/dev/null;
+unzip -o /tmp/ssdtime.zip         -d /tmp/ssdtime         1>/dev/null;
 #
 # Indispensables
-unzip -o /tmp/lilu.zip           -d /tmp/lilu           1>/dev/null;
-unzip -o /tmp/virtualsmc.zip     -d /tmp/virtualsmc     1>/dev/null;
-unzip -o /tmp/whatevergreen.zip  -d /tmp/whatevergreen  1>/dev/null;
+unzip -o /tmp/lilu.zip            -d /tmp/lilu            1>/dev/null;
+unzip -o /tmp/virtualsmc.zip      -d /tmp/virtualsmc      1>/dev/null;
+unzip -o /tmp/whatevergreen.zip   -d /tmp/whatevergreen   1>/dev/null;
+unzip -o /tmp/NVMeFix.zip         -d /tmp/NVMeFix         1>/dev/null;
+unzip -o /tmp/restrictevents.zip  -d /tmp/restrictevents  1>/dev/null;
+unzip -o /tmp/usbinjectall.zip    -d /tmp/usbinjectall    1>/dev/null;
 #
 # AMD
 unzip -o /tmp/applemcer.zip                            -d /tmp/applemcer                       1>/dev/null;
 unzip -o /tmp/AMDRyzenCPUPowerManagement.kext.zip      -d /tmp/AMDRyzenCPUPowerManagement      1>/dev/null;
 unzip -o /tmp/SMCAMDProcessor.kext.zip                 -d /tmp/SMCAMDProcessor                 1>/dev/null;
-
 #
 # Audio
-unzip -o /tmp/applealc.zip       -d /tmp/applealc       1>/dev/null;
+unzip -o /tmp/applealc.zip        -d /tmp/applealc       1>/dev/null;
 #
 # Carte-Reseau
-unzip -o /tmp/intelmausi.zip     -d /tmp/intelmausi     1>/dev/null;
+unzip -o /tmp/intelmausi.zip      -d /tmp/intelmausi     1>/dev/null;
 #
 # Patch AMD CPU
-unzip -o /tmp/amdvanilla.zip     -d /tmp/amdvanilla     1>/dev/null;
+unzip -o /tmp/amdvanilla.zip      -d /tmp/amdvanilla     1>/dev/null;
 #
 #
 ########################################################################################################################################
