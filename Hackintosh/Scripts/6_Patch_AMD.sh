@@ -10,9 +10,12 @@ clear;
 ######################
 WORK="$HOME/Bureau/Hackintosh"
 TOOL="$WORK/Ressources/Tools/propertree/ProperTree.py"
+PATCH="$WORK/Ressources/Patch/patches.plist"
+CONFIG="$WORK/EFI/OC/config.plist"
+
 
 ########################################################################################################################################################
 # Demarrage de l'édition #
 ##################e#######
-python3 $TOOL $WORK/Ressources/Patch/patches.plist &
-python3 $TOOL $WORK/EFI/OC/config.plist;
+python3 $TOOL  $PATCH  &
+python3 $TOOL  $CONFIG;
