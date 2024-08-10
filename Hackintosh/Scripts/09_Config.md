@@ -20,7 +20,7 @@ La Clé `SetupVirtualMap` peut être configuré en True ou False selon le besoin
 | EnableWriteUnprotector  | False  |                 |
 | RebuildAppleMemoryMap   | True   |                 |
 | ResizeAppleGpuBars      | -1     |                 |
-| SetupVirtualMap         | -----  | Carte-mère [X570](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#booter) |                 |
+| SetupVirtualMap         | -----  | Carte-mère [X570](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#booter) |
 | SyncRuntimePermissions  | True   |                 |
 
 <br />
