@@ -20,7 +20,7 @@ MONPATCH="https://raw.githubusercontent.com/MarcJaffre/Apple/main/Hackintosh/Res
 ########################################################################################################################################
 # Telechargement de mon patch #
 ###############################
-curl $MONPATCH > $WORK/EFI/OC/config.plist;
+#curl $MONPATCH > $WORK/EFI/OC/config.plist;
 #
 #
 ########################################################################################################################################
