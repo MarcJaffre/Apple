@@ -55,3 +55,10 @@ python3 $WORK/Ressources/Tools/GenSMBIOS/GenSMBIOS.py $FILE;
 # j185      — iMac20,1        (August 2020). Minimum macOS 10.15.6 (19G2005)
 # j185f     — iMac20,2        (August 2020). Minimum macOS 10.15.6 (19G2005)
 # x86legacy — Macs without T2 chip and VMs. Minimum macOS 11.0.1 (20B29)
+
+
+# Type:         MacPro7,1
+# Serial:       F5KJX0Z2P7QM
+# Board Serial: F5K253600GUK3F7AD
+# SmUUID:       61AD66FD-DD9E-4544-ABCB-E9601ADC0782
+# Apple ROM:    B0702D0C860F
