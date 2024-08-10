@@ -9,4 +9,4 @@ clear;
 # Dossier de Travail #
 ######################
 WORK="$HOME/Bureau/Hackintosh"
-
+TOOL="$WORK/Ressources/Tools/propertree/ProperTree.py"
