@@ -19,11 +19,6 @@ FILE=$($WORK/EFI/OC/config.plist)
 clear;
 
 ############################################################################################################################
-# Nettoyage #
-#############
-rm -rf  $WORK/Ressources/Tools/ssdtime/Results 2>/dev/null;
-
-############################################################################################################################
 # Lancement de SSDTime #
 ########################
 python3 $WORK/Ressources/Tools/ssdtime/SSDTTime.py $FILE;
