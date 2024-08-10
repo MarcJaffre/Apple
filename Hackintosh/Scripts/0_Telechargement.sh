@@ -78,8 +78,6 @@ echo "Telechargement du Drivers HFSPLUS";
 wget $HFSPLUS        -O /tmp/hfsplus.efi        2>/dev/null;
 #
 echo "Telechargement des Kexts";
-AMD1
-AMD2
 
 wget $AMD1           -O /tmp/AMDRyzenCPUPowerManagement.kext.zip 2>/dev/null;
 wget $AMD2           -O /tmp/SMCAMDProcessor.kext.zip            2>/dev/null;
