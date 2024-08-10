@@ -45,6 +45,8 @@ WHATEVERGREEN="https://github.com/acidanthera/WhateverGreen/releases/download/1.
 #
 # AMD
 APPLEMCER="https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip"
+AMD1="https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/AMDRyzenCPUPowerManagement.kext.zip"
+AMD2="https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/SMCAMDProcessor.kext.zip"
 #
 # Audio
 APPLEALC="https://github.com/acidanthera/AppleALC/releases/download/1.8.4/AppleALC-1.8.4-RELEASE.zip"
@@ -76,6 +78,13 @@ echo "Telechargement du Drivers HFSPLUS";
 wget $HFSPLUS        -O /tmp/hfsplus.efi        2>/dev/null;
 #
 echo "Telechargement des Kexts";
+AMD1
+AMD2
+
+wget $AMD1           -O /tmp/AMDRyzenCPUPowerManagement.kext.zip 2>/dev/null;
+wget $AMD2           -O /tmp/SMCAMDProcessor.kext.zip            2>/dev/null;
+
+
 wget $LILU           -O /tmp/lilu.zip           2>/dev/null;
 wget $VIRTUALSMC     -O /tmp/virtualsmc.zip     2>/dev/null;
 wget $WHATEVERGREEN  -O /tmp/whatevergreen.zip  2>/dev/null;
@@ -106,7 +115,10 @@ unzip -o /tmp/virtualsmc.zip     -d /tmp/virtualsmc     1>/dev/null;
 unzip -o /tmp/whatevergreen.zip  -d /tmp/whatevergreen  1>/dev/null;
 #
 # AMD
-unzip -o /tmp/applemcer.zip      -d /tmp/applemcer      1>/dev/null;
+unzip -o /tmp/applemcer.zip                            -d /tmp/applemcer                       1>/dev/null;
+unzip -o /tmp/AMDRyzenCPUPowerManagement.kext.zip      -d /tmp/AMDRyzenCPUPowerManagement      1>/dev/null;
+unzip -o /tmp/SMCAMDProcessor.kext.zip                 -d /tmp/SMCAMDProcessor                 1>/dev/null;
+
 #
 # Audio
 unzip -o /tmp/applealc.zip       -d /tmp/applealc       1>/dev/null;
