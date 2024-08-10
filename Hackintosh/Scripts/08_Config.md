@@ -94,3 +94,6 @@
 
 
 ### I. UEFI
+
+
+# Réaliser une validation du fichîer car erreur !!!!!
