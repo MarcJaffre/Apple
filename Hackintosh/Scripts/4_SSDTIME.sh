@@ -17,7 +17,7 @@ clear;
 echo "#####################################################################################"
 echo "# Copier le chemin suivant : $WORK/EFI/OC/config.plist       #";
 echo "#####################################################################################"
-sleep 10;
+sleep 5;
 
 python3 $WORK/Ressources/Tools/XXXX/XXXX.py $FILE;
 
