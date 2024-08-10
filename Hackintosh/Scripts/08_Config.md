@@ -63,10 +63,10 @@
 #### 3. Debug
 | Clé                     | Valeur |
 | ----------------------- | ------ |
-| HideAuxiliary           | True   |
-| PowerTimeoutKernelPanic | True   |
-| ProvideCurrentCpuInfo   | True   |
-| XhciPortLimit           | False  |
+| AppleDebug              | True   |
+| ApplePanic              | True   |
+| DisableWatchDog         | True   |
+| Target                  | True   |
 
 
 #### 4. Security
