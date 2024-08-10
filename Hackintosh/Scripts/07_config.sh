@@ -10,7 +10,8 @@ clear;
 ######################
 WORK="$HOME/Bureau/Hackintosh"
 TOOL="$WORK/Ressources/Tools/propertree/ProperTree.py"
-PATCH="$WORK/Ressources/Patch/patches.plist"
+USB="/media/marc/MACOS"
+
 
 ########################################################################################################################################################
 # Demarrage de l'édition #
