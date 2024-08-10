@@ -23,4 +23,4 @@ CONFIG="/media/marc/MACOS/EFI/OC/config.plist"
 python3 $TOOL $CONFIG;
 
 
-# python3 $HOME/Bureau/Hackintosh/Ressources/Tools/propertree/ProperTree.py /media/marc/MACOS/EFI/OC/config.plist
+# python3 /home/marc/Bureau/Hackintosh/Ressources/Tools/propertree/ProperTree.py /media/marc/MACOS/EFI/OC/config.plist
