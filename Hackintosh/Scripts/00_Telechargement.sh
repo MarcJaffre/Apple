@@ -6,6 +6,11 @@
 #
 # Editeur Configuration:  https://github.com/ic005k/OCAuxiliaryTools
 #
+
+# Choisir la version: DEBUG ou RELEASE 
+TYPE="DEBUG"
+
+
 ########################################################################################################################################
 # Nettoyage de la console #
 ###########################
@@ -16,7 +21,7 @@ clear;
 #######################
 #
 # Core
-OPENCOREPKG="https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.4/OpenCore-0.9.4-RELEASE.zip"
+OPENCOREPKG="https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.4/OpenCore-0.9.4-$TYPE.zip"
 #
 # Outils
 GENSMBIOS="https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip"
@@ -38,12 +43,12 @@ HFSPLUS="https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.
 #########
 #
 # Indispensables
-LILU="https://github.com/acidanthera/Lilu/releases/download/1.6.2/Lilu-1.6.2-DEBUG.zip"
-NVMEFIX="https://github.com/acidanthera/NVMeFix/releases/download/1.1.0/NVMeFix-1.1.0-DEBUG.zip"
-RESTRICTEVENT="https://github.com/acidanthera/RestrictEvents/releases/download/1.0.9/RestrictEvents-1.0.9-DEBUG.zip"
-USBINJECT="https://github.com/Sniki/OS-X-USB-Inject-All/releases/download/v0.7.6/USBInjectAll-0.7.6-DEBUG.zip"
-VIRTUALSMC="https://github.com/acidanthera/VirtualSMC/releases/download/1.3.2/VirtualSMC-1.3.2-RELEASE.zip"
-WHATEVERGREEN="https://github.com/acidanthera/WhateverGreen/releases/download/1.6.1/WhateverGreen-1.6.1-DEBUG.zip"
+LILU="https://github.com/acidanthera/Lilu/releases/download/1.6.2/Lilu-1.6.2-$TYPE.zip"
+NVMEFIX="https://github.com/acidanthera/NVMeFix/releases/download/1.1.0/NVMeFix-1.1.0-$TYPE.zip"
+RESTRICTEVENT="https://github.com/acidanthera/RestrictEvents/releases/download/1.0.9/RestrictEvents-1.0.9-$TYPE.zip"
+USBINJECT="https://github.com/Sniki/OS-X-USB-Inject-All/releases/download/v0.7.6/USBInjectAll-0.7.6-$TYPE.zip"
+VIRTUALSMC="https://github.com/acidanthera/VirtualSMC/releases/download/1.3.2/VirtualSMC-1.3.2-$TYPE.zip"
+WHATEVERGREEN="https://github.com/acidanthera/WhateverGreen/releases/download/1.6.1/WhateverGreen-1.6.1-$TYPE.zip"
 #
 # AMD
 APPLEMCER="https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip"
@@ -51,10 +56,10 @@ AMD1="https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/
 AMD2="https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/SMCAMDProcessor.kext.zip"
 #
 # Audio
-APPLEALC="https://github.com/acidanthera/AppleALC/releases/download/1.8.4/AppleALC-1.8.4-RELEASE.zip"
+APPLEALC="https://github.com/acidanthera/AppleALC/releases/download/1.8.4/AppleALC-1.8.4-$TYPE.zip"
 #
 # Carte-Reseau
-INTELMAUSI="https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/IntelMausi-1.0.7-DEBUG.zip"
+INTELMAUSI="https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/IntelMausi-1.0.7-$TYPE.zip"
 #
 #
 ########################################################################################################################################
