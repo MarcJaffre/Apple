@@ -98,12 +98,14 @@ Mettre la Target à 75 (CF. GitHub de OpenCore)
 
 #### 2. Argument Lilu
 ```
+------------------------------------------------------------------------------------------------
 -liludbg       : Enable debug printing.
 -liludbgall    : Enable debug printing + Modules.
+------------------------------------------------------------------------------------------------
 -liluoff       : Disable Lilu.
 -lilubeta      : Enable Lilu on unsupported OS versions.
 -lilubetaall   : Enable Lilu and all loaded plugins on unsupported os versions.
-
+------------------------------------------------------------------------------------------------
 liludelay=5000 : Enable 5 second delay after each print for troubleshooting. (Pas de tirer !!!)
 ```
 
