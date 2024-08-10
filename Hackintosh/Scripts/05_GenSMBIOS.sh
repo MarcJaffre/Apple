@@ -33,8 +33,6 @@ sleep 10;
 
 python3 $WORK/Ressources/Tools/GenSMBIOS/GenSMBIOS.py $FILE;
 
-exit
-
 ############################################################################################################################
 # https://dortania.github.io/docs/latest/Configuration.html
 # SecureBootModel:
