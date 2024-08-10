@@ -18,7 +18,9 @@ echo "##########################################################################
 echo "# Copier le chemin suivant : $WORK/EFI/OC/config.plist       #";
 echo "#####################################################################################"
 sleep 5;
-
 python3 $WORK/Ressources/Tools/ssdtime/SSDTTime.py $FILE;
-
+echo "#####################################################################################"
+echo "# Copier le chemin suivant : $WORK/Ressources/Tools/ssdtime/Results       #";
+echo "#####################################################################################"
+sleep 10
 exit
