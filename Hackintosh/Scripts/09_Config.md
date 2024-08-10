@@ -29,10 +29,11 @@ Supprimer le matériel .
 ### D. Kernel
 #### 1. ADD
 ```
-1) LILU
+1) Lilu
 2) VirtualSMC
-3) SMCAMDProcessor 
-4) AMDRyzenCPUPowerManagement
+3) WhateverGreen
+4) SMCAMDProcessor 
+5) AMDRyzenCPUPowerManagement
 ```
 
 #### 2. Emulate
@@ -92,9 +93,9 @@ Mettre la Target à 75 (CF. GitHub de OpenCore)
 
 ### F. NVRAM
 #### 1. ADD 
-| Clé                     | Valeur                                 |
-| ----------------------- | -------------------------------------- |
-| boot-args       	      | -v keepsyms=1                          |
+| Clé                     | Valeur                                                                                    |
+| ----------------------- | ----------------------------------------------------------------------------------------- |
+| boot-args       	      | -v keepsyms=1 -liludbgall liludelay=5000 -vsmcdbg -wegnoigpu -wegswitchgpu agdpmod=pikera |
 
 #### 2. Lilu
 ```
@@ -124,6 +125,18 @@ smcdebug=0xff : Enable AppleSMC debug information printing.
 watchdog=0    : Disable WatchDog timer (if you get accidental reboots).
 ```
 
+#### 3. WhateverGreen
+```
+-wegdbg	       : Enable debug printing
+-wegnoigpu     : Disable igpu
+-wegswitchgpu  : Disable internal GPU when external GPU is installed
+
+------------------------------------------------------------------------------------------------
+agdpmod=ignore : Property to external GPU (Disables AGDP patches (vit9696,pikera value is implicit default for external GPUs))
+agdpmod=pikera : Property to external GPU (Disable Check)
+```
+
+<br />
 
 
 
