@@ -14,4 +14,4 @@ USB="/media/marc/MACOS"
 ########################################################################################################################################
 # Synchronisation #
 ###################
-rsync -avz $HOME/Bureau/Hackintosh/EFI $USB;
+rsync -avz --delete-before $HOME/Bureau/Hackintosh/EFI $USB;
