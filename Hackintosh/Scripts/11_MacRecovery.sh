@@ -15,6 +15,7 @@ OS="bigsur"
 ##############################################################################################################################################
 # Version #
 ###########
+CATALINA="-b Mac-00BE6ED71E35EB86 -m 00000000000000000 download"
 BIGSUR="-b   Mac-42FD25EABCABB274 -m 00000000000000000 download"
 MONTEREY="-b Mac-FFE5EF870D7BA81A -m 00000000000000000 download"
 VENTURA="-b  Mac-4B682C642B45593E -m 00000000000000000 download"
@@ -45,6 +46,7 @@ fi
 #####################
 if [ ! -z $OS ];then
    mkdir $USB/com.apple.recovery.boot;
+   if [ $OS = "catalina" ];then touch $USB/com.apple.recovery.boot/catalina.txt; python3 $PROG $CATALINA -o $USB/com.apple.recovery.boot; fi
    if [ $OS = "bigsur"   ];then touch $USB/com.apple.recovery.boot/Big_Sur.txt;  python3 $PROG $BIGSUR   -o $USB/com.apple.recovery.boot; fi
    if [ $OS = "monterey" ];then touch $USB/com.apple.recovery.boot/Monterey.txt; python3 $PROG $MONTEREY -o $USB/com.apple.recovery.boot; fi
    if [ $OS = "ventura"  ];then touch $USB/com.apple.recovery.boot/Ventura.txt;  python3 $PROG $VENTURA  -o $USB/com.apple.recovery.boot; fi
