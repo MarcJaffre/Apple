@@ -91,8 +91,9 @@
 
 ### G. PlatformInfo
 
-
-
 ### I. UEFI
+
+
+
 
 # <p align='center'> Réaliser une validation du fichîer car erreur !!!!! </p>
