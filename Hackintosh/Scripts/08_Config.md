@@ -84,7 +84,11 @@
 
 
 ### F. NVRAM
-
+#### 1. ADD 
+| Clé                     | Valeur                                        |
+| ----------------------- | --------------------------------------------- |
+| boot-args       	      | -v debug=0x100 keepsyms=1 agdpmod=pikera		  |
+| WriteFlash       	      |                                               |
 
 
 ### G. PlatformInfo
