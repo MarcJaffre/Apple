@@ -54,6 +54,14 @@ mv /tmp/amdvanilla/AMD_Vanilla-master/patches.plist  $WORK/Ressources/Patch     
 mv /tmp/SSDT-EC-USBX-DESKTOP.aml $WORK/Ressources/ACPI    2>/dev/null;
 mv /tmp/hfsplus.efi              $WORK/Ressources/Drivers 2>/dev/null;
 #
+#
+########################################################################################################################################################
+# Copie de fichier #
+####################
+cp $WORK/Ressources/opencore/Docs/Sample.plist  $WORK/EFI/OC/config.plist 2>/dev/null;
+cp $WORK/Ressources/Drivers/hfsplus.efi         $WORK/EFI/OC/Drivers      2>/dev/null;
+#
+#
 ########################################################################################################################################################
 # Nettoyage Opencore #
 ######################
