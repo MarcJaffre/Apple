@@ -24,6 +24,7 @@ mv $WORK/Ressources/Kexts/AppleALC.kext                    $WORK/EFI/OC/Kexts/ 2
 mv $WORK/Ressources/Kexts/AppleMCEReporterDisabler.kext    $WORK/EFI/OC/Kexts/ 2>/dev/null;
 mv $WORK/Ressources/Kexts/IntelMausi.kext                  $WORK/EFI/OC/Kexts/ 2>/dev/null;
 mv $WORK/Ressources/Kexts/Lilu.kext                        $WORK/EFI/OC/Kexts/ 2>/dev/null;
+mv $WORK/Ressources/Kexts/NootRX.kext                      $WORK/EFI/OC/Kexts/ 2>/dev/null;
 mv $WORK/Ressources/Kexts/NVMeFix.kext                     $WORK/EFI/OC/Kexts/ 2>/dev/null;
 mv $WORK/Ressources/Kexts/RestrictEvents.kext              $WORK/EFI/OC/Kexts/ 2>/dev/null;
 mv $WORK/Ressources/Kexts/SMCAMDProcessor.kext             $WORK/EFI/OC/Kexts/ 2>/dev/null;
