@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 ############################################################################################################################
+# https://github.com/mikigal/ryzen-hackintosh?tab=readme-ov-file#PAT-Patch
 # iMacPro1,1   : NVIDIA Maxwell and Pascal or AMD Polaris and newer - AMD Navi
 # MacPro7,1    : AMD Polaris and newer
 # MacPro7,1    : Exclusive to macOS 10.15, Catalina and newer
