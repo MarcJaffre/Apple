@@ -66,7 +66,7 @@
 | AppleDebug              | True   |
 | ApplePanic              | True   |
 | DisableWatchDog         | True   |
-| Target                  | True   |
+| Target                  | 67     |
 
 
 #### 4. Security
