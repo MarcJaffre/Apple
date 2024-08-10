@@ -58,6 +58,8 @@ WHATEVERGREEN="https://github.com/acidanthera/WhateverGreen/releases/download/1.
 APPLEMCER="https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip"
 AMD1="https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/AMDRyzenCPUPowerManagement.kext.zip"
 AMD2="https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/SMCAMDProcessor.kext.zip"
+NOOTRX="https://github.com/ChefKissInc/NootRX/releases/download/nightly/NootRX-1.0.0-$TYPE.zip"
+
 #
 # Audio
 APPLEALC="https://github.com/acidanthera/AppleALC/releases/download/1.8.4/AppleALC-1.8.4-$TYPE.zip"
@@ -102,6 +104,8 @@ wget $WHATEVERGREEN  -O /tmp/whatevergreen.zip   2>/dev/null;
 wget $APPLEMCER      -O /tmp/applemcer.zip       2>/dev/null;
 wget $APPLEALC       -O /tmp/applealc.zip        2>/dev/null;
 wget $INTELMAUSI     -O /tmp/intelmausi.zip      2>/dev/null;
+wget $NOOTRX         -O /tmp/nootrx.zip          2>/dev/null;
+
 wget $NVMEFIX        -O /tmp/NVMeFix.zip         2>/dev/null;
 wget $RESTRICTEVENT  -O /tmp/restrictevents.zip  2>/dev/null;
 wget $USBINJECT      -O /tmp/usbinjectall.zip    2>/dev/null;
@@ -135,6 +139,7 @@ unzip -o /tmp/usbinjectall.zip    -d /tmp/usbinjectall    1>/dev/null;
 # AMD
 unzip -o /tmp/applemcer.zip                            -d /tmp/applemcer                       1>/dev/null;
 unzip -o /tmp/AMDRyzenCPUPowerManagement.kext.zip      -d /tmp/AMDRyzenCPUPowerManagement      1>/dev/null;
+unzip -o /tmp/nootrx.zip                               -d /tmp/nootrx                          1>/dev/null;
 unzip -o /tmp/SMCAMDProcessor.kext.zip                 -d /tmp/SMCAMDProcessor                 1>/dev/null;
 #
 # Audio
