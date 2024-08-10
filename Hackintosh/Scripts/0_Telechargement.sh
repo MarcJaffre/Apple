@@ -40,8 +40,15 @@ HFSPLUS="https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.
 #
 # Indispensables
 LILU="https://github.com/acidanthera/Lilu/releases/download/1.6.2/Lilu-1.6.2-DEBUG.zip"
+NVMEFIX="https://github.com/acidanthera/NVMeFix/releases/download/1.1.0/NVMeFix-1.1.0-DEBUG.zip"
+RESTRICTEVENT="https://github.com/acidanthera/RestrictEvents/releases/download/1.0.9/RestrictEvents-1.0.9-DEBUG.zip"
+USBINJECT="https://github.com/Sniki/OS-X-USB-Inject-All/releases/download/v0.7.6/USBInjectAll-0.7.6-DEBUG.zip"
+
+
+
 VIRTUALSMC="https://github.com/acidanthera/VirtualSMC/releases/download/1.3.2/VirtualSMC-1.3.2-RELEASE.zip"
 WHATEVERGREEN="https://github.com/acidanthera/WhateverGreen/releases/download/1.6.1/WhateverGreen-1.6.1-DEBUG.zip"
+
 #
 # AMD
 APPLEMCER="https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip"
@@ -78,17 +85,18 @@ echo "Telechargement du Drivers HFSPLUS";
 wget $HFSPLUS        -O /tmp/hfsplus.efi        2>/dev/null;
 #
 echo "Telechargement des Kexts";
-
 wget $AMD1           -O /tmp/AMDRyzenCPUPowerManagement.kext.zip 2>/dev/null;
 wget $AMD2           -O /tmp/SMCAMDProcessor.kext.zip            2>/dev/null;
+wget $LILU           -O /tmp/lilu.zip            2>/dev/null;
+wget $VIRTUALSMC     -O /tmp/virtualsmc.zip      2>/dev/null;
+wget $WHATEVERGREEN  -O /tmp/whatevergreen.zip   2>/dev/null;
+wget $APPLEMCER      -O /tmp/applemcer.zip       2>/dev/null;
+wget $APPLEALC       -O /tmp/applealc.zip        2>/dev/null;
+wget $INTELMAUSI     -O /tmp/intelmausi.zip      2>/dev/null;
+wget $NVMEFIX        -O /tmp/NVMeFix.zip         2>/dev/null;
+wget $RESTRICTEVENT  -O /tmp/restrictevents.zip  2>/dev/null;
+wget $USBINJECT      -O /tmp/usbinjectall.zip    2>/dev/null;
 
-
-wget $LILU           -O /tmp/lilu.zip           2>/dev/null;
-wget $VIRTUALSMC     -O /tmp/virtualsmc.zip     2>/dev/null;
-wget $WHATEVERGREEN  -O /tmp/whatevergreen.zip  2>/dev/null;
-wget $APPLEMCER      -O /tmp/applemcer.zip      2>/dev/null;
-wget $APPLEALC       -O /tmp/applealc.zip       2>/dev/null;
-wget $INTELMAUSI     -O /tmp/intelmausi.zip     2>/dev/null;
 #
 echo "Telechargement du patch CPU AMD";
 wget $AMD_VANILLA    -O /tmp/amdvanilla.zip     2>/dev/null;
