@@ -10,7 +10,6 @@
 <br />
 
 ### B. Booter
-
 #### 1. Quirks
 
 | Clé                     | Valeur | Commentaires    |
@@ -22,18 +21,19 @@
 | SetupVirtualMap         | False  | Carte-mère [X570](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#booter) |                 |
 | SyncRuntimePermissions  | True   |                 |
 
-<p align='center'> <img width="855" height="350" src=https://github.com/user-attachments/assets/4ca52423-7432-478b-84cd-0398e7277a2d /> </p>
-
-
 <br />
 
 ### C. DeviceProperties
 
-
 <br />
 
-
 ### D. Kernel
+#### 1. Emulate
+| Clé                     | Valeur |
+| ----------------------- | ------ |
+| DummyPowerManagement    | True   |
+
+
 
 <br />
 
