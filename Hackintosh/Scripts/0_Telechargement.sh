@@ -14,7 +14,7 @@ clear;
 #######################
 #
 # Core
-OPENCOREPKG="https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-RELEASE.zip"
+OPENCOREPKG="https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.0/OpenCore-1.0.0-DEBUG.zip"
 #
 # Outils
 GENSMBIOS="https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip"
