@@ -96,7 +96,7 @@ Mettre la Target à 75 (CF. GitHub de OpenCore)
 | ----------------------- | -------------------------------------- |
 | boot-args       	      | -v keepsyms=1                          |
 
-#### 2. Argument Lilu
+#### 2. Lilu
 ```
 ------------------------------------------------------------------------------------------------
 -liludbg       : Enable debug printing.
@@ -108,6 +108,23 @@ Mettre la Target à 75 (CF. GitHub de OpenCore)
 ------------------------------------------------------------------------------------------------
 liludelay=5000 : Enable 5 second delay after each print for troubleshooting. (Pas de tirer !!!)
 ```
+
+#### 2. VirtualSMC
+```
+-vsmcdbg      : Enable debug printing (available in DEBUG binaries).
+-vsmcoff      : Switch off all the Lilu enhancements.
+-vsmcbeta     : Enable Lilu enhancements on unsupported OS (14 and below are enabled by default).
+-vsmcrpt      : Report about missing SMC keys to the system log.
+-vsmccomp     : Prefer existing hardware SMC implementation if found.
+------------------------------------------------------------------------------------------------
+vsmcgen=X     : Force exposing X-gen SMC device (1 and 2 are supported).
+vsmchbkp=X    : Set HBKP dumping mode (0 - off, 1 - normal, 2 - without encryption).
+vsmcslvl=X    : Set value serialisation level (0 - off, 1 - normal, 2 - with sensitive data (default)).
+smcdebug=0xff : Enable AppleSMC debug information printing.
+watchdog=0    : Disable WatchDog timer (if you get accidental reboots).
+```
+
+
 
 
 
