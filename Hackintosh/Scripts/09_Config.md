@@ -11,21 +11,20 @@
 
 ### B. Booter
 #### 1. Quirks
-La Clé `SetupVirtualMap` peut être configuré en True ou False selon le besoin. 
+La Clé `SetupVirtualMap` peut être configuré en True ou False selon le besoin. [X570](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#booter)
 
-
-| Clé                     | Valeur | Commentaires    |
-| ----------------------- | ------ | --------------- |
-| DevirtualiseMmio        | False  |                 |
-| EnableWriteUnprotector  | False  |                 |
-| RebuildAppleMemoryMap   | True   |                 |
-| ResizeAppleGpuBars      | -1     |                 |
-| SetupVirtualMap         | -----  | Carte-mère [X570](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#booter) |
-| SyncRuntimePermissions  | True   |                 |
+| Clé                     | Valeur |
+| ----------------------- | ------ |
+| EnableWriteUnprotector  | False  |
+| RebuildAppleMemoryMap   | True   |
+| SyncRuntimePermissions  | True   |
 
 <br />
 
 ### C. DeviceProperties
+Supprimer le matériel .
+
+<br />
 
 ### D. Kernel
 #### 1. ADD
@@ -36,14 +35,10 @@ La Clé `SetupVirtualMap` peut être configuré en True ou False selon le besoin
 4) AMDRyzenCPUPowerManagement
 ```
 
-
 #### 2. Emulate
 | Clé                     | Valeur |
 | ----------------------- | ------ |
 | DummyPowerManagement    | True   |
-
-
-
 
 #### 3. Patch
 > Ouvrir le fichier patch.plist (AMD) et config.list.
@@ -55,7 +50,6 @@ La Clé `SetupVirtualMap` peut être configuré en True ou False selon le besoin
 > Coller dans Kernel
 >
 > Kernel > Patch > 21 > Enable (Voir GitHub du patch : Information on the fix PAT patch)
-
 
 #### 3. Quirks
 | Clé                     | Valeur |
@@ -75,6 +69,8 @@ La Clé `SetupVirtualMap` peut être configuré en True ou False selon le besoin
 | HideAuxiliary           | False  | Press space to show macOS recovery and other auxiliary entries |
 
 #### 3. Debug
+Mettre la Target à 75 (CF. GitHub de OpenCore)
+
 | Clé                     | Valeur |
 | ----------------------- | ------ |
 | AppleDebug              | True   |
@@ -88,10 +84,7 @@ La Clé `SetupVirtualMap` peut être configuré en True ou False selon le besoin
 | Clé                     | Valeur   |
 | ----------------------- | -------- |
 | AllowSetDefault         | True     |
-| BlacklistAppleUpdate    | True     |
-| DmgLoading              | Signed   |
 | ScanPolicy              | 0        |
-| SecureBootModel         | Default  |
 | Vault                   | Optional |
 
 <br />
@@ -99,13 +92,32 @@ La Clé `SetupVirtualMap` peut être configuré en True ou False selon le besoin
 
 ### F. NVRAM
 #### 1. ADD 
-| Clé                     | Valeur                                        |
-| ----------------------- | --------------------------------------------- |
-| boot-args       	      | -v keepsyms=1 debug=0x100 agdpmod=pikera		  |
-| WriteFlash       	      |                                               |
+| Clé                     | Valeur                                 |
+| ----------------------- | -------------------------------------- |
+| boot-args       	      | -v keepsyms=1                          |
+
+#### 2. Argument Lilu
+```
+-liludbg       : Enable debug printing.
+-liludbgall    : Enable debug printing + Modules.
+-liluoff       : Disable Lilu.
+-lilubeta      : Enable Lilu on unsupported OS versions.
+-lilubetaall   : Enable Lilu and all loaded plugins on unsupported os versions.
+
+liludelay=5000 : Enable 5 second delay after each print for troubleshooting. (Pas de tirer !!!)
+```
+
+
 
 
 ### G. PlatformInfo
+#### 1. Generic
+| Clé                     | Valeur |
+| ----------------------- | ------ |
+| SpoofVendor      	      | true   |
+
+
+
 
 ### I. UEFI
 
