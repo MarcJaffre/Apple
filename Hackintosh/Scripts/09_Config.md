@@ -131,7 +131,7 @@ watchdog=0    : Disable WatchDog timer (if you get accidental reboots).
 ```
 -wegdbg	       : Enable debug printing
 -wegnoigpu     : Disable igpu
--wegswitchgpu  : Disable internal GPU when external GPU is installed
+-wegswitchgpu  : Disable iGPU when external GPU is installed
 
 ------------------------------------------------------------------------------------------------
 agdpmod=ignore : Property to external GPU (Disables AGDP patches (vit9696,pikera value is implicit default for external GPUs))
