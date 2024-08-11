@@ -97,7 +97,12 @@ Mettre la Target à 75 (CF. GitHub de OpenCore)
 | ----------------------- | ----------------------------------------------- |
 | boot-args       	      |  -v keepsyms=1 debug=0x100 npci=0x3000 alcid=1  |
 
-
+```
+-v             : Cela active le mode détaillé.
+keepsyms=1     : Indique au système d'exploitation d'imprimer également les symboles en cas de panique du noyau.
+debug=0x100    : Cela désactive le chien de garde de macOS, ce qui permet d'empêcher un redémarrage en cas de panique du noyau.
+npci=0x3000    : Cela désactive certains débogages PCI liés à kIOPCIConfiguratorPFM64 et gIOPCITunnelledKey.
+```
 
 #### 2. Lilu
 ```
@@ -136,6 +141,11 @@ watchdog=0    : Disable WatchDog timer (if you get accidental reboots).
 ------------------------------------------------------------------------------------------------
 agdpmod=ignore : Property to external GPU (Disables AGDP patches (vit9696,pikera value is implicit default for external GPUs))
 agdpmod=pikera : Property to external GPU (Disable Check)
+```
+
+#### 4. AppleALC
+```
+alcid=1        : Utilisé pour définir l'ID de mise en page pour AppleALC.
 ```
 
 <br />
