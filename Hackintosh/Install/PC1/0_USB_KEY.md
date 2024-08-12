@@ -23,11 +23,12 @@ Le système d'exploitation sera MacOS Sonoma.
 -----------------------------------------------------------------------------------------------------------------------------
 ### II. Préparation de l'environnement
 #### A. Outils
+Utiliser une version `DEBUG` pour voir les événements du système. (Debuggage)
 ```
-- GenSMBIOS 
-- ProperTree
-- OpenCore
-- SSDTTime
+- GenSMBIOS  : https://github.com/corpnewt/GenSMBIOS/
+- ProperTree : https://github.com/corpnewt/ProperTree
+- OpenCore   : https://github.com/acidanthera/OpenCorePkg/releases
+- SSDTTime   : https://github.com/corpnewt/SSDTTime
 ```
 
 <br />
