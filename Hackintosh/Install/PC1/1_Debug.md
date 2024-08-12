@@ -12,8 +12,8 @@
 
 ### B. Mon environnement
 > Ma clé USB de base contient OpenCore Patché AMD et Sonoma.
->
-> Plugins actifs:
+
+Plugins actifs:
 >
 > - Lilu
 > 
