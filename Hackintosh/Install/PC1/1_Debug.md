@@ -54,6 +54,7 @@ https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler
 #### C. Airportbrcmfixup 
 ##### 1. Code d'erreur
 ```
+couldn't build index for com.Applê.CodeSigningHelper: Not Eligible for acceleration
 Forcing CS_RUNTIME for entitlement: com.apple.private.security.storage.backgroundtaskmanagement
 Forcing CS_RUNTIME for entitlement: com.apple.private.security.appleImage4.user-client
 Forcing CS_RUNTIME for entitlement: com.apple.private.security.nvram.recovery-boot-mode
