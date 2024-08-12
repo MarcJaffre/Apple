@@ -70,17 +70,17 @@ Service inactîve: com.apple.wifiFirmwareLoader
 ................ service not running
 ```
 ##### 2. Correctif
-Il sera nécessaire de mettre le module Lilu au dessus des modules Airportbrcmfixup.
 ```
-- Lilu             : Lilu est un gestionnaire de plugin
-- Airportbrcmfixup : C'est un plugin qui sert à la gestion de la carte réseau
 ```
 
 <br />
 
 #### X. XXXXX
 ##### 1. Code d'erreur
+Il sera nécessaire de mettre le module Lilu au dessus des modules Airportbrcmfixup.
 ```
+- Lilu             : Lilu est un gestionnaire de plugin
+- Airportbrcmfixup : C'est un plugin qui sert à la gestion de la carte réseau
 ```
 ##### 2. Correctif
 ```
