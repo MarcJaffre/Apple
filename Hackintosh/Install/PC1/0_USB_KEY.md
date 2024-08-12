@@ -32,7 +32,13 @@ Le système d'exploitation sera MacOS Sonoma.
 
 <br />
 
-#### B. ACPI
+### B. Patch AMD
+Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en charge des Processeur(s) AMD.
+
+<br />
+
+
+#### C. ACPI
 >Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques. 
 ##### 1. Code d'erreur sans l'ACPI
 ```
@@ -45,7 +51,7 @@ Le système d'exploitation sera MacOS Sonoma.
 
 <br />
 
-#### C. Drivers
+#### D. Drivers
 >Le système d'exploitation MacOS nécessite le pilote HFSPlus pour permettre la gestion des partitions HFS.
 ```
 https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
@@ -53,7 +59,7 @@ https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
 
 <br />
 
-#### D. Kexts
+#### E. Kexts
 > Lës Kexts sont des pilotes pour la gestion du matériel.
 
 ##### 1. Code d'erreur sans l'ACPI
@@ -65,8 +71,5 @@ https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
 ```
 
 <br />
-
-### E. Patch AMD
-Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en charge des Processeur(s) AMD.
 
 <br />
