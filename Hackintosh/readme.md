@@ -9,7 +9,11 @@ Validé
 ## Kernel
 La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Kexts.md) en bas il y a un lien qui mène à toute une liste de Kext.
 ### 1. Applications de la configuratîon (Expérimental)
-Failed to get bridge device. OSISPredicateUpdateProduct : Incompatible Apps List: No Product found 
+> Failed to get bridge device. OSISPredicateUpdateProduct : Incompatible Apps List: No Product found 
+>
+> https://www.reddit.com/r/hackintosh/comments/11ts4gi/ventura_help_cannot_install_onto_hard_drive_or/
+
+
 ```
 - 0. AppleMCEReporterDisabler
 - 1. AppleIGB
