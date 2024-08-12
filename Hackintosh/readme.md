@@ -15,7 +15,7 @@ La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/K
 ## UEFI
 Validé
 ```
-- HfsPlus.efi
+- HfsPlus.efi (Drivers)
 - ResetNvramEntry.efi
 - OpenCanopy.efi
 - OpenRuntime.efi
