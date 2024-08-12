@@ -23,8 +23,6 @@ La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/K
 #  - AMDRyzenCPUPowerManagement (1st boot)
 #  - SMCAMDProcessor (2nd boot)
 # - WhateverGreen
-
-
 ```
 
 ## UEFI
