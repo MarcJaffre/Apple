@@ -3,7 +3,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------
 ### I. Présentation
-> Lors du démarrage de l'installateur, des erreurs apparaisent, il faut comprendre puis corriger les erreurs.
+> Lors du démarrage de l'installateur, des erreurs sont visibles dans la console.
 >
 > Le correctif peut etre un paramètres dans le fichier config.plist, un pilote.
 >
