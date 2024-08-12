@@ -1,19 +1,25 @@
--------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> Comprendre et corriger le Debug du^Système </p>
 
--------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 ### I. Présentation
+#### A. Principe de base
 > Lors du démarrage de l'installateur, des erreurs sont visibles dans la console.
 >
 > Le correctif peut etre un paramètres dans le fichier config.plist, un pilote.
 >
 > L'ordre d'execution est importante.
 
-### II. Information
-Ma clé USB de base contient Sonoma et OpenCore (Patché AMD)
+### B. Mon environnement
+> Ma clé USB de base contient OpenCore Patché AMD et Sonoma.
+>
+> Les plugines Lilu, VirtualSMC et WhatEverGreen sont activés
 
 
--------------------------------------------------------------------------------------------------------------------------
+
+<br />
+
+---------------------------------------------------------------------------------------------------------------------
 ### II. Installation de MacOS
 Les Kexts sont des pilotes pour la gestion du matériel. ([Listing Kext](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#extras))
 
