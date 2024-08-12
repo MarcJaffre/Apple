@@ -71,6 +71,8 @@ Service inactîve: com.apple.wifiFirmwareLoader
 ```
 ##### 2. Correctif
 ```
+- Lilu             : Lilu est un gestionnaire de plugin
+- Airportbrcmfixup : C'est un plugin qui sert à la gestion de la carte réseau
 ```
 
 <br />
