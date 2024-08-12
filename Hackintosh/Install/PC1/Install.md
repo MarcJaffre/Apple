@@ -43,9 +43,4 @@
 ```
 
 ### E. Patch AMD
-```
-```
-
-#### F. Configuration
-```
-```
+Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en charge des Processeur(s) AMD.
