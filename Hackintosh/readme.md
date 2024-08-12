@@ -1,3 +1,5 @@
+
+
 ## Avancement 
 ### ACPI
 Validé
@@ -9,8 +11,22 @@ Validé
 La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Kexts.md) en bas il y a un lien qui mène à toute une liste de Kext.
 ```
 - AppleMCEReporterDisabler.kext
-```
+- AppleALC
 
+
+
+#- AppleIGB
+#- Innie:
+#- Lilu:
+# - NVMeFix
+# - RestrictEvents
+# - VirtualSMC
+#  - AMDRyzenCPUPowerManagement (1st boot)
+#  - SMCAMDProcessor (2nd boot)
+# - WhateverGreen
+
+
+```
 
 ## UEFI
 Validé
