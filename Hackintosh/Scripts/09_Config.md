@@ -29,11 +29,17 @@ Supprimer le matériel .
 ### D. Kernel
 #### 1. ADD
 ```
-1) Lilu
-2) VirtualSMC
-3) WhateverGreen
-4) SMCAMDProcessor 
-5) AMDRyzenCPUPowerManagement
+- 0. Lilu
+- 1. VirtualSMC
+- 2. NVMeFix
+- 3. WhateverGreen
+- 4. AMDRyzenCPUPowerManagement
+- 5. AppleALC
+- 6. SMCAMDProcessor
+- 7. AppleMCEReporterDisabler
+- 8. AppleIGB
+- 9. RestrictEvents
+- 10. Innie
 ```
 
 #### 2. Emulate
