@@ -8,3 +8,140 @@
 > Le correctif peut etre un paramètres dans le fichier config.plist, un pilote.
 >
 > L'ordre d'execution est importante.
+
+### II. Information
+Ma clé USB de base contient Sonoma et OpenCore (Patché AMD)
+
+
+-------------------------------------------------------------------------------------------------------------------------
+### II. Installation de MacOS
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
+#### X. XXXXX
+##### 1. Code d'erreur
+```
+```
+##### 2. Correctif
+```
+```
+
+<br />
+
