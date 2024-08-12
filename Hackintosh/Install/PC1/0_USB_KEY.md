@@ -33,7 +33,7 @@ Le système d'exploitation sera MacOS Sonoma.
 <br />
 
 #### B. ACPI
-Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques. 
+>Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques. 
 ```
 - https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml
 ```
@@ -41,7 +41,7 @@ Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niv
 <br />
 
 #### C. Drivers
-Le système d'exploitation MacOS nécessite le pilote HFSPlus pour permettre la gestion des partitions HFS.
+>Le système d'exploitation MacOS nécessite le pilote HFSPlus pour permettre la gestion des partitions HFS.
 ```
 https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
 ```
@@ -49,6 +49,7 @@ https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
 <br />
 
 #### D. Kexts
+> Lës Kexts sont des pilotes pour la gestion du matériel.
 ```
 - AppleMCEReporterDisabler : (Support: MacPro6,1, MacPro7,1, iMacPro1,1)
 ```
