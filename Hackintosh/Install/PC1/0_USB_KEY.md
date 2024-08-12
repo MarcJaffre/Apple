@@ -55,6 +55,11 @@ https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
 
 #### D. Kexts
 > Lës Kexts sont des pilotes pour la gestion du matériel.
+
+##### 1. Code d'erreur sans l'ACPI
+```
+```
+##### 2. Téléchargements
 ```
 - AppleMCEReporterDisabler : (Support: MacPro6,1, MacPro7,1, iMacPro1,1)
 ```
