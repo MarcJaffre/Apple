@@ -20,7 +20,7 @@ Les Kexts sont des pilotes pour la gestion du matériel. (([Listing Kext](https:
 #### X. ACPI
 ##### 1. Code d'erreur
 ```
-RTC: lost bat^tery power - time may be invalid
+RTC: lost battery power - time may be invalid
 HPET: Map device Registers failed
 ```
 ##### 2. Correctif
