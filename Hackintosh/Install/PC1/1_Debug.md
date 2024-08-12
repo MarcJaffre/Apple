@@ -43,14 +43,11 @@ Kernel Extensions in backtace :
    Dependency: com.apple.iokit.IOACPIFamily (1.4)    ...
    Dependency: com.apple.iokit.IOCPIFamily  (2.9)    ...
 ```
-
 ##### 2. Correctif
 > Il suffit d'ajouter le Kext `AppleMCEReporterDisabler` puis d'**activer le module**. (Support: MacPro6,1, MacPro7,1, iMacPro1,1)
-
 ```
 https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip
 ```
-
 
 <br />
 
@@ -72,6 +69,15 @@ Service inactîve: com.apple.wifiFirmwareLoader
 ##### 2. Correctif
 ```
 ```
+
+
+
+
+
+
+
+
+
 
 <br />
 
