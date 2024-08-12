@@ -28,14 +28,17 @@
 
 #### B. ACPI
 ```
+- SSDT-EC-USBX-Desktop.aml
 ```
 
 #### C. Drivers
 ```
+- HFSPlus
 ```
 
 #### D. Kexts
 ```
+- AppleMCEReporterDisabler :
 ```
 
 ### E. Patch AMD
