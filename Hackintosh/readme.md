@@ -9,12 +9,15 @@ Validé
 
 ## Kernel
 La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Kexts.md) en bas il y a un lien qui mène à toute une liste de Kext.
-```
-- AppleMCEReporterDisabler.kext
-- AppleALC
 
+
+### 1. Résumé des dépendances
+```
+#- AppleMCEReporterDisabler.kext
+#- AppleALC
 #- AppleIGB
 #- Innie:
+
 #- Lilu:
 # - Airportbrcmfixup 
 # - NVMeFix
@@ -24,6 +27,13 @@ La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/K
 #  - SMCAMDProcessor (2nd boot)
 # - WhateverGreen
 ```
+
+```
+
+
+```
+
+
 
 ## UEFI
 Validé
