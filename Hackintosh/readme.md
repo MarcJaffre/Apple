@@ -13,11 +13,10 @@ La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/K
 - AppleMCEReporterDisabler.kext
 - AppleALC
 
-
-
 #- AppleIGB
 #- Innie:
 #- Lilu:
+# - Airportbrcmfixup 
 # - NVMeFix
 # - RestrictEvents
 # - VirtualSMC
