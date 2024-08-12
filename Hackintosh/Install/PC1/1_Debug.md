@@ -45,10 +45,12 @@ Kernel Extensions in backtace :
 ```
 
 ##### 2. Correctif
-Il suffit d'ajouter le Kext `AppleMCEReporterDisabler`. (Support: MacPro6,1, MacPro7,1, iMacPro1,1)
+> Il suffit d'ajouter le Kext `AppleMCEReporterDisabler` puis d'**activer le module**. (Support: MacPro6,1, MacPro7,1, iMacPro1,1)
+
 ```
 https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip
 ```
+
 
 <br />
 
