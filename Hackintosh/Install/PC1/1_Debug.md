@@ -17,12 +17,16 @@ Ma clé USB de base contient Sonoma et OpenCore (Patché AMD)
 ### II. Installation de MacOS
 Les Kexts sont des pilotes pour la gestion du matériel. (([Listing Kext](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#extras))
 
-#### X. XXXXX
+#### X. ACPI
 ##### 1. Code d'erreur
 ```
+RTC: lost bat^tery power - time may be invalid
+HPET: Map device Registers failed
 ```
 ##### 2. Correctif
+>Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques.
 ```
+- https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml
 ```
 
 <br />
