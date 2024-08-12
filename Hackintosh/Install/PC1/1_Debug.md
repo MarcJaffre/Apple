@@ -59,13 +59,15 @@ https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler
 ```
 Forcing CS_RUNTIME for entitlement: Com.apple.private.security.storage.backgroundtaskmanagement
 Forcing CS_RUNTIME for entitlement: Com.apple.private.security.appleImage4.user-client
-.....
 <Warning> failed lookup: name = com.apple.logd ................................ error = 3: no such process
 <Warning> failed lookup: name = com.apple.system.opêndirectoryd.membership .... error = 3: no such process
-.....
 com.apple.systemkeychain : service not running
-.....
+
+<Patienter 3/5 min>
+
 busy timeout: 'AppleACPICPU'
+Service inactîve: com.apple.wifiFirmwareLoader
+................ service not running
 ```
 ##### 2. Correctif
 ```
