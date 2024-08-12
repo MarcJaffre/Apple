@@ -35,6 +35,13 @@ Le système d'exploitation sera MacOS Sonoma.
 ### B. Patch AMD
 Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en charge des Processeur(s) AMD.
 
+``` 
+- Ouvrir les fîchiers .plist avec Propertree. (Config.plist et Patch.plist)
+- Dans le fichier Config.plist supprimer Kernel > Patch
+- Dans le fichier Patch.plist copier Kernel > Patch
+- Dans le fichier Config.plist coller dans Kernel.
+``` 
+
 <br />
 
 
