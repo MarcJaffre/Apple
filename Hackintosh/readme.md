@@ -1,11 +1,4 @@
 ## Avancement 
-## Language:
-> https://github.com/valnoxy/t440p-oc/issues/48
-
-> ADD > prev-lang > Valeur à blanc
->
-> Delete -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> Item 0: Type String and Value prev-lang:kbd
-
 
 ### ACPI
 Validé
@@ -64,3 +57,11 @@ Validé
 ```
 
 
+
+
+## I¨nstallateur en Français
+> https://github.com/valnoxy/t440p-oc/issues/48
+
+> ADD > prev-lang > Valeur à blanc
+>
+> Delete -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> Item 0: Type String and Value prev-lang:kbd
