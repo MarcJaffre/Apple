@@ -44,3 +44,6 @@ Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en ch
 
 #### C. ACPI
 > Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques. 
+```
+- https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml
+```
