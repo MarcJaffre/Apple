@@ -18,6 +18,7 @@
 Le système d'exploitation sera MacOS Sonoma.
 
 <br />
+<br />
 
 -----------------------------------------------------------------------------------------------------------------------------### II. Préparation de l'environnement
 #### A. Outils
@@ -28,12 +29,15 @@ Le système d'exploitation sera MacOS Sonoma.
 - SSDTTime
 ```
 
+<br />
+
 #### B. ACPI
 Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques. 
 ```
 - https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml
 ```
 
+<br />
 
 #### C. Drivers
 Le système d'exploitation MacOS nécessite le pilote HFSPlus pour permettre la gestion des partitions HFS.
@@ -41,11 +45,16 @@ Le système d'exploitation MacOS nécessite le pilote HFSPlus pour permettre la 
 https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
 ```
 
+<br />
+
 #### D. Kexts
 ```
 - AppleMCEReporterDisabler : (Support: MacPro6,1, MacPro7,1, iMacPro1,1)
 ```
 
+<br />
+
 ### E. Patch AMD
 Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en charge des Processeur(s) AMD.
 
+<br />
