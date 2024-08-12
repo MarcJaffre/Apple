@@ -17,11 +17,25 @@
 <br />
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-### II. Préparation de OpenCore
-#### A. OpenCore
+### II. Préparation de l'environnement
+#### A. Outils
+```
+- ProperTree
+- GenSMBIOS
+- OpenCore
+- SSDTTime
+```
+#### B. ACPI
+```
 
-#### B. Drivers
+```
 
-#### C. Kexts
+#### C. Drivers
+```
+```
 
-#### D. Configuration
+#### D. Kexts
+
+### E. Patch AMD
+
+#### F. Configuration
