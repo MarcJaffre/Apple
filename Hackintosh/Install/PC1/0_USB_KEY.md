@@ -34,6 +34,11 @@ Le système d'exploitation sera MacOS Sonoma.
 
 #### B. ACPI
 >Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques. 
+##### 1. Code d'erreur sans l'ACPI
+```
+```
+
+##### 2. Téléchargements
 ```
 - https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml
 ```
