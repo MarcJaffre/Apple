@@ -17,6 +17,8 @@ Ma clé USB de base contient Sonoma et OpenCore (Patché AMD)
 ### II. Installation de MacOS
 Les Kexts sont des pilotes pour la gestion du matériel. (([Listing Kext](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#extras))
 
+A chaque correctif, il faut éditer le fichier config.plist puis fairê `OC Snasphot`.
+
 #### X. ACPI
 ##### 1. Code d'erreur
 Le système est bloqué au démarrage. Dans le fichier log généré sur la clé USB, la ligne `[EB|Log:EXITBS:START]` apparait.
