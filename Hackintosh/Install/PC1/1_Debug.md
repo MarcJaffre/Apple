@@ -52,7 +52,7 @@ https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler
 
 <br />
 
-#### X. XXXXX
+#### C. 
 ##### 1. Code d'erreur
 ```
 ```
