@@ -9,6 +9,7 @@ Validé
 ## Kernel
 La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Kexts.md) en bas il y a un lien qui mène à toute une liste de Kext.
 ### 1. Applications de la configuratîon (Expérimental)
+Failed to get bridge device. OSISPredicateUpdateProduct : Incompatible Apps List: No Product found 
 ```
 - 0. AppleMCEReporterDisabler
 - 1. AppleIGB
@@ -55,10 +56,7 @@ Validé
 - OpenRuntime.efi
 ```
 
-
-
-
-## I¨nstallateur en Français
+## Installateur en Français
 > https://github.com/valnoxy/t440p-oc/issues/48
 
 > ADD > prev-lang > Valeur à blanc
