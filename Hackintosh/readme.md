@@ -41,9 +41,11 @@ La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/K
 - 8. RestrictEvents
 - 9. VirtualSMC
 - 10. WhateverGreen
-#- 11. AMDRyzenCPUPowerManagement <= KO
-- 12. SMCAMDProcessor
-- 13. AppleALC
+- 11. AppleALC
+
+# Exclus:
+#  - AMDRyzenCPUPowerManagement (1st boot)
+#  - SMCAMDProcessor (2nd boot)
 ```
 
 
