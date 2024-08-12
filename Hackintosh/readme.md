@@ -8,24 +8,7 @@ Validé
 
 ## Kernel
 La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Kexts.md) en bas il y a un lien qui mène à toute une liste de Kext.
-### 1. Résumé des dépendances
-```
-#- AppleMCEReporterDisabler
-#- AppleALC
-#- AppleIGB
-#- Innie
-
-#- Lilu:
-# - Airportbrcmfixup 
-# - NVMeFix
-# - RestrictEvents
-# - VirtualSMC
-#  - AMDRyzenCPUPowerManagement (1st boot)
-#  - SMCAMDProcessor (2nd boot)
-# - WhateverGreen
-```
-
-### 2. Applications de la configuratîon (Expérimental)
+### 1. Applications de la configuratîon (Expérimental)
 ```
 - 0. AppleMCEReporterDisabler
 - 1. AppleIGB
@@ -45,6 +28,22 @@ La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/K
 #  - SMCAMDProcessor (2nd boot)
 ```
 
+### 1. Résumé des dépendances
+```
+#- AppleMCEReporterDisabler
+#- AppleALC
+#- AppleIGB
+#- Innie
+
+#- Lilu:
+# - Airportbrcmfixup 
+# - NVMeFix
+# - RestrictEvents
+# - VirtualSMC
+#  - AMDRyzenCPUPowerManagement (1st boot)
+#  - SMCAMDProcessor (2nd boot)
+# - WhateverGreen
+```
 
 
 ## UEFI
