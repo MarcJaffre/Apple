@@ -56,7 +56,7 @@ https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler
 ```
 Forcing CS_RUNTIME for entitlement: com.apple.private.security.storage.backgroundtaskmanagement
 Forcing CS_RUNTIME for entitlement: com.apple.private.security.appleImage4.user-client
-Forcing CS_RUNTIME for entitlement: com.apple.private.security.security.recovery-boot-mode
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.nvram.recovery-boot-mode
 <Warning> failed lookup: name = com.apple.logd ................................ error = 3: no such process
 <Warning> failed lookup: name = com.apple.system.opendirectoryd.membership .... error = 3: no such process
 com.apple.systemkeychain : service not running
