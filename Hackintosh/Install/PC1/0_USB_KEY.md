@@ -42,5 +42,5 @@ Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en ch
 - Dans le fichier Config.plist coller dans Kernel.
 ```
 
-
-
+#### C. ACPI
+> Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques. 
