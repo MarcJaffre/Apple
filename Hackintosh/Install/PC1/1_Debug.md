@@ -19,7 +19,7 @@ Les Kexts sont des pilotes pour la gestion du matériel. (([Listing Kext](https:
 
 #### X. ACPI
 ##### 1. Code d'erreur
-Le système est bloqué au démarrage.
+Le système est bloqué au démarrage. Dans le fichier log généré sur la clé USB, la ligne `[EB|Log:EXITBS:START]` apparait.
 ```
 RTC: lost battery power - time may be invalid
 HPET: Map device Registers failed
