@@ -13,9 +13,13 @@
 ### B. Mon environnement
 > Ma clé USB de base contient OpenCore Patché AMD et Sonoma.
 >
-> Les plugines Lilu, VirtualSMC et WhatEverGreen sont activés
-
-
+> Plugins actifs:
+>
+> - Lilu
+> 
+> - VirtualSMC
+> 
+> - WhatEverGreen
 
 <br />
 
