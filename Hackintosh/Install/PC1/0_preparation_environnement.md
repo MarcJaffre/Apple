@@ -59,11 +59,3 @@ https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
 ```
 
 <br />
-
-#### E. Kexts
-> Lës Kexts sont des pilotes pour la gestion du matériel.
-
-##### 2. Téléchargements ([Listing Kext](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#extras))
-```
-- AppleMCEReporterDisabler : Support: MacPro6,1, MacPro7,1, iMacPro1,1
-```
