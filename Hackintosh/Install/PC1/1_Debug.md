@@ -70,6 +70,7 @@ Service inactîve: com.apple.wifiFirmwareLoader
 ................ service not running
 ```
 ##### 2. Correctif
+Il sera nécessaire de mettre Lilu au des Kexts Airportbrcmfixup 
 ```
 - Lilu             : Lilu est un gestionnaire de plugin
 - Airportbrcmfixup : C'est un plugin qui sert à la gestion de la carte réseau
