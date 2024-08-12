@@ -25,9 +25,9 @@
 - OpenCore
 - SSDTTime
 ```
+
 #### B. ACPI
 ```
-
 ```
 
 #### C. Drivers
@@ -35,7 +35,13 @@
 ```
 
 #### D. Kexts
+```
+```
 
 ### E. Patch AMD
+```
+```
 
 #### F. Configuration
+```
+```
