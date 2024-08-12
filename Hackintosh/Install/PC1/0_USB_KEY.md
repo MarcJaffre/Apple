@@ -40,4 +40,7 @@ Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en ch
 - Dans le fichier Config.plist supprimer Kernel > Patch
 - Dans le fichier Patch.plist copier Kernel > Patch
 - Dans le fichier Config.plist coller dans Kernel.
-``` 
+```
+
+
+
