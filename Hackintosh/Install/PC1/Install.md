@@ -10,3 +10,6 @@
 - Carte-Graphique : AMD RX 6700 XT (12 Go)
 - Stockage        : NVME
 ```
+#### B. Chipset
+```
+```
