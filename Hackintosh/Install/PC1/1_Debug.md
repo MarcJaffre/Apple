@@ -15,6 +15,8 @@ Ma clé USB de base contient Sonoma et OpenCore (Patché AMD)
 
 -------------------------------------------------------------------------------------------------------------------------
 ### II. Installation de MacOS
+Les Kexts sont des pilotes pour la gestion du matériel. (([Listing Kext](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#extras))
+
 #### X. XXXXX
 ##### 1. Code d'erreur
 ```
