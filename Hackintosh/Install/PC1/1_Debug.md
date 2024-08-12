@@ -19,27 +19,34 @@ Les Kexts sont des pilotes pour la gestion du matériel. (([Listing Kext](https:
 
 A chaque correctif, il faut éditer le fichier config.plist puis fairê `OC Snasphot`.
 
-#### X. ACPI
+#### X. [EB|Log:EXITBS:START]
 ##### 1. Code d'erreur
-Le système est bloqué au démarrage. Dans le fichier log généré sur la clé USB, la ligne `[EB|Log:EXITBS:START]` apparait.
+Le système est bloqué au démarrage. Dans le fichier log généré sur la clé USB, la ligne `[EB|Log:EXITBS:START]` apparait. Ce type d'erreur est liée aux périphériques.
 ```
 RTC: lost battery power - time may be invalid
 HPET: Map device Registers failed
 ```
 ##### 2. Correctif
->Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques.
+> Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques.
 ```
 - https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml
 ```
 
 <br />
 
-#### X. XXXXX
+#### X. 
+L'erreur suivant est un check du CPU Intel. Il est normal qu'il plante sur une macine ayant un processeur AMD. 
 ##### 1. Code d'erreur
 ```
+Kernel Extensions in backtace :
+  com.apple.driver.AppleIntelMCEReporter(115.0)  ...
+   Dependency: com.apple.iokit.IOACPIFamily(1.4) ...
+   Dependency: com.apple.iokit.IOCPIFamily(2.9)  ...
 ```
+
 ##### 2. Correctif
 ```
+
 ```
 
 <br />
