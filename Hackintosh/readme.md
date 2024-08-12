@@ -1,6 +1,12 @@
-
-
 ## Avancement 
+## Language:
+> https://github.com/valnoxy/t440p-oc/issues/48
+
+> ADD > prev-lang > Valeur à blanc
+>
+> Delete -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> Item 0: Type String and Value prev-lang:kbd
+
+
 ### ACPI
 Validé
 ```
@@ -9,7 +15,22 @@ Validé
 
 ## Kernel
 La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Kexts.md) en bas il y a un lien qui mène à toute une liste de Kext.
+### 1. Résumé des dépendances
+```
+#- AppleMCEReporterDisabler
+#- AppleALC
+#- AppleIGB
+#- Innie
 
+#- Lilu:
+# - Airportbrcmfixup 
+# - NVMeFix
+# - RestrictEvents
+# - VirtualSMC
+#  - AMDRyzenCPUPowerManagement (1st boot)
+#  - SMCAMDProcessor (2nd boot)
+# - WhateverGreen
+```
 
 ### 2. Applications de la configuratîon (Expérimental)
 ```
@@ -25,7 +46,8 @@ La page [Kext-GIT](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/K
 - 9. VirtualSMC
 - 10. WhateverGreen
 - 11. AppleALC
-# Exclus: Problème au démarrage
+
+# Exclus:
 #  - AMDRyzenCPUPowerManagement (1st boot)
 #  - SMCAMDProcessor (2nd boot)
 ```
@@ -40,3 +62,5 @@ Validé
 - OpenCanopy.efi
 - OpenRuntime.efi
 ```
+
+
