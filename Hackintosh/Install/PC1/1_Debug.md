@@ -19,7 +19,7 @@ Les Kexts sont des pilotes pour la gestion du matériel. (([Listing Kext](https:
 
 A chaque correctif, il faut éditer le fichier config.plist puis fairê `OC Snasphot`.
 
-#### X. [EB|Log:EXITBS:START]
+#### A. [EB|Log:EXITBS:START]
 ##### 1. Code d'erreur
 Le système est bloqué au démarrage. Dans le fichier log généré sur la clé USB, la ligne `[EB|Log:EXITBS:START]` apparait. Ce type d'erreur est liée aux périphériques.
 ```
@@ -34,7 +34,7 @@ HPET: Map device Registers failed
 
 <br />
 
-#### X. 
+#### B. AppleIntelMCEReporter
 L'erreur suivant est un check du CPU Intel. Il est normal qu'il plante sur une macine ayant un processeur AMD. 
 ##### 1. Code d'erreur
 ```
