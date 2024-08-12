@@ -20,8 +20,8 @@
 ### II. Préparation de l'environnement
 #### A. Outils
 ```
+- GenSMBIOS 
 - ProperTree
-- GenSMBIOS
 - OpenCore
 - SSDTTime
 ```
