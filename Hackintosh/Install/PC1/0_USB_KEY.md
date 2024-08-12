@@ -36,8 +36,9 @@ Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niv
 
 
 #### C. Drivers
+Le système d'exploitation MacOS nécessite le pilote HFSPlus pour permettre la gestion des partitions HFS.
 ```
-- HFSPlus
+https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
 ```
 
 #### D. Kexts
