@@ -14,6 +14,8 @@
 ```
 ```
 
+#### C. Operating System
+Le systèmê d'exploitation sera MacOS Sonoma.
 
 <br />
 
