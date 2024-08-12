@@ -47,3 +47,21 @@ Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en ch
 ```
 - https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml
 ```
+
+<br />
+
+#### D. Drivers
+>Le système d'exploitation MacOS nécessite le pilote HFSPlus pour permettre la gestion des partitions HFS.
+```
+https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
+```
+
+<br />
+
+#### E. Kexts
+> Lës Kexts sont des pilotes pour la gestion du matériel.
+
+##### 2. Téléchargements
+```
+- AppleMCEReporterDisabler : (Support: MacPro6,1, MacPro7,1, iMacPro1,1)
+```
