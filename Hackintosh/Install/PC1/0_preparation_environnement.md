@@ -33,29 +33,20 @@ Utiliser une version `DEBUG` pour voir les événements du système. (Debuggage)
 
 <br />
 
-### B. Patch AMD
+
+#### B. Drivers
+>Le système d'exploitation MacOS nécessite le pilote HFSPlus pour permettre la gestion des partitions HFS.
+```
+https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
+```
+
+### C. Patch AMD
 Le patch [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) permet la prise en charge des Processeur(s) AMD.
 ``` 
 - Ouvrir les fîchiers .plist avec Propertree. (Config.plist et Patch.plist)
 - Dans le fichier Config.plist supprimer Kernel > Patch
 - Dans le fichier Patch.plist copier Kernel > Patch
 - Dans le fichier Config.plist coller dans Kernel.
-```
-
-<br />
-
-#### C. ACPI
-> Le fichier `SSDT-EC-USBX-Desktop.aml` permet la bonne prise du matétriel au niveau des périphériques. 
-```
-- https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml
-```
-
-<br />
-
-#### D. Drivers
->Le système d'exploitation MacOS nécessite le pilote HFSPlus pour permettre la gestion des partitions HFS.
-```
-https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
 ```
 
 <br />
